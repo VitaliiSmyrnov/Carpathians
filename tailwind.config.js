@@ -2,7 +2,17 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        main: ["Montserrat", "sans-serif"],
+      },
+      colors: {
+        primary: "#1B1D1B",
+        secondary: "#202321",
+        accent: "#5B86A1",
+        light: "#F7FBFB",
+      },
+    },
   },
-  plugins: [],
+  plugins: ["prettier-plugin-tailwindcss"],
 };
