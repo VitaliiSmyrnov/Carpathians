@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +6,54 @@
     <link href="/public/styles.css" rel="stylesheet" />
     <title>Carpathians</title>
   </head>
-  <body>
-    <p>Hello Carpathians!</p>
+  <body class="font-main">
+    <!-- header + hero  -->
+
+    <div>
+      <div class="min-h-screen relative">
+        <img
+          class="absolute left-0 top-0 z-0 w-full h-full object-cover"
+          src="./public/images/mobile/hero_mob-min.jpg"
+          alt="Carpathian mountains and forest"
+        />
+        <header
+          class="absolute left-8 top-5 z-10 w-[calc(100%-64px)] flex justify-between items-center"
+        >
+          <a href="index.html">
+            <svg width="40" height="40">
+              <use href="./public/images/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <nav class="flex justify-center items-center">
+            <button type="button">
+              <svg width="40" height="40">
+                <use href="./public/images/icons.svg#icon-menu"></use>
+              </svg>
+            </button>
+          </nav>
+        </header>
+        <section
+          class="absolute left-8 top-[188px] z-10 w-[calc(100%-60px)] text-center"
+        >
+          <h1
+            class="w-[311px] mx-auto mb-[60px] text-light text-[40px] leading-[1.225] font-normal shadow-[0px 4px 4px rgba(0 0 0 / 0.25)]"
+          >
+            TOURS TO THE CARPATHIANS FROM LVIV
+          </h1>
+          <p
+            class="w-[315px] mx-auto mb-[88px] text-light text-[16px] leading-5 font-medium"
+          >
+            Journeys to the very heart of the Carpathians for those who want a
+            real reboot
+          </p>
+          <button
+            type="button"
+            class="w-[285px] h-[52px] inline-block bg-accent p-[10px] font-secondary text-light text-[16px] font-medium leading-snug"
+          >
+            BOOK A TOUR
+          </button>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
