@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Montserrat:wght@400;500;600&display=swap');
 
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
@@ -534,4 +534,172 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.left-0{
+  left: 0px;
+}
+
+.left-8{
+  left: 2rem;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.top-5{
+  top: 1.25rem;
+}
+
+.top-\[188px\]{
+  top: 188px;
+}
+
+.z-0{
+  z-index: 0;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-\[60px\]{
+  margin-bottom: 60px;
+}
+
+.mb-\[88px\]{
+  margin-bottom: 88px;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.h-\[52px\]{
+  height: 52px;
+}
+
+.min-h-screen{
+  min-height: 100vh;
+}
+
+.w-\[311px\]{
+  width: 311px;
+}
+
+.w-\[315px\]{
+  width: 315px;
+}
+
+.w-\[calc\(100\%-60px\)\]{
+  width: calc(100% - 60px);
+}
+
+.w-\[calc\(100\%-64px\)\]{
+  width: calc(100% - 64px);
+}
+
+.w-full{
+  width: 100%;
+}
+
+.w-\[285px\]{
+  width: 285px;
+}
+
+.w-\[285\]{
+  width: 285;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.bg-accent{
+  --tw-bg-opacity: 1;
+  background-color: rgb(91 134 161 / var(--tw-bg-opacity));
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.p-\[10px\]{
+  padding: 10px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-main{
+  font-family: Montserrat, sans-serif;
+}
+
+.font-secondary{
+  font-family: Manrope, sans-serif;
+}
+
+.text-\[16px\]{
+  font-size: 16px;
+}
+
+.text-\[40px\]{
+  font-size: 40px;
+}
+
+.font-medium{
+  font-weight: 500;
+}
+
+.font-normal{
+  font-weight: 400;
+}
+
+.leading-5{
+  line-height: 1.25rem;
+}
+
+.leading-\[1\.225\]{
+  line-height: 1.225;
+}
+
+.leading-snug{
+  line-height: 1.375;
+}
+
+.text-light{
+  --tw-text-opacity: 1;
+  color: rgb(247 251 251 / var(--tw-text-opacity));
 }
