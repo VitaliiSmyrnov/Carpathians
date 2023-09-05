@@ -24,11 +24,15 @@ module.exports = {
       backgroundImage: {
         "hero-mob":
           "url('./images/mobile/hero_mob-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
+        "advantages-mob":
+          "url('./images/mobile/advantages_mob-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
       },
       fontSize: {
-        16: ["16px", { lineHeight: "1.25" }],
-        "16l": ["16px", { lineHeight: "1.375" }],
-        40: ["40px", { lineHeight: "1.225" }],
+        14: ["14px", { lineHeight: "17px" }],
+        16: ["16px", { lineHeight: "20px" }],
+        "16l": ["16px", { lineHeight: "22px" }],
+        32: ["32px", { lineHeight: "39px" }],
+        40: ["40px", { lineHeight: "49px" }],
         xs: ["0.75rem", { lineHeight: "1rem" }],
         sm: ["0.875rem", { lineHeight: "1.25rem" }],
         base: ["1rem", { lineHeight: "1.5rem" }],
