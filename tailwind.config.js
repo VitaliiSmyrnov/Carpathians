@@ -26,6 +26,8 @@ module.exports = {
           "url('./images/mobile/hero_mob-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
         "advantages-mob":
           "url('./images/mobile/advantages_mob-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
+        "review-mob":
+          "url('./images/mobile/Review_mob-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
       },
       fontSize: {
         14: ["14px", { lineHeight: "17px" }],
