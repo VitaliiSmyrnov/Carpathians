@@ -311,22 +311,27 @@
                   type="text"
                   name="name"
                   placeholder="Your name*"
-                  class="py-[8px] px-[4px] w-full text-16 text-secondary border-b border-solid border-grey"
+                  autocomplete="off"
+                  required
+                  class="py-[8px] px-[4px] w-full text-16 text-secondary border-b border-solid border-grey focus:border-accent outline-none"
                 />
                 <input
                   type="text"
                   name="number"
                   placeholder="Phone number*"
-                  class="py-[8px] px-[4px] mt-[12px] text-16 text-secondary w-full border-b border-solid border-grey"
+                  autocomplete="off"
+                  required
+                  class="py-[8px] px-[4px] mt-[12px] text-16 text-secondary w-full border-b border-solid border-grey focus:border-accent outline-none"
                 />
                 <input
                   type="text"
                   name="question"
                   placeholder="What would you like to know?"
-                  class="py-[8px] px-[4px] mt-[12px] text-16 text-secondary w-full border-b border-solid border-grey"
+                  autocomplete="off"
+                  class="py-[8px] px-[4px] mt-[12px] text-16 text-secondary w-full border-b border-solid border-grey focus:border-accent outline-none"
                 />
                 <button
-                  type="button"
+                  type="submit"
                   class="w-full h-[52px] mt-[24px] text-center text-16 font-medium text-light bg-accent"
                 >
                   CALL ME
@@ -343,31 +348,37 @@
         >
           <h2 class="text-28 text-light text-center font-normal">Contacts</h2>
 
-          <address class="mt-[28px]">
+          <address class="mt-[28px] not-italic">
             <ul>
               <li>
                 <a
                   href="https://goo.gl/maps/oEAfWibPuyH4fB377"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="flex items-center"
+                  class="flex items-center text-light hover:text-accent transition-all duration-200"
                 >
-                  <svg width="32" height="32">
-                    <use href="./public/images/icons.svg#icon-place"></use>
+                  <svg class="w-8 h-8 fill-current" viewBox="0 0 20 20">
+                    <path
+                      d="M10 1.5c-3.317 0-6 2.661-6 5.95 0 4.463 6 11.05 6 11.05s6-6.587 6-11.05c0-3.29-2.683-5.95-6-5.95zm0 8.075c-.568 0-1.113-.224-1.515-.622a2.115 2.115 0 0 1 0-3.006 2.154 2.154 0 0 1 3.03 0 2.115 2.115 0 0 1 0 3.006A2.15 2.15 0 0 1 10 9.575z"
+                    />
                   </svg>
-                  <span
-                    class="ml-[4px] text-16 text-light font-normal not-italic"
+                  <span class="ml-[4px] text-16 text-current font-normal"
                     >Lviv, st Dorosheko, 44 k</span
                   >
                 </a>
               </li>
               <li class="mt-[20px]">
-                <a href="tel:+380971626790" class="flex items-center">
-                  <svg width="32" height="32">
-                    <use href="./public/images/icons.svg#icon-phone"></use>
+                <a
+                  href="tel:+380971626790"
+                  class="flex items-center text-light hover:text-accent transition-all duration-200"
+                >
+                  <svg class="w-8 h-8 fill-current" viewBox="0 0 20 20">
+                    <path
+                      d="M13.384 1H6.615c-.561 0-1.099.216-1.496.599s-.62.904-.62 1.446v13.909c0 .543.223 1.063.62 1.446s.935.599 1.496.599h6.769c.561 0 1.099-.216 1.496-.599s.62-.904.62-1.446V3.045c0-.542-.223-1.063-.62-1.446S13.945 1 13.384 1zM9.999 18.182c-.702 0-1.269-.548-1.269-1.227s.567-1.227 1.269-1.227 1.269.548 1.269 1.227-.567 1.227-1.269 1.227zm3.808-3.273H6.192V3.454h7.615v11.455z"
+                    />
                   </svg>
-                  <span
-                    class="ml-[4px] text-16 text-light font-normal not-italic"
+
+                  <span class="ml-[4px] text-16 font-normal"
                     >+38 (097) 162 -67-90</span
                   >
                 </a>
@@ -375,13 +386,15 @@
               <li class="mt-[20px]">
                 <a
                   href="email:mandrykarpaty@gmail.com"
-                  class="flex items-center"
+                  class="flex items-center text-light hover:text-accent transition-all duration-200"
                 >
-                  <svg width="32" height="32">
-                    <use href="./public/images/icons.svg#icon-email"></use>
+                  <svg class="w-8 h-8 fill-current" viewBox="0 0 20 20">
+                    <path
+                      d="M16.8 3.5H3.2c-.935 0-1.692.731-1.692 1.625l-.008 9.75c0 .894.765 1.625 1.7 1.625h13.6c.935 0 1.7-.731 1.7-1.625v-9.75c0-.894-.765-1.625-1.7-1.625zm-.34 3.453-6.009 3.591a.891.891 0 0 1-.901 0L3.54 6.953a.702.702 0 0 1-.346-.431.665.665 0 0 1 .087-.537.709.709 0 0 1 .467-.31.765.765 0 0 1 .557.109L10 9.188l5.695-3.404a.746.746 0 0 1 1.024.201.669.669 0 0 1-.04.786.728.728 0 0 1-.219.182z"
+                    />
                   </svg>
-                  <span
-                    class="ml-[4px] text-16 text-light font-normal not-italic"
+
+                  <span class="ml-[4px] text-16 font-normal"
                     >mandrykarpaty@gmail.com</span
                   >
                 </a>
@@ -390,28 +403,40 @@
               <li class="mt-[20px]">
                 <ul class="flex items-center justify-start gap-8">
                   <li>
-                    <a href="#"
-                      ><svg width="40" height="40">
-                        <use
-                          href="./public/images/icons.svg#icon-telegram"
-                        ></use></svg
-                    ></a>
+                    <a
+                      href="#"
+                      class="text-light hover:text-accent transition-all duration-200"
+                    >
+                      <svg class="w-10 h-10 fill-current" viewBox="0 0 20 20">
+                        <path
+                          d="M9.995 1.667c-1.648 0-3.259.489-4.63 1.404s-2.439 2.217-3.069 3.74a8.328 8.328 0 0 0 1.807 9.082 8.337 8.337 0 0 0 9.082 1.807 8.338 8.338 0 0 0 5.144-7.699 8.349 8.349 0 0 0-2.44-5.893 8.321 8.321 0 0 0-5.893-2.44zm2.65 12.626a.578.578 0 0 1-.351.336.591.591 0 0 1-.484-.043l-2.262-1.758-1.452 1.34a.253.253 0 0 1-.238.033l.278-2.491.008.008.006-.049s4.071-3.707 4.237-3.864c.168-.157.113-.192.113-.192.01-.192-.301 0-.301 0l-5.394 3.47-2.246-.765s-.345-.123-.377-.396c-.034-.27.388-.417.388-.417l8.931-3.548s.734-.327.734.215l-1.59 8.122z"
+                        />
+                      </svg>
+                    </a>
                   </li>
                   <li>
-                    <a href="#"
-                      ><svg width="40" height="40">
-                        <use
-                          href="./public/images/icons.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
+                    <a
+                      href="#"
+                      class="text-light hover:text-accent transition-all duration-200"
+                    >
+                      <svg class="w-10 h-10 fill-current" viewBox="0 0 20 20">
+                        <path
+                          d="M6.5 1.667h7A4.836 4.836 0 0 1 18.333 6.5v7a4.833 4.833 0 0 1-4.834 4.834h-7a4.836 4.836 0 0 1-4.833-4.833v-7A4.833 4.833 0 0 1 6.5 1.667zm-.166 1.666a3.004 3.004 0 0 0-3 3v7.333c0 1.658 1.342 3 3 3h7.333a3.004 3.004 0 0 0 3-3V6.333c0-1.658-1.342-3-3-3H6.334zm8.041 1.25a1.038 1.038 0 0 1 1.042 1.042 1.038 1.038 0 0 1-1.042 1.042 1.038 1.038 0 0 1-1.042-1.042 1.038 1.038 0 0 1 1.042-1.042zM10 5.833a4.167 4.167 0 1 1 0 8.334 4.167 4.167 0 0 1 0-8.334zM10 7.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"
+                        />
+                      </svg>
+                    </a>
                   </li>
                   <li>
-                    <a href="#"
-                      ><svg width="40" height="40">
-                        <use
-                          href="./public/images/icons.svg#icon-facebook"
-                        ></use></svg
-                    ></a>
+                    <a
+                      href="#"
+                      class="text-light hover:text-accent transition-all duration-200"
+                    >
+                      <svg class="w-10 h-10 fill-current" viewBox="0 0 20 20">
+                        <path
+                          d="M10 1.7c-4.583 0-8.333 3.742-8.333 8.35A8.35 8.35 0 0 0 8.7 18.3v-5.833H6.583V10.05H8.7V8.208c0-2.092 1.242-3.242 3.15-3.242.908 0 1.858.158 1.858.158v2.058h-1.05c-1.033 0-1.358.642-1.358 1.3v1.567h2.317l-.375 2.417H11.3v5.833a8.333 8.333 0 0 0 7.034-8.25c0-4.608-3.75-8.35-8.333-8.35z"
+                        />
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </li>
@@ -419,9 +444,16 @@
           </address>
 
           <div class="flex items-center justify-center mt-[40px]">
-            <svg width="16" height="16">
-              <use href="./public/images/icons.svg#icon-copyright"></use>
+            <svg class="w-4 h-4" viewBox="0 0 16 16">
+              <path
+                d="M10 6.75s-.75-1-2-1-2.25 1-2.25 2.25 1 2.25 2.25 2.25 2-1 2-1M14.25 8a6.25 6.25 0 1 1-12.5 0 6.25 6.25 0 0 1 12.5 0Z"
+                stroke="#A3A5A3"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
             </svg>
+
             <span class="ml-[8px] text-16l text-grey font-normal font-secondary"
               >Created by LelekaSoft</span
             >
