@@ -17,7 +17,7 @@ module.exports = {
         secondary: "#202321",
         accent: "#5B86A1",
         light: "#F7FBFB",
-        input: "#A3A5A3",
+        grey: "#A3A5A3",
       },
       dropShadow: {
         text: "0px 4px 4px rgba(0, 0, 0, 0.25)",
@@ -37,6 +37,7 @@ module.exports = {
         16: ["16px", { lineHeight: "20px" }],
         "16l": ["16px", { lineHeight: "22px" }],
         20: ["20px", { lineHeight: "24px" }],
+        28: ["28px", { lineHeight: "34px" }],
         32: ["32px", { lineHeight: "39px" }],
         40: ["40px", { lineHeight: "49px" }],
         xs: ["0.75rem", { lineHeight: "1rem" }],
