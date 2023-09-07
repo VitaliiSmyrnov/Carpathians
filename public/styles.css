@@ -1009,7 +1009,25 @@ video {
   color: rgb(163 165 163 / var(--tw-text-opacity));
 }
 
+.outline-none{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.outline-transparent{
+  outline-color: transparent;
+}
+
 .drop-shadow-text{
   --tw-drop-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.focus\:border-accent:focus{
+  --tw-border-opacity: 1;
+  border-color: rgb(91 134 161 / var(--tw-border-opacity));
+}
+
+.focus\:outline-transparent:focus{
+  outline-color: transparent;
 }
