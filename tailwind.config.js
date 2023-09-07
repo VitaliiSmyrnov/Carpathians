@@ -17,6 +17,7 @@ module.exports = {
         secondary: "#202321",
         accent: "#5B86A1",
         light: "#F7FBFB",
+        input: "#A3A5A3",
       },
       dropShadow: {
         text: "0px 4px 4px rgba(0, 0, 0, 0.25)",
@@ -28,6 +29,8 @@ module.exports = {
           "url('./images/mobile/advantages_mob-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
         "review-mob":
           "url('./images/mobile/Review_mob-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
+        "question-mob":
+          "url('./images/mobile/question_mob-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
       },
       fontSize: {
         14: ["14px", { lineHeight: "17px" }],
