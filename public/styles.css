@@ -713,6 +713,10 @@ video {
   width: 280px;
 }
 
+.w-\[375px\]{
+  width: 375px;
+}
+
 .basis-full{
   flex-basis: 100%;
 }
