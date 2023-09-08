@@ -613,6 +613,10 @@ video {
   margin-top: 32px;
 }
 
+.mt-\[40px\]{
+  margin-top: 40px;
+}
+
 .mt-\[4px\]{
   margin-top: 4px;
 }
@@ -621,8 +625,8 @@ video {
   margin-top: 52px;
 }
 
-.mt-\[40px\]{
-  margin-top: 40px;
+.mt-1{
+  margin-top: 0.25rem;
 }
 
 .inline-block{
@@ -631,6 +635,18 @@ video {
 
 .flex{
   display: flex;
+}
+
+.h-10{
+  height: 2.5rem;
+}
+
+.h-4{
+  height: 1rem;
+}
+
+.h-8{
+  height: 2rem;
 }
 
 .h-\[100px\]{
@@ -689,24 +705,12 @@ video {
   height: auto;
 }
 
-.h-\[32px\]{
-  height: 32px;
+.h-6{
+  height: 1.5rem;
 }
 
-.h-8{
-  height: 2rem;
-}
-
-.h-10{
-  height: 2.5rem;
-}
-
-.h-4{
-  height: 1rem;
-}
-
-.h-40{
-  height: 10rem;
+.h-7{
+  height: 1.75rem;
 }
 
 .max-h-\[160px\]{
@@ -719,6 +723,18 @@ video {
 
 .min-h-screen{
   min-height: 100vh;
+}
+
+.w-10{
+  width: 2.5rem;
+}
+
+.w-4{
+  width: 1rem;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .w-\[100px\]{
@@ -769,20 +785,12 @@ video {
   width: 100%;
 }
 
-.w-\[32px\]{
-  width: 32px;
+.w-6{
+  width: 1.5rem;
 }
 
-.w-8{
-  width: 2rem;
-}
-
-.w-10{
-  width: 2.5rem;
-}
-
-.w-4{
-  width: 1rem;
+.w-7{
+  width: 1.75rem;
 }
 
 .basis-full{
@@ -891,16 +899,12 @@ video {
   background-repeat: no-repeat;
 }
 
-.fill-accent{
-  fill: #5B86A1;
-}
-
 .fill-current{
   fill: currentColor;
 }
 
-.fill-inherit{
-  fill: inherit;
+.stroke-current{
+  stroke: currentColor;
 }
 
 .object-cover{
@@ -1037,6 +1041,15 @@ video {
   color: rgb(91 134 161 / var(--tw-text-opacity));
 }
 
+.text-current{
+  color: currentColor;
+}
+
+.text-grey{
+  --tw-text-opacity: 1;
+  color: rgb(163 165 163 / var(--tw-text-opacity));
+}
+
 .text-light{
   --tw-text-opacity: 1;
   color: rgb(247 251 251 / var(--tw-text-opacity));
@@ -1052,22 +1065,9 @@ video {
   color: rgb(32 35 33 / var(--tw-text-opacity));
 }
 
-.text-grey{
-  --tw-text-opacity: 1;
-  color: rgb(163 165 163 / var(--tw-text-opacity));
-}
-
-.text-current{
-  color: currentColor;
-}
-
 .outline-none{
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.outline-transparent{
-  outline-color: transparent;
 }
 
 .drop-shadow-text{
@@ -1081,20 +1081,12 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-300{
-  transition-duration: 300ms;
-}
-
 .duration-200{
   transition-duration: 200ms;
 }
 
-.hover\:fill-accent:hover{
-  fill: #5B86A1;
-}
-
-.hover\:stroke-accent:hover{
-  stroke: #5B86A1;
+.duration-150{
+  transition-duration: 150ms;
 }
 
 .hover\:text-accent:hover{
@@ -1105,8 +1097,4 @@ video {
 .focus\:border-accent:focus{
   --tw-border-opacity: 1;
   border-color: rgb(91 134 161 / var(--tw-border-opacity));
-}
-
-.focus\:outline-transparent:focus{
-  outline-color: transparent;
 }
