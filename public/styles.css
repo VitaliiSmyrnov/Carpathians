@@ -536,6 +536,40 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container{
+  width: 100%;
+}
+
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1440px){
+  .container{
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+}
+
+@media (min-width: 1920px){
+  .container{
+    max-width: 1920px;
+  }
+}
+
 .absolute{
   position: absolute;
 }
@@ -727,6 +761,14 @@ video {
 
 .h-\[732px\]{
   height: 732px;
+}
+
+.h-\[579px\]{
+  height: 579px;
+}
+
+.h-\[527px\]{
+  height: 527px;
 }
 
 .max-h-\[160px\]{
