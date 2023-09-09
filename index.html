@@ -185,53 +185,113 @@
 
         <!-- Upcoming tours  -->
 
-        <section class="mx-auto mt-[52px] w-[311px]">
+        <section class="mx-auto mt-[52px]">
           <h2 class="mb-[28px] text-center text-32 font-normal text-primary">
             Upcoming tours
           </h2>
 
-          <img
-            src="./public/images/mobile/tour-pic_mob-1-min.jpg"
-            alt="In the mountains, a meadow with tents with a forest behind the meadow"
-            class="h-[338px] w-full object-cover"
-          />
+          <!-- Slider main container -->
           <div
-            class="border-x border-b border-solid border-accent px-[20px] py-[28px]"
+            class="swiper h-[579px] w-[375px] px-[32px]"
+            id="swiper-container-1"
           >
-            <h3 class="text-20 font-semibold text-primary">
-              Ascent to Hoverla
-            </h3>
-            <p class="mt-[16px] text-16 font-semibold text-secondary">
-              From UAH 4,499/person
-            </p>
-            <button
-              type="button"
-              class="mt-[20px] inline-block h-[53px] w-[271px] bg-accent p-[10px] text-16 font-medium text-light"
-            >
-              MORE DETAILS
-            </button>
-          </div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper h-[527px]">
+              <!-- Slides -->
+              <div class="swiper-slide w-[311px]">
+                <img
+                  src="./public/images/mobile/tour-pic_mob-3-min.jpg"
+                  alt="Snow hill for skiing in the mountains among the forest"
+                  class="h-[338px] w-full object-cover"
+                />
+                <div
+                  class="border-x border-b border-solid border-accent px-[20px] py-[28px]"
+                >
+                  <h3 class="text-20 font-semibold text-primary">
+                    Week in Carpathians
+                  </h3>
+                  <p class="mt-[16px] text-16 font-semibold text-secondary">
+                    From UAH 9,999/person
+                  </p>
+                  <button
+                    type="button"
+                    class="mt-[20px] inline-block h-[53px] w-[271px] bg-accent p-[10px] text-16 font-medium text-light"
+                  >
+                    MORE DETAILS
+                  </button>
+                </div>
+              </div>
 
-          <div
-            class="mx-auto mt-[24px] flex h-[28px] w-[96px] items-center justify-between"
-          >
-            <svg
-              class="h-7 w-7 cursor-pointer fill-current text-grey transition-all duration-200 hover:text-accent"
-              viewBox="0 0 20 20"
-            >
-              <path
-                d="M12.372 16.5a.666.666 0 0 1-.445-.177l-6.244-6.152a.62.62 0 0 1 0-.876l6.244-6.152a.641.641 0 0 1 .848.041.613.613 0 0 1 .041.836L7.009 9.734l5.807 5.714a.62.62 0 0 1 0 .876.666.666 0 0 1-.445.177z"
-              />
-            </svg>
+              <div class="swiper-slide w-[311px]">
+                <img
+                  src="./public/images/mobile/tour-pic_mob-2-min.jpg"
+                  alt="Snow hill for skiing in the mountains among the forest"
+                  class="h-[338px] w-full object-cover"
+                />
+                <div
+                  class="border-x border-b border-solid border-accent px-[20px] py-[28px]"
+                >
+                  <h3 class="text-20 font-semibold text-primary">
+                    Ski tour to Bukovel
+                  </h3>
+                  <p class="mt-[16px] text-16 font-semibold text-secondary">
+                    From UAH 7,499/person
+                  </p>
+                  <button
+                    type="button"
+                    class="mt-[20px] inline-block h-[53px] w-[271px] bg-accent p-[10px] text-16 font-medium text-light"
+                  >
+                    MORE DETAILS
+                  </button>
+                </div>
+              </div>
 
-            <svg
-              class="h-7 w-7 cursor-pointer fill-current text-grey transition-all duration-200 hover:text-accent"
-              viewBox="0 0 20 20"
+              <div class="swiper-slide w-[311px]">
+                <img
+                  src="./public/images/mobile/tour-pic_mob-1-min.jpg"
+                  alt="In the mountains, a meadow with tents with a forest behind the meadow"
+                  class="h-[338px] w-full object-cover"
+                />
+                <div
+                  class="border-x border-b border-solid border-accent px-[20px] py-[28px]"
+                >
+                  <h3 class="text-20 font-semibold text-primary">
+                    Ascent to Hoverla
+                  </h3>
+                  <p class="mt-[16px] text-16 font-semibold text-secondary">
+                    From UAH 4,499/person
+                  </p>
+                  <button
+                    type="button"
+                    class="mt-[20px] inline-block h-[53px] w-[271px] bg-accent p-[10px] text-16 font-medium text-light"
+                  >
+                    MORE DETAILS
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="mx-auto mt-[24px] flex h-[28px] w-[96px] items-center justify-between"
             >
-              <path
-                d="M7.628 16.5a.666.666 0 0 0 .445-.177l6.244-6.152a.62.62 0 0 0 0-.876L8.073 3.143a.641.641 0 0 0-.848.041.613.613 0 0 0-.041.836l5.807 5.714-5.807 5.714a.62.62 0 0 0 0 .876.666.666 0 0 0 .445.177z"
-              />
-            </svg>
+              <svg
+                class="swiper-prev-1 h-7 w-7 cursor-pointer fill-current text-grey transition-all duration-200 hover:text-accent"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M12.372 16.5a.666.666 0 0 1-.445-.177l-6.244-6.152a.62.62 0 0 1 0-.876l6.244-6.152a.641.641 0 0 1 .848.041.613.613 0 0 1 .041.836L7.009 9.734l5.807 5.714a.62.62 0 0 1 0 .876.666.666 0 0 1-.445.177z"
+                />
+              </svg>
+
+              <svg
+                class="swiper-next-1 h-7 w-7 cursor-pointer fill-current text-grey transition-all duration-200 hover:text-accent"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M7.628 16.5a.666.666 0 0 0 .445-.177l6.244-6.152a.62.62 0 0 0 0-.876L8.073 3.143a.641.641 0 0 0-.848.041.613.613 0 0 0-.041.836l5.807 5.714-5.807 5.714a.62.62 0 0 0 0 .876.666.666 0 0 0 .445.177z"
+                />
+              </svg>
+            </div>
           </div>
         </section>
 
@@ -319,7 +379,10 @@
         <section class="mx-auto mt-[52px]">
           <h2 class="text-center text-32 font-normal text-primary">Gallery</h2>
 
-          <div class="swiper mt-[28px] h-[532px] w-[375px] px-[32px]">
+          <div
+            class="swiper mt-[28px] h-[532px] w-[375px] px-[32px]"
+            id="swiper-container-2"
+          >
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper h-[480px]">
               <!-- Slides -->
@@ -327,56 +390,48 @@
                 <img
                   src="./public/images/mobile/gallery_mob-1-min.jpg"
                   alt="Sunny valley"
-                  class="h-auto w-[280px]"
                 />
               </div>
               <div class="swiper-slide w-[280px]">
                 <img
                   src="./public/images/mobile/gallery_mob-2-min.jpg"
                   alt="A house with forest and mountains behind it"
-                  class="h-auto w-[280px]"
                 />
               </div>
               <div class="swiper-slide w-[280px]">
                 <img
                   src="./public/images/mobile/gallery_mob-3-min.jpg"
                   alt="Snowing mountains"
-                  class="h-auto w-[280px]"
                 />
               </div>
               <div class="swiper-slide w-[280px]">
                 <img
                   src="./public/images/mobile/gallery_mob-4-min.jpg"
                   alt="Snowing forest in mountains"
-                  class="h-auto w-[280px]"
                 />
               </div>
               <div class="swiper-slide w-[280px]">
                 <img
                   src="./public/images/mobile/gallery_mob-5-min.jpg"
                   alt="Stones with mini-lake in forest in mountains"
-                  class="h-auto w-[280px]"
                 />
               </div>
               <div class="swiper-slide w-[280px]">
                 <img
                   src="./public/images/mobile/gallery_mob-6-min.jpg"
                   alt="flowers on the field with forest and beautiful sky behind it"
-                  class="h-auto w-[280px]"
                 />
               </div>
               <div class="swiper-slide w-[280px]">
                 <img
                   src="./public/images/mobile/gallery_mob-7-min.jpg"
                   alt="A river with forest behind it"
-                  class="h-auto w-[280px]"
                 />
               </div>
               <div class="swiper-slide w-[280px]">
                 <img
                   src="./public/images/mobile/gallery_mob-8-min.jpg"
                   alt="A bright sunny air with forest in mountains"
-                  class="h-auto w-[280px]"
                 />
               </div>
             </div>
@@ -385,7 +440,7 @@
               class="mx-auto mt-[24px] flex h-[28px] w-[96px] items-center justify-between"
             >
               <svg
-                class="swiper-prev h-7 w-7 cursor-pointer fill-current text-grey transition-all duration-200 hover:text-accent"
+                class="swiper-prev-2 h-7 w-7 cursor-pointer fill-current text-grey transition-all duration-200 hover:text-accent"
                 viewBox="0 0 20 20"
               >
                 <path
@@ -394,7 +449,7 @@
               </svg>
 
               <svg
-                class="swiper-next h-7 w-7 cursor-pointer fill-current text-grey transition-all duration-200 hover:text-accent"
+                class="swiper-next-2 h-7 w-7 cursor-pointer fill-current text-grey transition-all duration-200 hover:text-accent"
                 viewBox="0 0 20 20"
               >
                 <path
