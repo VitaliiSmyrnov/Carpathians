@@ -356,38 +356,56 @@
           </div>
 
           <div
-            class="relative mt-[32px] h-[452px] border border-solid border-accent"
+            class="perspective group mt-[32px] h-[452px] w-[311px] cursor-pointer"
           >
             <div
-              class="h-[134px] w-full bg-review-mob bg-cover bg-center bg-no-repeat"
-            ></div>
-
-            <img
-              src="./public/images/mobile/reviewer_photo-mob-2-min.jpg"
-              alt="Reviewer photo"
-              class="absolute left-[105px] top-[84px] h-[100px] w-[100px] rounded-full border border-solid border-accent object-cover"
-            />
-
-            <div class="px-[12px] pb-[12px] pt-[70px]">
-              <h3 class="text-center text-20 font-semibold text-accent">
-                Ostap
-              </h3>
-              <p
-                class="mx-auto mt-[16px] max-h-[160px] min-h-[160px] w-[242px] overflow-auto text-16 font-normal text-secondary"
+              class="preserve-3d group-hover:my-rotate-y-180 relative h-full w-full border border-solid border-accent duration-1000"
+            >
+              <div
+                class="my-rotate-y-180 backface-hidden absolute h-full w-full"
               >
-                Good organization, everything went smoothly. Friendly guide
-                Taras told interesting facts about the area and customs
-                throughout the tour.
-              </p>
-              <svg
-                class="ml-auto mt-1 h-8 w-8 cursor-pointer"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  fill="#5b86a1"
-                  d="M10 5.833C5.4 5.833 1.667 7.7 1.667 10c0 1.867 2.45 3.442 5.833 3.975v1.683c0 .375.45.558.708.292l2.325-2.325a.412.412 0 0 0 0-.592l-2.325-2.325a.412.412 0 0 0-.454-.086.42.42 0 0 0-.255.387v1.267c-2.625-.467-4.167-1.583-4.167-2.275 0-.883 2.533-2.5 6.667-2.5s6.667 1.617 6.667 2.5c0 .55-1 1.4-2.767 1.95a.815.815 0 0 0-.567.783c0 .558.542.967 1.067.8 2.358-.733 3.933-2.042 3.933-3.533 0-2.3-3.733-4.167-8.333-4.167z"
+                <img
+                  src="./public/images/mobile/review_back-mob-2.jpg"
+                  alt="Reviewer's backphoto"
+                  class="h-full w-full"
                 />
-              </svg>
+              </div>
+
+              <div
+                class="backface-hidden absolute h-full w-full overflow-hidden"
+              >
+                <div
+                  class="h-[134px] w-full bg-review-mob bg-cover bg-center bg-no-repeat"
+                ></div>
+
+                <img
+                  src="./public/images/mobile/reviewer_photo-mob-2-min.jpg"
+                  alt="Reviewer photo"
+                  class="absolute left-[105px] top-[84px] h-[100px] w-[100px] rounded-full border border-solid border-accent object-cover"
+                />
+
+                <div class="px-[12px] pb-[12px] pt-[70px]">
+                  <h3 class="text-center text-20 font-semibold text-accent">
+                    Ostap
+                  </h3>
+                  <p
+                    class="mx-auto mt-[16px] max-h-[160px] min-h-[160px] w-[242px] overflow-auto text-16 font-normal text-secondary"
+                  >
+                    Good organization, everything went smoothly. Friendly guide
+                    Taras told interesting facts about the area and customs
+                    throughout the tour.
+                  </p>
+                  <svg
+                    class="ml-auto mt-1 h-8 w-8 cursor-pointer"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill="#5b86a1"
+                      d="M10 5.833C5.4 5.833 1.667 7.7 1.667 10c0 1.867 2.45 3.442 5.833 3.975v1.683c0 .375.45.558.708.292l2.325-2.325a.412.412 0 0 0 0-.592l-2.325-2.325a.412.412 0 0 0-.454-.086.42.42 0 0 0-.255.387v1.267c-2.625-.467-4.167-1.583-4.167-2.275 0-.883 2.533-2.5 6.667-2.5s6.667 1.617 6.667 2.5c0 .55-1 1.4-2.767 1.95a.815.815 0 0 0-.567.783c0 .558.542.967 1.067.8 2.358-.733 3.933-2.042 3.933-3.533 0-2.3-3.733-4.167-8.333-4.167z"
+                    />
+                  </svg>
+                </div>
+              </div>
             </div>
           </div>
         </section>
