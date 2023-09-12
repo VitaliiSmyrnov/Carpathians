@@ -302,12 +302,14 @@
             Reviews
           </h2>
 
-          <div class="perspective group h-[452px] w-[311px] cursor-pointer">
+          <div class="h-[452px] w-[311px] cursor-pointer perspective">
             <div
-              class="preserve-3d group-hover:my-rotate-y-180 relative h-full w-full border border-solid border-accent duration-1000"
+              class="relative h-full w-full border border-solid border-accent duration-1000 preserve-3d"
+              id="review-card-1"
             >
               <div
-                class="my-rotate-y-180 backface-hidden absolute h-full w-full"
+                class="is-flipped absolute h-full w-full backface-hidden"
+                id="review-back-flip-toggle-1"
               >
                 <img
                   src="./public/images/mobile/review_back-mob-1.jpg"
@@ -317,7 +319,7 @@
               </div>
 
               <div
-                class="backface-hidden absolute h-full w-full overflow-hidden"
+                class="rotate-y-0 absolute h-full w-full overflow-hidden backface-hidden"
               >
                 <div
                   class="h-[134px] w-full bg-review-mob bg-cover bg-center bg-no-repeat"
@@ -344,6 +346,7 @@
                   <svg
                     class="ml-auto mt-1 h-8 w-8 cursor-pointer"
                     viewBox="0 0 20 20"
+                    id="review-front-flip-toggle-1"
                   >
                     <path
                       fill="#5b86a1"
@@ -355,14 +358,14 @@
             </div>
           </div>
 
-          <div
-            class="perspective group mt-[32px] h-[452px] w-[311px] cursor-pointer"
-          >
+          <div class="mt-[32px] h-[452px] w-[311px] cursor-pointer perspective">
             <div
-              class="preserve-3d group-hover:my-rotate-y-180 relative h-full w-full border border-solid border-accent duration-1000"
+              class="relative h-full w-full border border-solid border-accent duration-1000 preserve-3d"
+              id="review-card-2"
             >
               <div
-                class="my-rotate-y-180 backface-hidden absolute h-full w-full"
+                class="is-flipped absolute h-full w-full backface-hidden"
+                id="review-back-flip-toggle-2"
               >
                 <img
                   src="./public/images/mobile/review_back-mob-2.jpg"
@@ -372,7 +375,7 @@
               </div>
 
               <div
-                class="backface-hidden absolute h-full w-full overflow-hidden"
+                class="rotate-y-0 absolute h-full w-full overflow-hidden backface-hidden"
               >
                 <div
                   class="h-[134px] w-full bg-review-mob bg-cover bg-center bg-no-repeat"
@@ -398,6 +401,7 @@
                   <svg
                     class="ml-auto mt-1 h-8 w-8 cursor-pointer"
                     viewBox="0 0 20 20"
+                    id="review-front-flip-toggle-2"
                   >
                     <path
                       fill="#5b86a1"
@@ -672,5 +676,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./src/js/swiper.js"></script>
+    <script src="./src/js/flipCard.js"></script>
   </body>
 </html>
