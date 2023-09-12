@@ -43,8 +43,7 @@ html {
   /* 2 */
   -moz-tab-size: 4;
   /* 3 */
-  -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
@@ -954,8 +953,7 @@ video {
 }
 
 .object-cover{
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .p-\[10px\]{
@@ -1127,12 +1125,6 @@ video {
   transition-duration: 150ms;
 }
 
-.transition-transform{
-  transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .duration-1000{
   transition-duration: 1000ms;
 }
@@ -1141,7 +1133,11 @@ video {
   transition-duration: 200ms;
 }
 
-.my-rotate-y-180{
+.rotate-y-0{
+  transform: rotateY(0deg);
+}
+
+.is-flipped{
   transform: rotateY(180deg);
 }
 
@@ -1165,8 +1161,4 @@ video {
 .focus\:border-accent:focus{
   --tw-border-opacity: 1;
   border-color: rgb(91 134 161 / var(--tw-border-opacity));
-}
-
-.group:hover .group-hover\:my-rotate-y-180{
-  transform: rotateY(180deg);
 }

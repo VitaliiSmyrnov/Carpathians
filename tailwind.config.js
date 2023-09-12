@@ -4,7 +4,10 @@ const plugin = require("tailwindcss/plugin");
 
 const Myclass = plugin(function ({ addUtilities }) {
   addUtilities({
-    ".my-rotate-y-180": {
+    ".rotate-y-0": {
+      transform: "rotateY(0deg)",
+    },
+    ".is-flipped": {
       transform: "rotateY(180deg)",
     },
     ".preserve-3d": {
