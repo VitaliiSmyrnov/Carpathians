@@ -569,6 +569,22 @@ video {
   }
 }
 
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.fixed{
+  position: fixed;
+}
+
 .absolute{
   position: absolute;
 }
@@ -581,8 +597,32 @@ video {
   left: 105px;
 }
 
+.right-\[12px\]{
+  right: 12px;
+}
+
+.top-\[12px\]{
+  top: 12px;
+}
+
 .top-\[84px\]{
   top: 84px;
+}
+
+.left-0{
+  left: 0px;
+}
+
+.right-0{
+  right: 0px;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.z-50{
+  z-index: 50;
 }
 
 .mx-auto{
@@ -658,12 +698,20 @@ video {
   margin-top: 52px;
 }
 
+.mt-\[26px\]{
+  margin-top: 26px;
+}
+
 .inline-block{
   display: inline-block;
 }
 
 .flex{
   display: flex;
+}
+
+.hidden{
+  display: none;
 }
 
 .h-10{
@@ -698,6 +746,10 @@ video {
   height: 28px;
 }
 
+.h-\[30px\]{
+  height: 30px;
+}
+
 .h-\[338px\]{
   height: 338px;
 }
@@ -720,6 +772,10 @@ video {
 
 .h-\[480px\]{
   height: 480px;
+}
+
+.h-\[504px\]{
+  height: 504px;
 }
 
 .h-\[527px\]{
@@ -752,6 +808,10 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-screen{
+  height: 100vh;
 }
 
 .max-h-\[160px\]{
@@ -790,6 +850,10 @@ video {
   width: 100px;
 }
 
+.w-\[140px\]{
+  width: 140px;
+}
+
 .w-\[159px\]{
   width: 159px;
 }
@@ -814,6 +878,10 @@ video {
   width: 285px;
 }
 
+.w-\[30px\]{
+  width: 30px;
+}
+
 .w-\[311px\]{
   width: 311px;
 }
@@ -832,6 +900,14 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[281px\]{
+  width: 281px;
+}
+
+.max-w-\[281px\]{
+  max-width: 281px;
 }
 
 .basis-full{
@@ -868,6 +944,14 @@ video {
 
 .overflow-hidden{
   overflow: hidden;
+}
+
+.overflow-y-auto{
+  overflow-y: auto;
+}
+
+.overflow-x-hidden{
+  overflow-x: hidden;
 }
 
 .rounded-full{
@@ -1009,8 +1093,16 @@ video {
   padding-bottom: 12px;
 }
 
+.pb-\[36px\]{
+  padding-bottom: 36px;
+}
+
 .pl-\[30px\]{
   padding-left: 30px;
+}
+
+.pt-\[52px\]{
+  padding-top: 52px;
 }
 
 .pt-\[70px\]{
@@ -1062,6 +1154,11 @@ video {
 .text-40{
   font-size: 40px;
   line-height: 49px;
+}
+
+.text-24{
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .font-medium{
