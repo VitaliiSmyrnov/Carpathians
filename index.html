@@ -62,9 +62,82 @@
           <button
             type="button"
             class="inline-block h-[52px] w-[285px] bg-accent p-[10px] font-secondary text-16l font-medium text-light"
+            data-modal-target="hero-modal"
+            data-modal-show="hero-modal"
           >
             BOOK A TOUR
           </button>
+
+          <!-- hero popup -->
+
+          <div
+            id="hero-modal"
+            class="fixed left-0 right-0 top-0 z-50 h-full w-full overflow-y-auto overflow-x-hidden"
+            tabindex="-1"
+            aria-hidden="true"
+          >
+            <div class="flex items-center justify-center">
+              <div
+                class="relative h-[504px] w-[375px] bg-light px-[32px] pb-[36px] pt-[52px]"
+              >
+                <button
+                  type="button"
+                  class="absolute right-[12px] top-[12px]"
+                  data-modal-hide="hero-modal"
+                >
+                  <svg
+                    class="h-[30px] w-[30px] text-secondary hover:text-accent"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 15 5 5m10 0L5 15"
+                    />
+                  </svg>
+                  <span class="sr-only">Close modal</span>
+                </button>
+
+                <h3
+                  class="text-24 mx-auto w-[140px] text-center font-normal text-primary"
+                >
+                  Book a tour
+                </h3>
+                <p
+                  class="mx-auto mt-[20px] max-w-[281px] text-center text-14 font-normal text-secondary"
+                >
+                  You can leave your application here and our manager will call
+                  you within 10 minutes
+                </p>
+                <form action="" method="post" class="mt-[16px]">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your name*"
+                    autocomplete="off"
+                    required
+                    class="w-full border-b border-solid border-grey px-[4px] py-[8px] text-16 text-secondary outline-none focus:border-accent"
+                  />
+                  <input
+                    type="text"
+                    name="number"
+                    placeholder="Phone number*"
+                    autocomplete="off"
+                    required
+                    class="mt-[12px] w-full border-b border-solid border-grey px-[4px] py-[8px] text-16 text-secondary outline-none focus:border-accent"
+                  />
+                  <button
+                    type="submit"
+                    class="mt-[26px] h-[52px] w-full bg-accent text-center text-16 font-medium text-light"
+                  >
+                    CALL ME
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
 
@@ -677,5 +750,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script type="module" src="./src/js/swiper.js"></script>
     <script type="module" src="./src/js/flipCard.js"></script>
+    <!-- <script type="module" src="./src/js/modal.js"></script> -->
   </body>
 </html>
