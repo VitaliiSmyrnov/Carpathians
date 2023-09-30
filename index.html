@@ -85,7 +85,7 @@
                   id="hero-close-modal-button"
                 >
                   <svg
-                    class="h-[30px] w-[30px] text-secondary hover:text-accent"
+                    class="h-[30px] w-[30px] text-secondary transition-all duration-200 hover:text-accent"
                     aria-hidden="true"
                     viewBox="0 0 20 20"
                   >
@@ -128,9 +128,83 @@
                     required
                     class="mt-[12px] w-full border-b border-solid border-grey px-[4px] py-[8px] text-16 text-secondary outline-none focus:border-accent"
                   />
+
+                  <div class="mt-[20px] flex flex-col items-start gap-[24px]">
+                    <label
+                      class="relative flex cursor-pointer items-center gap-[14px] text-16 text-primary"
+                    >
+                      <input
+                        class="peer h-[24px] w-[24px] appearance-none border border-solid border-secondary"
+                        type="checkbox"
+                        name="tours"
+                        value="hoverla"
+                        checked
+                      />
+                      <svg
+                        fill="none"
+                        viewBox="0 0 20 20"
+                        class="invisible absolute left-[2px] top-[2px] h-[20px] w-[20px] peer-checked:visible"
+                      >
+                        <path
+                          d="M16.25 5 7.5 15l-3.75-3.75"
+                          stroke="#000"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      Ascent to Hoverla
+                    </label>
+                    <label
+                      class="relative flex cursor-pointer items-center gap-[14px] text-16 text-primary"
+                    >
+                      <input
+                        class="peer h-[24px] w-[24px] appearance-none border border-solid border-secondary"
+                        type="checkbox"
+                        name="tours"
+                        value="bukovel"
+                      />
+                      <svg
+                        fill="none"
+                        viewBox="0 0 20 20"
+                        class="invisible absolute left-[2px] top-[2px] h-[20px] w-[20px] peer-checked:visible"
+                      >
+                        <path
+                          d="M16.25 5 7.5 15l-3.75-3.75"
+                          stroke="#000"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      Ski tour to Bukovel
+                    </label>
+                    <label
+                      class="relative flex cursor-pointer items-center gap-[14px] text-16 text-primary"
+                    >
+                      <input
+                        class="peer h-[24px] w-[24px] appearance-none border border-solid border-secondary"
+                        type="checkbox"
+                        name="tours"
+                        value="carpathians"
+                      />
+                      <svg
+                        fill="none"
+                        viewBox="0 0 20 20"
+                        class="invisible absolute left-[2px] top-[2px] h-[20px] w-[20px] peer-checked:visible"
+                      >
+                        <path
+                          d="M16.25 5 7.5 15l-3.75-3.75"
+                          stroke="#000"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      Week in Carpathians
+                    </label>
+                  </div>
+
                   <button
                     type="submit"
-                    class="mt-[26px] h-[52px] w-full bg-accent text-center text-16 font-medium text-light"
+                    class="mt-[24px] h-[52px] w-full bg-accent text-center text-16 font-medium text-light"
                   >
                     CALL ME
                   </button>
