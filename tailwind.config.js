@@ -19,6 +19,14 @@ const Myclass = plugin(function ({ addUtilities }) {
     ".backface-hidden": {
       backfaceVisibility: "hidden",
     },
+    ".backdrop-active": {
+      visibility: "visible",
+      opacity: 1,
+    },
+    ".backdrop-hidden": {
+      visibility: "hidden",
+      opacity: 0,
+    },
   });
 });
 
@@ -41,6 +49,7 @@ module.exports = {
         accent: "#5B86A1",
         light: "#F7FBFB",
         grey: "#A3A5A3",
+        backdrop: "rgba(0, 0, 0, 0.2)",
       },
       dropShadow: {
         text: "0px 4px 4px rgba(0, 0, 0, 0.25)",
