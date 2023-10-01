@@ -71,145 +71,143 @@
 
           <div
             id="hero-modal"
-            class="fixed left-0 right-0 top-0 z-50 hidden h-full w-full overflow-y-auto overflow-x-hidden"
+            class="backdrop-hidden fixed left-0 right-0 top-0 z-50 flex h-full w-full items-center justify-center overflow-y-auto overflow-x-hidden bg-backdrop transition-all duration-300"
             tabindex="-1"
             aria-hidden="true"
           >
-            <div class="flex h-full w-full items-center justify-center">
-              <div
-                class="relative h-[504px] w-[375px] bg-light px-[32px] pb-[36px] pt-[52px]"
+            <div
+              class="relative h-[504px] w-[375px] bg-light px-[32px] pb-[36px] pt-[52px]"
+            >
+              <button
+                type="button"
+                class="absolute right-[12px] top-[12px]"
+                id="hero-close-modal-button"
               >
-                <button
-                  type="button"
-                  class="absolute right-[12px] top-[12px]"
-                  id="hero-close-modal-button"
+                <svg
+                  class="h-[30px] w-[30px] text-secondary transition-all duration-200 hover:text-accent"
+                  aria-hidden="true"
+                  viewBox="0 0 20 20"
                 >
-                  <svg
-                    class="h-[30px] w-[30px] text-secondary transition-all duration-200 hover:text-accent"
-                    aria-hidden="true"
-                    viewBox="0 0 20 20"
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 15 5 5m10 0L5 15"
+                  />
+                </svg>
+                <span class="sr-only">Close modal</span>
+              </button>
+
+              <h3
+                class="mx-auto w-[140px] text-center text-24 font-normal text-primary"
+              >
+                Book a tour
+              </h3>
+              <p
+                class="mx-auto mt-[20px] max-w-[281px] text-center text-14 font-normal text-secondary"
+              >
+                You can leave your application here and our manager will call
+                you within 10 minutes
+              </p>
+              <form action="" method="post" class="mt-[16px]">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your name*"
+                  autocomplete="off"
+                  required
+                  class="w-full border-b border-solid border-grey px-[4px] py-[8px] text-16 text-secondary outline-none focus:border-accent"
+                />
+                <input
+                  type="text"
+                  name="number"
+                  placeholder="Phone number*"
+                  autocomplete="off"
+                  required
+                  class="mt-[12px] w-full border-b border-solid border-grey px-[4px] py-[8px] text-16 text-secondary outline-none focus:border-accent"
+                />
+
+                <div class="mt-[20px] flex flex-col items-start gap-[24px]">
+                  <label
+                    class="relative flex cursor-pointer items-center gap-[14px] text-16 text-primary"
                   >
-                    <path
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M15 15 5 5m10 0L5 15"
+                    <input
+                      class="peer h-[24px] w-[24px] appearance-none border border-solid border-secondary"
+                      type="checkbox"
+                      name="tours"
+                      value="hoverla"
+                      checked
                     />
-                  </svg>
-                  <span class="sr-only">Close modal</span>
-                </button>
-
-                <h3
-                  class="mx-auto w-[140px] text-center text-24 font-normal text-primary"
-                >
-                  Book a tour
-                </h3>
-                <p
-                  class="mx-auto mt-[20px] max-w-[281px] text-center text-14 font-normal text-secondary"
-                >
-                  You can leave your application here and our manager will call
-                  you within 10 minutes
-                </p>
-                <form action="" method="post" class="mt-[16px]">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Your name*"
-                    autocomplete="off"
-                    required
-                    class="w-full border-b border-solid border-grey px-[4px] py-[8px] text-16 text-secondary outline-none focus:border-accent"
-                  />
-                  <input
-                    type="text"
-                    name="number"
-                    placeholder="Phone number*"
-                    autocomplete="off"
-                    required
-                    class="mt-[12px] w-full border-b border-solid border-grey px-[4px] py-[8px] text-16 text-secondary outline-none focus:border-accent"
-                  />
-
-                  <div class="mt-[20px] flex flex-col items-start gap-[24px]">
-                    <label
-                      class="relative flex cursor-pointer items-center gap-[14px] text-16 text-primary"
+                    <svg
+                      fill="none"
+                      viewBox="0 0 20 20"
+                      class="invisible absolute left-[2px] top-[2px] h-[20px] w-[20px] peer-checked:visible"
                     >
-                      <input
-                        class="peer h-[24px] w-[24px] appearance-none border border-solid border-secondary"
-                        type="checkbox"
-                        name="tours"
-                        value="hoverla"
-                        checked
+                      <path
+                        d="M16.25 5 7.5 15l-3.75-3.75"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
                       />
-                      <svg
-                        fill="none"
-                        viewBox="0 0 20 20"
-                        class="invisible absolute left-[2px] top-[2px] h-[20px] w-[20px] peer-checked:visible"
-                      >
-                        <path
-                          d="M16.25 5 7.5 15l-3.75-3.75"
-                          stroke="#000"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                      Ascent to Hoverla
-                    </label>
-                    <label
-                      class="relative flex cursor-pointer items-center gap-[14px] text-16 text-primary"
-                    >
-                      <input
-                        class="peer h-[24px] w-[24px] appearance-none border border-solid border-secondary"
-                        type="checkbox"
-                        name="tours"
-                        value="bukovel"
-                      />
-                      <svg
-                        fill="none"
-                        viewBox="0 0 20 20"
-                        class="invisible absolute left-[2px] top-[2px] h-[20px] w-[20px] peer-checked:visible"
-                      >
-                        <path
-                          d="M16.25 5 7.5 15l-3.75-3.75"
-                          stroke="#000"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                      Ski tour to Bukovel
-                    </label>
-                    <label
-                      class="relative flex cursor-pointer items-center gap-[14px] text-16 text-primary"
-                    >
-                      <input
-                        class="peer h-[24px] w-[24px] appearance-none border border-solid border-secondary"
-                        type="checkbox"
-                        name="tours"
-                        value="carpathians"
-                      />
-                      <svg
-                        fill="none"
-                        viewBox="0 0 20 20"
-                        class="invisible absolute left-[2px] top-[2px] h-[20px] w-[20px] peer-checked:visible"
-                      >
-                        <path
-                          d="M16.25 5 7.5 15l-3.75-3.75"
-                          stroke="#000"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                      Week in Carpathians
-                    </label>
-                  </div>
-
-                  <button
-                    type="submit"
-                    class="mt-[24px] h-[52px] w-full bg-accent text-center text-16 font-medium text-light"
+                    </svg>
+                    Ascent to Hoverla
+                  </label>
+                  <label
+                    class="relative flex cursor-pointer items-center gap-[14px] text-16 text-primary"
                   >
-                    CALL ME
-                  </button>
-                </form>
-              </div>
+                    <input
+                      class="peer h-[24px] w-[24px] appearance-none border border-solid border-secondary"
+                      type="checkbox"
+                      name="tours"
+                      value="bukovel"
+                    />
+                    <svg
+                      fill="none"
+                      viewBox="0 0 20 20"
+                      class="invisible absolute left-[2px] top-[2px] h-[20px] w-[20px] peer-checked:visible"
+                    >
+                      <path
+                        d="M16.25 5 7.5 15l-3.75-3.75"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    Ski tour to Bukovel
+                  </label>
+                  <label
+                    class="relative flex cursor-pointer items-center gap-[14px] text-16 text-primary"
+                  >
+                    <input
+                      class="peer h-[24px] w-[24px] appearance-none border border-solid border-secondary"
+                      type="checkbox"
+                      name="tours"
+                      value="carpathians"
+                    />
+                    <svg
+                      fill="none"
+                      viewBox="0 0 20 20"
+                      class="invisible absolute left-[2px] top-[2px] h-[20px] w-[20px] peer-checked:visible"
+                    >
+                      <path
+                        d="M16.25 5 7.5 15l-3.75-3.75"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    Week in Carpathians
+                  </label>
+                </div>
+
+                <button
+                  type="submit"
+                  class="mt-[24px] h-[52px] w-full bg-accent text-center text-16 font-medium text-light"
+                >
+                  CALL ME
+                </button>
+              </form>
             </div>
           </div>
         </section>

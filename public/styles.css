@@ -605,6 +605,10 @@ video {
   left: 105px;
 }
 
+.left-\[2px\]{
+  left: 2px;
+}
+
 .right-0{
   right: 0px;
 }
@@ -621,16 +625,12 @@ video {
   top: 12px;
 }
 
-.top-\[84px\]{
-  top: 84px;
-}
-
-.left-\[2px\]{
-  left: 2px;
-}
-
 .top-\[2px\]{
   top: 2px;
+}
+
+.top-\[84px\]{
+  top: 84px;
 }
 
 .z-50{
@@ -640,11 +640,6 @@ video {
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-auto{
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .mb-\[28px\]{
@@ -699,10 +694,6 @@ video {
   margin-top: 24px;
 }
 
-.mt-\[26px\]{
-  margin-top: 26px;
-}
-
 .mt-\[28px\]{
   margin-top: 28px;
 }
@@ -719,20 +710,12 @@ video {
   margin-top: 52px;
 }
 
-.mt-\[22px\]{
-  margin-top: 22px;
-}
-
 .inline-block{
   display: inline-block;
 }
 
 .flex{
   display: flex;
-}
-
-.hidden{
-  display: none;
 }
 
 .h-10{
@@ -761,6 +744,14 @@ video {
 
 .h-\[134px\]{
   height: 134px;
+}
+
+.h-\[20px\]{
+  height: 20px;
+}
+
+.h-\[24px\]{
+  height: 24px;
 }
 
 .h-\[28px\]{
@@ -831,18 +822,6 @@ video {
   height: 100%;
 }
 
-.h-\[56px\]{
-  height: 56px;
-}
-
-.h-\[20px\]{
-  height: 20px;
-}
-
-.h-\[24px\]{
-  height: 24px;
-}
-
 .max-h-\[160px\]{
   max-height: 160px;
 }
@@ -887,12 +866,20 @@ video {
   width: 159px;
 }
 
+.w-\[20px\]{
+  width: 20px;
+}
+
 .w-\[242px\]{
   width: 242px;
 }
 
 .w-\[243px\]{
   width: 243px;
+}
+
+.w-\[24px\]{
+  width: 24px;
 }
 
 .w-\[271px\]{
@@ -929,14 +916,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-\[20px\]{
-  width: 20px;
-}
-
-.w-\[24px\]{
-  width: 24px;
 }
 
 .max-w-\[281px\]{
@@ -983,10 +962,6 @@ video {
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-\[28px\]{
-  gap: 28px;
 }
 
 .gap-\[14px\]{
@@ -1052,6 +1027,10 @@ video {
 .bg-accent{
   --tw-bg-opacity: 1;
   background-color: rgb(91 134 161 / var(--tw-bg-opacity));
+}
+
+.bg-backdrop{
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .bg-light{
@@ -1294,6 +1273,10 @@ video {
   transition-duration: 200ms;
 }
 
+.duration-300{
+  transition-duration: 300ms;
+}
+
 .rotate-y-0{
   transform: rotateY(0deg);
 }
@@ -1312,6 +1295,11 @@ video {
 
 .backface-hidden{
   backface-visibility: hidden;
+}
+
+.backdrop-hidden{
+  visibility: hidden;
+  opacity: 0;
 }
 
 .hover\:text-accent:hover{
