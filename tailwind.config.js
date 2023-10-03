@@ -50,6 +50,7 @@ module.exports = {
         light: "#F7FBFB",
         grey: "#A3A5A3",
         backdrop: "rgba(0, 0, 0, 0.2)",
+        dark_70: "rgba(32, 35, 33, 0.70)",
       },
       dropShadow: {
         text: "0px 4px 4px rgba(0, 0, 0, 0.25)",
