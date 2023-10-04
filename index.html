@@ -9,6 +9,11 @@
     />
     <link href="/public/styles.css" rel="stylesheet" />
     <title>Carpathians</title>
+    <style>
+      .swiper-pagination-bullet {
+        color: #000;
+      }
+    </style>
   </head>
   <body class="font-main">
     <!-- header + hero  -->
@@ -62,7 +67,7 @@
           <!--mobile nav popup -->
 
           <div
-            class="bg-dark_70 absolute left-0 top-0 h-screen w-[233px] -translate-x-full overflow-y-auto py-[20px] pl-[32px] transition-all duration-200"
+            class="absolute left-0 top-0 h-screen w-[233px] -translate-x-full overflow-y-auto bg-dark_70 py-[20px] pl-[32px] transition-all duration-200"
             data-menu
           >
             <a href="index.html">
@@ -446,7 +451,7 @@
           <!-- Slider main container -->
           <div
             class="swiper h-[579px] w-[375px] px-[32px]"
-            id="swiper-container-1"
+            id="swiper-upcoming-tours"
           >
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper h-[527px]">
@@ -493,6 +498,7 @@
                   <button
                     type="button"
                     class="mt-[20px] inline-block h-[53px] w-[271px] bg-accent p-[10px] text-16 font-medium text-light"
+                    id="bukovel-details-button"
                   >
                     MORE DETAILS
                   </button>
@@ -517,6 +523,7 @@
                   <button
                     type="button"
                     class="mt-[20px] inline-block h-[53px] w-[271px] bg-accent p-[10px] text-16 font-medium text-light"
+                    id="hoverla-details-button"
                   >
                     MORE DETAILS
                   </button>
@@ -544,6 +551,236 @@
                   d="M7.628 16.5a.666.666 0 0 0 .445-.177l6.244-6.152a.62.62 0 0 0 0-.876L8.073 3.143a.641.641 0 0 0-.848.041.613.613 0 0 0-.041.836l5.807 5.714-5.807 5.714a.62.62 0 0 0 0 .876.666.666 0 0 0 .445.177z"
                 />
               </svg>
+            </div>
+          </div>
+
+          <!-- Upcoming details -->
+
+          <!-- Hoverla details -->
+          <div
+            class="mx-auto hidden h-[624px] w-[375px]"
+            id="tour-hoverla-detail"
+          >
+            <div class="swiper swiper-tour-detail h-[480px] px-[30px]">
+              <div class="swiper-wrapper">
+                <div
+                  class="swiper-slide bg-tour-detail-hoverla-mob-1 w-[315px] pt-[56px]"
+                >
+                  <h3 class="text-18 pl-[48px] font-semibold text-light">
+                    Ascent to Hoverla
+                  </h3>
+                  <p
+                    class="mt-[12px] h-[48px] w-[278px] rounded-br-[8px] rounded-tr-[8px] bg-accent py-[14px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    1 day
+                  </p>
+                  <div
+                    class="mt-[12px] flex flex-col gap-[12px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    <p>Departure from Lviv</p>
+                    <p>Manyava Hermitage</p>
+                    <p>Manyava waterfall</p>
+                    <p>Arrival to Bukovel</p>
+                    <p>Check-in</p>
+                    <p>Dinner</p>
+                    <p>Evening by the fireplace</p>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide bg-tour-detail-hoverla-mob-2 w-[315px] pt-[56px]"
+                >
+                  <h3 class="text-18 pl-[48px] font-semibold text-light">
+                    Ascent to Hoverla
+                  </h3>
+                  <p
+                    class="mt-[12px] h-[48px] w-[278px] rounded-br-[8px] rounded-tr-[8px] bg-accent py-[14px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    2 day
+                  </p>
+                  <div
+                    class="mt-[12px] flex flex-col gap-[12px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    <p>Breakfast</p>
+                    <p>Ascent to Hoverla</p>
+                    <p>Dinner</p>
+                    <p>Reacretion</p>
+                    <p>Sauna</p>
+                    <p>Dinner</p>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide bg-tour-detail-hoverla-mob-3 w-[315px] pt-[56px]"
+                >
+                  <h3 class="text-18 pl-[48px] font-semibold text-light">
+                    Ascent to Hoverla
+                  </h3>
+                  <p
+                    class="mt-[12px] h-[48px] w-[278px] rounded-br-[8px] rounded-tr-[8px] bg-accent py-[14px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    3 day
+                  </p>
+                  <div
+                    class="mt-[12px] flex flex-col gap-[12px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    <p>Breakfast</p>
+                    <p>A walk around Bukovel</p>
+                    <p>Check out from the hotel</p>
+                    <p>Yaremche</p>
+                    <p>Arrival in Lviv</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+
+              <button
+                type="button"
+                class="absolute right-[42px] top-[12px] z-10"
+                data-tour-detail-close
+              >
+                <svg
+                  class="h-[30px] w-[30px] text-light transition-all duration-200 hover:text-accent"
+                  aria-hidden="true"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 15 5 5m10 0L5 15"
+                  />
+                </svg>
+                <span class="sr-only">Close modal</span>
+              </button>
+            </div>
+
+            <div class="bg-light px-[15px] py-[28px] text-center">
+              <p class="text-16 font-semibold text-secondary">
+                UAH 4,499/person
+              </p>
+              <button
+                type="button"
+                class="mx-auto mt-[16px] inline-block h-[52px] w-[285px] bg-accent p-[10px] text-16 font-medium text-light"
+              >
+                BOOK A TOUR
+              </button>
+            </div>
+          </div>
+
+          <!-- Bukovel details -->
+          <div
+            class="mx-auto hidden h-[624px] w-[375px]"
+            id="tour-bukovel-detail"
+          >
+            <div class="swiper swiper-tour-detail h-[480px] px-[30px]">
+              <div class="swiper-wrapper">
+                <div
+                  class="swiper-slide bg-tour-detail-hoverla-mob-1 w-[315px] pt-[56px]"
+                >
+                  <h3 class="text-18 pl-[48px] font-semibold text-light">
+                    Ascent to Hoverla
+                  </h3>
+                  <p
+                    class="mt-[12px] h-[48px] w-[278px] rounded-br-[8px] rounded-tr-[8px] bg-accent py-[14px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    1 day
+                  </p>
+                  <div
+                    class="mt-[12px] flex flex-col gap-[12px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    <p>Departure from Lviv</p>
+                    <p>Manyava Hermitage</p>
+                    <p>Manyava waterfall</p>
+                    <p>Arrival to Bukovel</p>
+                    <p>Check-in</p>
+                    <p>Dinner</p>
+                    <p>Evening by the fireplace</p>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide bg-tour-detail-hoverla-mob-2 w-[315px] pt-[56px]"
+                >
+                  <h3 class="text-18 pl-[48px] font-semibold text-light">
+                    Ascent to Hoverla
+                  </h3>
+                  <p
+                    class="mt-[12px] h-[48px] w-[278px] rounded-br-[8px] rounded-tr-[8px] bg-accent py-[14px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    2 day
+                  </p>
+                  <div
+                    class="mt-[12px] flex flex-col gap-[12px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    <p>Breakfast</p>
+                    <p>Ascent to Hoverla</p>
+                    <p>Dinner</p>
+                    <p>Reacretion</p>
+                    <p>Sauna</p>
+                    <p>Dinner</p>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide bg-tour-detail-hoverla-mob-3 w-[315px] pt-[56px]"
+                >
+                  <h3 class="text-18 pl-[48px] font-semibold text-light">
+                    Ascent to Hoverla
+                  </h3>
+                  <p
+                    class="mt-[12px] h-[48px] w-[278px] rounded-br-[8px] rounded-tr-[8px] bg-accent py-[14px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    3 day
+                  </p>
+                  <div
+                    class="mt-[12px] flex flex-col gap-[12px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    <p>Breakfast</p>
+                    <p>A walk around Bukovel</p>
+                    <p>Check out from the hotel</p>
+                    <p>Yaremche</p>
+                    <p>Arrival in Lviv</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+
+              <button
+                type="button"
+                class="absolute right-[42px] top-[12px] z-10"
+                data-tour-detail-close
+              >
+                <svg
+                  class="h-[30px] w-[30px] text-light transition-all duration-200 hover:text-accent"
+                  aria-hidden="true"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 15 5 5m10 0L5 15"
+                  />
+                </svg>
+                <span class="sr-only">Close modal</span>
+              </button>
+            </div>
+
+            <div class="bg-light px-[15px] py-[28px] text-center">
+              <p class="text-16 font-semibold text-secondary">
+                UAH 7,499/person
+              </p>
+              <button
+                type="button"
+                class="mx-auto mt-[16px] inline-block h-[52px] w-[285px] bg-accent p-[10px] text-16 font-medium text-light"
+              >
+                BOOK A TOUR
+              </button>
             </div>
           </div>
         </section>
@@ -930,8 +1167,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script type="module" src="./src/js/burger.js"></script>
-    <script type="module" src="./src/js/swiper.js"></script>
-    <script type="module" src="./src/js/flipCard.js"></script>
     <script type="module" src="./src/js/modal.js"></script>
+    <script type="module" src="./src/js/swiper.js"></script>
+    <script type="module" src="./src/js/tours.js"></script>
+    <script type="module" src="./src/js/flipCard.js"></script>
   </body>
 </html>

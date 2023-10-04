@@ -27,6 +27,14 @@ const Myclass = plugin(function ({ addUtilities }) {
       visibility: "hidden",
       opacity: 0,
     },
+    ".swiper-pagination-bullet": {
+      width: "12px",
+      height: "12px",
+      color: "#000",
+    },
+    ".swiper-pagination-bullet-active": {
+      "--swiper-pagination-bullet-size": "28px",
+    },
   });
 });
 
@@ -64,11 +72,26 @@ module.exports = {
           "url('./images/mobile/Review_mob-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
         "question-mob":
           "url('./images/mobile/question_mob-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
+        "tour-detail-hoverla-mob-1":
+          "url('./images/mobile/tour-hoverla-detail-1-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
+        "tour-detail-hoverla-mob-2":
+          "url('./images/mobile/tour-hoverla-detail-2-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
+        "tour-detail-hoverla-mob-3":
+          "url('./images/mobile/tour-hoverla-detail-3-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
+        "tour-detail-bukovel-mob-1":
+          "url('./images/mobile/tour-bukovel-detail-1-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
+        "tour-detail-bukovel-mob-2":
+          "url('./images/mobile/tour-bukovel-detail-2-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
+        "tour-detail-bukovel-mob-3":
+          "url('./images/mobile/tour-bukovel-detail-3-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
+        "tour-detail-bukovel-mob-4":
+          "url('./images/mobile/tour-bukovel-detail-4-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8)",
       },
       fontSize: {
         14: ["14px", { lineHeight: "17px" }],
         16: ["16px", { lineHeight: "20px" }],
         "16l": ["16px", { lineHeight: "22px" }],
+        18: ["18px", { lineHeight: "22px" }],
         20: ["20px", { lineHeight: "24px" }],
         24: ["24px", { lineHeight: "29px" }],
         28: ["28px", { lineHeight: "34px" }],
