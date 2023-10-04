@@ -1,30 +1,33 @@
-const refs = {
+const ref = {
   upcomingTours: document.getElementById("swiper-upcoming-tours"),
-  tourHoverlaDetailButton: document.getElementById("hoverla-details-button"),
-  tourBukovelDetailButton: document.getElementById("bukovel-details-button"),
-  tourHoverlaDetail: document.getElementById("tour-hoverla-detail"),
-  tourBukovelDetail: document.getElementById("tour-bukovel-detail"),
-  tourDetailCloseButton: document.querySelector("[data-tour-detail-close]"),
 };
 
-refs.tourHoverlaDetailButton.addEventListener("click", getHoverlaTourDetail);
+// Hoverla tour
+const hoverlaRefs = {
+  detailButton: document.getElementById("hoverla-details-button"),
+  tourHoverlaDetail: document.getElementById("tour-hoverla-detail"),
+  closeButton: document.getElementById("hoverla-tour-close-button"),
+};
 
-function getHoverlaTourDetail() {
-  refs.upcomingTours.classList.add("hidden");
-  refs.tourHoverlaDetail.classList.remove("hidden");
+hoverlaRefs.detailButton.addEventListener("click", hoverlaTourToggle);
+hoverlaRefs.closeButton.addEventListener("click", hoverlaTourToggle);
+
+function hoverlaTourToggle() {
+  ref.upcomingTours.classList.toggle("hidden");
+  hoverlaRefs.tourHoverlaDetail.classList.toggle("hidden");
 }
 
-refs.tourBukovelDetailButton.addEventListener("click", getBukovelTourDetail);
+// Bukovel tour
+const bukovelRefs = {
+  detailButton: document.getElementById("bukovel-details-button"),
+  tourBukovelDetail: document.getElementById("tour-bukovel-detail"),
+  closeButton: document.getElementById("bukovel-tour-close-button"),
+};
 
-function getBukovelTourDetail() {
-  refs.upcomingTours.classList.add("hidden");
-  refs.tourHoverlaDetail.classList.remove("hidden");
-}
+bukovelRefs.detailButton.addEventListener("click", bukovelTourToggle);
+bukovelRefs.closeButton.addEventListener("click", bukovelTourToggle);
 
-refs.tourDetailCloseButton.addEventListener("click", closeAllToursDetails);
-
-function closeAllToursDetails() {
-  refs.tourHoverlaDetail.classList.add("hidden");
-  refs.tourBukovelDetail.classList.add("hidden");
-  refs.upcomingTours.classList.remove("hidden");
+function bukovelTourToggle() {
+  ref.upcomingTours.classList.toggle("hidden");
+  bukovelRefs.tourBukovelDetail.classList.toggle("hidden");
 }

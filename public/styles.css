@@ -958,6 +958,10 @@ video {
   width: 100%;
 }
 
+.w-\[300px\]{
+  width: 300px;
+}
+
 .max-w-\[281px\]{
   max-width: 281px;
 }
@@ -1142,6 +1146,22 @@ video {
 
 .bg-tour-detail-hoverla-mob-3{
   background-image: url('./images/mobile/tour-hoverla-detail-3-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-bukovel-mob-1{
+  background-image: url('./images/mobile/tour-bukovel-detail-1-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-bukovel-mob-2{
+  background-image: url('./images/mobile/tour-bukovel-detail-2-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-bukovel-mob-3{
+  background-image: url('./images/mobile/tour-bukovel-detail-3-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-bukovel-mob-4{
+  background-image: url('./images/mobile/tour-bukovel-detail-4-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
 }
 
 .bg-cover{
