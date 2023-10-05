@@ -934,6 +934,10 @@ video {
   width: 285px;
 }
 
+.w-\[300px\]{
+  width: 300px;
+}
+
 .w-\[30px\]{
   width: 30px;
 }
@@ -958,8 +962,12 @@ video {
   width: 100%;
 }
 
-.w-\[300px\]{
-  width: 300px;
+.w-\[255px\]{
+  width: 255px;
+}
+
+.w-\[237px\]{
+  width: 237px;
 }
 
 .max-w-\[281px\]{
@@ -1136,18 +1144,6 @@ video {
   background-image: url('./images/mobile/Review_mob-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
 }
 
-.bg-tour-detail-hoverla-mob-1{
-  background-image: url('./images/mobile/tour-hoverla-detail-1-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
-}
-
-.bg-tour-detail-hoverla-mob-2{
-  background-image: url('./images/mobile/tour-hoverla-detail-2-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
-}
-
-.bg-tour-detail-hoverla-mob-3{
-  background-image: url('./images/mobile/tour-hoverla-detail-3-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
-}
-
 .bg-tour-detail-bukovel-mob-1{
   background-image: url('./images/mobile/tour-bukovel-detail-1-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
 }
@@ -1162,6 +1158,46 @@ video {
 
 .bg-tour-detail-bukovel-mob-4{
   background-image: url('./images/mobile/tour-bukovel-detail-4-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-hoverla-mob-1{
+  background-image: url('./images/mobile/tour-hoverla-detail-1-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-hoverla-mob-2{
+  background-image: url('./images/mobile/tour-hoverla-detail-2-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-hoverla-mob-3{
+  background-image: url('./images/mobile/tour-hoverla-detail-3-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-carpathians-mob-1{
+  background-image: url('./images/mobile/tour-carpathians-detail-1-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-carpathians-mob-2{
+  background-image: url('./images/mobile/tour-carpathians-detail-2-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-carpathians-mob-3{
+  background-image: url('./images/mobile/tour-carpathians-detail-3-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-carpathians-mob-4{
+  background-image: url('./images/mobile/tour-carpathians-detail-4-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-carpathians-mob-5{
+  background-image: url('./images/mobile/tour-carpathians-detail-5-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-carpathians-mob-6{
+  background-image: url('./images/mobile/tour-carpathians-detail-6-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
+}
+
+.bg-tour-detail-carpathians-mob-7{
+  background-image: url('./images/mobile/tour-carpathians-detail-7-min.jpg'), linear-gradient(to top right, #475569, #64748b, #94a3b8);
 }
 
 .bg-cover{
