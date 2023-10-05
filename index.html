@@ -474,6 +474,7 @@
                   <button
                     type="button"
                     class="mt-[20px] inline-block h-[53px] w-[271px] bg-accent p-[10px] text-16 font-medium text-light"
+                    id="carpathians-details-button"
                   >
                     MORE DETAILS
                   </button>
@@ -564,9 +565,9 @@
             <div class="swiper swiper-tour-detail h-[480px] px-[30px]">
               <div class="swiper-wrapper">
                 <div
-                  class="swiper-slide bg-tour-detail-hoverla-mob-1 w-[315px] pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-hoverla-mob-1 pt-[56px]"
                 >
-                  <h3 class="text-18 pl-[48px] font-semibold text-light">
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ascent to Hoverla
                   </h3>
                   <p
@@ -588,9 +589,9 @@
                 </div>
 
                 <div
-                  class="swiper-slide bg-tour-detail-hoverla-mob-2 w-[315px] pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-hoverla-mob-2 pt-[56px]"
                 >
-                  <h3 class="text-18 pl-[48px] font-semibold text-light">
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ascent to Hoverla
                   </h3>
                   <p
@@ -611,9 +612,9 @@
                 </div>
 
                 <div
-                  class="swiper-slide bg-tour-detail-hoverla-mob-3 w-[315px] pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-hoverla-mob-3 pt-[56px]"
                 >
-                  <h3 class="text-18 pl-[48px] font-semibold text-light">
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ascent to Hoverla
                   </h3>
                   <p
@@ -639,7 +640,6 @@
                 type="button"
                 class="absolute right-[42px] top-[12px] z-10"
                 id="hoverla-tour-close-button"
-             
               >
                 <svg
                   class="h-[30px] w-[30px] text-light transition-all duration-200 hover:text-accent"
@@ -679,9 +679,9 @@
             <div class="swiper swiper-tour-detail h-[480px] px-[30px]">
               <div class="swiper-wrapper">
                 <div
-                  class="swiper-slide bg-tour-detail-bukovel-mob-1 w-[315px] pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-bukovel-mob-1 pt-[56px]"
                 >
-                  <h3 class="text-18 pl-[48px] font-semibold text-light">
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ski tour to Bukovel
                   </h3>
                   <p
@@ -703,9 +703,9 @@
                 </div>
 
                 <div
-                  class="swiper-slide bg-tour-detail-bukovel-mob-2 w-[315px] pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-bukovel-mob-2 pt-[56px]"
                 >
-                  <h3 class="text-18 pl-[48px] font-semibold text-light">
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ski tour to Bukovel
                   </h3>
                   <p
@@ -726,9 +726,9 @@
                 </div>
 
                 <div
-                  class="swiper-slide bg-tour-detail-bukovel-mob-3 w-[315px] pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-bukovel-mob-3 pt-[56px]"
                 >
-                  <h3 class="text-18 pl-[48px] font-semibold text-light">
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ski tour to Bukovel
                   </h3>
                   <p
@@ -749,9 +749,9 @@
                 </div>
 
                 <div
-                  class="swiper-slide bg-tour-detail-bukovel-mob-4 w-[315px] pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-bukovel-mob-4 pt-[56px]"
                 >
-                  <h3 class="text-18 pl-[48px] font-semibold text-light">
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ski tour to Bukovel
                   </h3>
                   <p
@@ -798,6 +798,209 @@
             <div class="bg-light px-[15px] py-[28px] text-center">
               <p class="text-16 font-semibold text-secondary">
                 UAH 7,499/person
+              </p>
+              <button
+                type="button"
+                class="mx-auto mt-[16px] inline-block h-[52px] w-[285px] bg-accent p-[10px] text-16 font-medium text-light"
+              >
+                BOOK A TOUR
+              </button>
+            </div>
+          </div>
+
+          <!-- Carpathians details -->
+          <div
+            class="mx-auto hidden h-[624px] w-[375px]"
+            id="tour-carpathians-detail"
+          >
+            <div class="swiper swiper-tour-detail h-[480px] px-[30px]">
+              <div class="swiper-wrapper">
+                <div
+                  class="swiper-slide bg-tour-detail-carpathians-mob-1 w-[315px] pt-[56px]"
+                >
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
+                    Week in Carpathians
+                  </h3>
+                  <p
+                    class="mt-[12px] h-[48px] w-[255px] rounded-br-[8px] rounded-tr-[8px] bg-accent py-[14px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    1 day
+                  </p>
+                  <div
+                    class="mt-[12px] flex flex-col gap-[12px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    <p>Departure from Lviv</p>
+                    <p>Dovbush rocks</p>
+                    <p>Lunch</p>
+                    <p>Tustan fortress</p>
+                    <p>Check-in</p>
+                    <p>Dinner</p>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide bg-tour-detail-carpathians-mob-2 w-[315px] pt-[56px]"
+                >
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
+                    Week in Carpathians
+                  </h3>
+                  <p
+                    class="mt-[12px] h-[48px] w-[255px] rounded-br-[8px] rounded-tr-[8px] bg-accent py-[14px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    2 day
+                  </p>
+                  <div
+                    class="mt-[12px] flex flex-col gap-[12px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    <p>Breakfast</p>
+                    <p>Lake Synevyr</p>
+                    <p>Ecopark “Valley of Wolves”</p>
+                    <p>Lunch</p>
+                    <p>Excursion to Kolochava</p>
+                    <p>Dinner</p>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide bg-tour-detail-carpathians-mob-3 w-[315px] pt-[56px]"
+                >
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
+                    Week in Carpathians
+                  </h3>
+                  <p
+                    class="mt-[12px] h-[48px] w-[255px] rounded-br-[8px] rounded-tr-[8px] bg-accent py-[14px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    3 day
+                  </p>
+                  <div
+                    class="mt-[12px] flex flex-col gap-[12px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    <p>Breakfast</p>
+                    <p>Shipit waterfall</p>
+                    <p>Gimba mountain</p>
+                    <p>Recreation</p>
+                    <p>Dinner</p>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide bg-tour-detail-carpathians-mob-4 w-[315px] pt-[56px]"
+                >
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
+                    Week in Carpathians
+                  </h3>
+                  <p
+                    class="mt-[12px] h-[48px] w-[255px] rounded-br-[8px] rounded-tr-[8px] bg-accent py-[14px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    4 day
+                  </p>
+                  <div
+                    class="mt-[12px] flex flex-col gap-[12px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    <p>Breakfast</p>
+                    <p>Deer farm in Iza</p>
+                    <p>Warm waters in Velyatino</p>
+                    <p>Geographical center of Europe</p>
+                    <p>Dinner</p>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide bg-tour-detail-carpathians-mob-5 w-[315px] pt-[56px]"
+                >
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
+                    Week in Carpathians
+                  </h3>
+                  <p
+                    class="mt-[12px] h-[48px] w-[255px] rounded-br-[8px] rounded-tr-[8px] bg-accent py-[14px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    5 day
+                  </p>
+                  <div
+                    class="mt-[12px] flex flex-col gap-[12px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    <p>Breakfast</p>
+                    <p>Ascent to Hoverla</p>
+                    <p>Recreation</p>
+                    <p>Dinner</p>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide bg-tour-detail-carpathians-mob-6 w-[315px] pt-[56px]"
+                >
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
+                    Week in Carpathians
+                  </h3>
+                  <p
+                    class="mt-[12px] h-[48px] w-[255px] rounded-br-[8px] rounded-tr-[8px] bg-accent py-[14px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    6 day
+                  </p>
+                  <div
+                    class="mt-[12px] flex flex-col gap-[12px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    <p>Breakfast</p>
+                    <p class="w-[237px]">
+                      Hut-museum from the "Shadows of Forgotten Ancestors"
+                    </p>
+                    <p>Lunch</p>
+                    <p>Rafting of free time</p>
+                    <p>Dinner</p>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide bg-tour-detail-carpathians-mob-7 w-[315px] pt-[56px]"
+                >
+                  <h3 class="pl-[48px] text-18 font-semibold text-light">
+                    Week in Carpathians
+                  </h3>
+                  <p
+                    class="mt-[12px] h-[48px] w-[255px] rounded-br-[8px] rounded-tr-[8px] bg-accent py-[14px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    7 day
+                  </p>
+                  <div
+                    class="mt-[12px] flex flex-col gap-[12px] pl-[48px] text-16 font-medium text-light"
+                  >
+                    <p>Breakfast</p>
+                    <p>Dovbush trail</p>
+                    <p>Souvenir fair</p>
+                    <p>Lunch</p>
+                    <p>Probij waterfall</p>
+                    <p>Return to Lviv</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+
+              <button
+                type="button"
+                class="absolute right-[42px] top-[12px] z-10"
+                id="carpathians-tour-close-button"
+              >
+                <svg
+                  class="h-[30px] w-[30px] text-light transition-all duration-200 hover:text-accent"
+                  aria-hidden="true"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 15 5 5m10 0L5 15"
+                  />
+                </svg>
+                <span class="sr-only">Close modal</span>
+              </button>
+            </div>
+
+            <div class="bg-light px-[15px] py-[28px] text-center">
+              <p class="text-16 font-semibold text-secondary">
+                UAH 9,999/person
               </p>
               <button
                 type="button"
