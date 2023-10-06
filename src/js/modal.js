@@ -22,11 +22,11 @@ function heroCloseModal() {
   refs.body.classList.remove("overflow-hidden");
 }
 
-function heroToggleModal() {
-  refs.heroModal.classList.toggle("hidden");
-  refs.heroModal.classList.toggle("flex");
-  refs.body.classList.toggle("overflow-hidden");
-}
+// function heroToggleModal() {
+//   refs.heroModal.classList.toggle("hidden");
+//   refs.heroModal.classList.toggle("flex");
+//   refs.body.classList.toggle("overflow-hidden");
+// }
 
 window.addEventListener("keydown", handleKeyDown);
 
