@@ -12,5 +12,7 @@
     --swiper-pagination-bottom: 20px;
     --swiper-pagination-bullet-inactive-color: #a3a5a3;
     --swiper-pagination-bullet-inactive-opacity: 1;
+
+    --bg-gradient: linear-gradient(to top right, #475569, #64748b, #94a3b8);
   }
 }
