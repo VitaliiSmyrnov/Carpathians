@@ -8,6 +8,10 @@ const swiperUpcomingTours = new Swiper("#swiper-upcoming-tours", {
   //   nextEl: ".swiper-button-next",
   //   prevEl: ".swiper-button-prev",
   // },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
   navigation: {
     nextEl: ".swiper-next-1",
     prevEl: ".swiper-prev-1",
@@ -22,26 +26,45 @@ const swiperUpcomingTours = new Swiper("#swiper-upcoming-tours", {
   initialSlide: 2,
 });
 
-const swiperTourDetails = new Swiper(".swiper-tour-detail", {
+const swiperUpcomingToursDetails = new Swiper(".swiper-tour-detail", {
   // Optional parameters
   direction: "horizontal",
   loop: false,
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     type: "bullets",
+    clickable: true,
     // bulletClass: "bg-amber-400",
     // bulletActiveClass: "bg-green-400",
+    // renderBullet: function () {
+    //   return '<span class="w-[20px] h-[20px] text-light inline-block z-20"></span>';
+    // },
+    // renderBullet: function () {
+    //   return '<span class="bullet"></span>';
+    // },
   },
+  bulletClass: "bullet",
+  // renderBullet: function (className) {
+  //   return '<span class="' + className + '"></span>';
+  // },
   spaceBetween: 23,
   slidesPerView: "auto",
   centeredSlides: true,
   centeredSlidesBounds: true,
 });
 
-const swiper2 = new Swiper("#swiper-container-2", {
+const swiperGallery = new Swiper("#swiper-gallery", {
   // Optional parameters
   direction: "horizontal",
   loop: false,
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
   navigation: {
     nextEl: ".swiper-next-2",
     prevEl: ".swiper-prev-2",

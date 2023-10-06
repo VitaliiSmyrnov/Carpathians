@@ -27,14 +27,6 @@ const Myclass = plugin(function ({ addUtilities }) {
       visibility: "hidden",
       opacity: 0,
     },
-    ".swiper-pagination-bullet": {
-      width: "12px",
-      height: "12px",
-      color: "#000",
-    },
-    ".swiper-pagination-bullet-active": {
-      "--swiper-pagination-bullet-size": "28px",
-    },
   });
 });
 
