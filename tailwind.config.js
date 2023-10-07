@@ -38,7 +38,9 @@ module.exports = {
         md: "768px",
         lg: "1440px",
         xl: "1920px",
-        dd: "@media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx)",
+        dpr: {
+          raw: "screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx)",
+        },
       },
       fontFamily: {
         main: ["Montserrat", "sans-serif"],
@@ -70,42 +72,76 @@ module.exports = {
       backgroundImage: {
         "hero-mob":
           "url('./images/mobile/hero_mob-min.jpg'), var(--bg-gradient)",
-        "hero-mob2":
+        "hero-mob2x":
           "url('./images/mobile/hero_mob-min@2x.jpg'), var(--bg-gradient)",
         "advantages-mob":
           "url('./images/mobile/advantages_mob-min.jpg'), var(--bg-gradient)",
+        "advantages-mob2x":
+          "url('./images/mobile/advantages_mob-min@2x.jpg'), var(--bg-gradient)",
         "review-mob":
           "url('./images/mobile/Review_mob-min.jpg'), var(--bg-gradient)",
+        "review-mob2x":
+          "url('./images/mobile/Review_mob-min@2x.jpg'), var(--bg-gradient)",
         "question-mob":
           "url('./images/mobile/question_mob-min.jpg'), var(--bg-gradient)",
+        "question-mob2x":
+          "url('./images/mobile/question_mob-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob-1":
           "url('./images/mobile/tour-hoverla-detail-1-min.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-mob2x-1":
+          "url('./images/mobile/tour-hoverla-detail-1-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob-2":
           "url('./images/mobile/tour-hoverla-detail-2-min.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-mob2x-2":
+          "url('./images/mobile/tour-hoverla-detail-2-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob-3":
           "url('./images/mobile/tour-hoverla-detail-3-min.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-mob2x-3":
+          "url('./images/mobile/tour-hoverla-detail-3-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob-1":
           "url('./images/mobile/tour-bukovel-detail-1-min.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-mob2x-1":
+          "url('./images/mobile/tour-bukovel-detail-1-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob-2":
           "url('./images/mobile/tour-bukovel-detail-2-min.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-mob2x-2":
+          "url('./images/mobile/tour-bukovel-detail-2-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob-3":
           "url('./images/mobile/tour-bukovel-detail-3-min.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-mob2x-3":
+          "url('./images/mobile/tour-bukovel-detail-3-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob-4":
           "url('./images/mobile/tour-bukovel-detail-4-min.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-mob2x-4":
+          "url('./images/mobile/tour-bukovel-detail-4-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-1":
           "url('./images/mobile/tour-carpathians-detail-1-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-mob2x-1":
+          "url('./images/mobile/tour-carpathians-detail-1-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-2":
           "url('./images/mobile/tour-carpathians-detail-2-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-mob2x-2":
+          "url('./images/mobile/tour-carpathians-detail-2-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-3":
           "url('./images/mobile/tour-carpathians-detail-3-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-mob2x-3":
+          "url('./images/mobile/tour-carpathians-detail-3-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-4":
           "url('./images/mobile/tour-carpathians-detail-4-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-mob2x-4":
+          "url('./images/mobile/tour-carpathians-detail-4-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-5":
           "url('./images/mobile/tour-carpathians-detail-5-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-mob2x-5":
+          "url('./images/mobile/tour-carpathians-detail-5-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-6":
           "url('./images/mobile/tour-carpathians-detail-6-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-mob2x-6":
+          "url('./images/mobile/tour-carpathians-detail-6-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-7":
           "url('./images/mobile/tour-carpathians-detail-7-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-mob2x-7":
+          "url('./images/mobile/tour-carpathians-detail-7-min@2x.jpg'), var(--bg-gradient)",
       },
     },
   },
