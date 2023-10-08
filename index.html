@@ -15,14 +15,14 @@
 
     <div>
       <div
-        class="dpr:bg-hero-mob2x relative mx-auto min-h-screen w-full bg-hero-mob bg-cover bg-center bg-no-repeat"
+        class="md:bg-hero-tab md:dpr:bg-hero-tab2x lg:bg-hero-desk-1440 lg:dpr:bg-hero-desk-1440-2x xl:bg-hero-desk-1920 xl:dpr:bg-hero-desk-1920-2x relative mx-auto min-h-screen w-full bg-hero-mob bg-cover bg-center bg-no-repeat dpr:bg-hero-mob2x"
       >
         <header
-          class="flex w-full items-center justify-between px-[32px] py-[20px]"
+          class="flex w-full items-center justify-between px-[32px] py-[20px] md:px-[20px] md:py-[24px]"
         >
           <a href="index.html" data-logo>
             <svg
-              class="h-10 w-10 fill-current text-light transition-all duration-200 hover:text-accent"
+              class="md:svg-60 h-10 w-10 fill-current text-light transition-all duration-200 hover:text-accent"
               viewBox="0 0 20 20"
             >
               <path
@@ -62,12 +62,12 @@
           <!--mobile nav popup -->
 
           <div
-            class="absolute left-0 top-0 h-screen w-[233px] -translate-x-full overflow-y-auto bg-dark_70 py-[20px] pl-[32px] transition-all duration-200"
+            class="absolute left-0 top-0 h-screen w-[233px] -translate-x-full overflow-y-auto bg-dark_70 py-[20px] pl-[32px] transition-all duration-200 md:w-[374px] md:py-[24px] md:pl-[82px]"
             data-menu
           >
             <a href="index.html">
               <svg
-                class="h-10 w-10 fill-current text-light transition-all duration-200 hover:text-accent"
+                class="md:svg-60 h-10 w-10 fill-current text-light transition-all duration-200 hover:text-accent"
                 viewBox="0 0 20 20"
               >
                 <path
@@ -76,7 +76,9 @@
               </svg>
             </a>
 
-            <ul class="mt-[72px] flex flex-col gap-[30px]">
+            <ul
+              class="mt-[72px] flex flex-col gap-[30px] md:mt-[100px] md:gap-[40px]"
+            >
               <li>
                 <a
                   href="#about-us"
@@ -114,7 +116,9 @@
               </li>
             </ul>
 
-            <ul class="mt-[64px] flex flex-col gap-[32px]">
+            <ul
+              class="mt-[64px] flex flex-col gap-[32px] md:mt-[80px] md:flex-row"
+            >
               <li>
                 <a
                   href="#"
@@ -352,7 +356,7 @@
           </h2>
 
           <div
-            class="dpr:bg-advantages-mob2x flex h-[554px] w-full items-center bg-advantages-mob bg-cover bg-center bg-no-repeat"
+            class="flex h-[554px] w-full items-center bg-advantages-mob bg-cover bg-center bg-no-repeat dpr:bg-advantages-mob2x"
           >
             <ul class="basis-full">
               <li class="flex h-[40px] w-full items-center bg-accent pl-[30px]">
@@ -563,7 +567,7 @@
             <div class="swiper swiper-tour-detail h-[480px] px-[30px]">
               <div class="swiper-wrapper">
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-hoverla-mob2x-1 w-[315px] bg-tour-detail-hoverla-mob-1 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-hoverla-mob-1 pt-[56px] dpr:bg-tour-detail-hoverla-mob2x-1"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ascent to Hoverla
@@ -587,7 +591,7 @@
                 </div>
 
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-hoverla-mob2x-2 w-[315px] bg-tour-detail-hoverla-mob-2 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-hoverla-mob-2 pt-[56px] dpr:bg-tour-detail-hoverla-mob2x-2"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ascent to Hoverla
@@ -610,7 +614,7 @@
                 </div>
 
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-hoverla-mob2x-3 w-[315px] bg-tour-detail-hoverla-mob-3 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-hoverla-mob-3 pt-[56px] dpr:bg-tour-detail-hoverla-mob2x-3"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ascent to Hoverla
@@ -677,7 +681,7 @@
             <div class="swiper swiper-tour-detail h-[480px] px-[30px]">
               <div class="swiper-wrapper">
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-bukovel-mob2x-1 w-[315px] bg-tour-detail-bukovel-mob-1 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-bukovel-mob-1 pt-[56px] dpr:bg-tour-detail-bukovel-mob2x-1"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ski tour to Bukovel
@@ -701,7 +705,7 @@
                 </div>
 
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-bukovel-mob2x-2 w-[315px] bg-tour-detail-bukovel-mob-2 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-bukovel-mob-2 pt-[56px] dpr:bg-tour-detail-bukovel-mob2x-2"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ski tour to Bukovel
@@ -724,7 +728,7 @@
                 </div>
 
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-bukovel-mob2x-3 w-[315px] bg-tour-detail-bukovel-mob-3 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-bukovel-mob-3 pt-[56px] dpr:bg-tour-detail-bukovel-mob2x-3"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ski tour to Bukovel
@@ -747,7 +751,7 @@
                 </div>
 
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-bukovel-mob2x-4 w-[315px] bg-tour-detail-bukovel-mob-4 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-bukovel-mob-4 pt-[56px] dpr:bg-tour-detail-bukovel-mob2x-4"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Ski tour to Bukovel
@@ -814,7 +818,7 @@
             <div class="swiper swiper-tour-detail h-[480px] px-[30px]">
               <div class="swiper-wrapper">
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-carpathians-mob2x-1 w-[315px] bg-tour-detail-carpathians-mob-1 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-carpathians-mob-1 pt-[56px] dpr:bg-tour-detail-carpathians-mob2x-1"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Week in Carpathians
@@ -837,7 +841,7 @@
                 </div>
 
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-carpathians-mob2x-2 w-[315px] bg-tour-detail-carpathians-mob-2 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-carpathians-mob-2 pt-[56px] dpr:bg-tour-detail-carpathians-mob2x-2"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Week in Carpathians
@@ -860,7 +864,7 @@
                 </div>
 
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-carpathians-mob2x-3 w-[315px] bg-tour-detail-carpathians-mob-3 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-carpathians-mob-3 pt-[56px] dpr:bg-tour-detail-carpathians-mob2x-3"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Week in Carpathians
@@ -882,7 +886,7 @@
                 </div>
 
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-carpathians-mob2x-4 w-[315px] bg-tour-detail-carpathians-mob-4 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-carpathians-mob-4 pt-[56px] dpr:bg-tour-detail-carpathians-mob2x-4"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Week in Carpathians
@@ -904,7 +908,7 @@
                 </div>
 
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-carpathians-mob2x-5 w-[315px] bg-tour-detail-carpathians-mob-5 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-carpathians-mob-5 pt-[56px] dpr:bg-tour-detail-carpathians-mob2x-5"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Week in Carpathians
@@ -925,7 +929,7 @@
                 </div>
 
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-carpathians-mob2x-6 w-[315px] bg-tour-detail-carpathians-mob-6 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-carpathians-mob-6 pt-[56px] dpr:bg-tour-detail-carpathians-mob2x-6"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Week in Carpathians
@@ -949,7 +953,7 @@
                 </div>
 
                 <div
-                  class="swiper-slide dpr:bg-tour-detail-carpathians-mob2x-7 w-[315px] bg-tour-detail-carpathians-mob-7 pt-[56px]"
+                  class="swiper-slide w-[315px] bg-tour-detail-carpathians-mob-7 pt-[56px] dpr:bg-tour-detail-carpathians-mob2x-7"
                 >
                   <h3 class="pl-[48px] text-18 font-semibold text-light">
                     Week in Carpathians
@@ -1038,7 +1042,7 @@
                 class="absolute h-full w-full overflow-hidden rotate-y-0 backface-hidden"
               >
                 <div
-                  class="dpr:bg-review-mob2x h-[134px] w-full bg-review-mob bg-cover bg-center bg-no-repeat"
+                  class="h-[134px] w-full bg-review-mob bg-cover bg-center bg-no-repeat dpr:bg-review-mob2x"
                 ></div>
 
                 <img
@@ -1096,7 +1100,7 @@
                 class="absolute h-full w-full overflow-hidden rotate-y-0 backface-hidden"
               >
                 <div
-                  class="dpr:bg-review-mob2x h-[134px] w-full bg-review-mob bg-cover bg-center bg-no-repeat"
+                  class="h-[134px] w-full bg-review-mob bg-cover bg-center bg-no-repeat dpr:bg-review-mob2x"
                 ></div>
 
                 <img
@@ -1231,7 +1235,7 @@
 
         <section class="mt-[52px]">
           <div
-            class="dpr:bg-question-mob2x mx-auto flex h-[632px] w-[375px] items-center justify-center bg-question-mob bg-cover bg-center bg-no-repeat"
+            class="mx-auto flex h-[632px] w-[375px] items-center justify-center bg-question-mob bg-cover bg-center bg-no-repeat dpr:bg-question-mob2x"
           >
             <div class="h-[399px] w-[311px] bg-light px-[20px] py-[28px]">
               <h2
