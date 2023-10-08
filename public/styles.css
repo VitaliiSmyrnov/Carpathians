@@ -1499,13 +1499,70 @@ video {
   visibility: visible;
 }
 
-@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
-  .dpr\:bg-hero-mob2x{
-    background-image: url('./images/mobile/hero_mob-min@2x.jpg'), var(--bg-gradient);
+@media (min-width: 768px){
+  .md\:mt-\[100px\]{
+    margin-top: 100px;
   }
 
+  .md\:mt-\[80px\]{
+    margin-top: 80px;
+  }
+
+  .md\:w-\[374px\]{
+    width: 374px;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:gap-\[40px\]{
+    gap: 40px;
+  }
+
+  .md\:bg-hero-tab{
+    background-image: url('./images/tablet-opt/hero_tablet-min.jpg'), var(--bg-gradient);
+  }
+
+  .md\:px-\[20px\]{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .md\:py-\[24px\]{
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .md\:pl-\[82px\]{
+    padding-left: 82px;
+  }
+
+  .md\:svg-60{
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 1440px){
+  .lg\:bg-hero-desk-1440{
+    background-image: url('./images/desktop-opt/hero_desktop-1440-min.jpg'), var(--bg-gradient);
+  }
+}
+
+@media (min-width: 1920px){
+  .xl\:bg-hero-desk-1920{
+    background-image: url('./images/desktop-opt/hero_desktop-1920-min.jpg'), var(--bg-gradient);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
   .dpr\:bg-advantages-mob2x{
     background-image: url('./images/mobile/advantages_mob-min@2x.jpg'), var(--bg-gradient);
+  }
+
+  .dpr\:bg-hero-mob2x{
+    background-image: url('./images/mobile/hero_mob-min@2x.jpg'), var(--bg-gradient);
   }
 
   .dpr\:bg-question-mob2x{
@@ -1570,5 +1627,29 @@ video {
 
   .dpr\:bg-tour-detail-hoverla-mob2x-3{
     background-image: url('./images/mobile/tour-hoverla-detail-3-min@2x.jpg'), var(--bg-gradient);
+  }
+}
+
+@media (min-width: 768px){
+  @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
+    .md\:dpr\:bg-hero-tab2x{
+      background-image: url('./images/tablet-opt/hero_tablet-min@2x.jpg'), var(--bg-gradient);
+    }
+  }
+}
+
+@media (min-width: 1440px){
+  @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
+    .lg\:dpr\:bg-hero-desk-1440-2x{
+      background-image: url('./images/desktop-opt/hero_desktop-1440-min@2x.jpg'), var(--bg-gradient);
+    }
+  }
+}
+
+@media (min-width: 1920px){
+  @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
+    .xl\:dpr\:bg-hero-desk-1920-2x{
+      background-image: url('./images/desktop-opt/hero_desktop-1920-min@2x.jpg'), var(--bg-gradient);
+    }
   }
 }

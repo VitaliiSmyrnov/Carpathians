@@ -27,6 +27,10 @@ const Myclass = plugin(function ({ addUtilities }) {
       visibility: "hidden",
       opacity: 0,
     },
+    ".svg-60": {
+      width: "60px",
+      height: "60px",
+    },
   });
 });
 
@@ -74,6 +78,18 @@ module.exports = {
           "url('./images/mobile/hero_mob-min.jpg'), var(--bg-gradient)",
         "hero-mob2x":
           "url('./images/mobile/hero_mob-min@2x.jpg'), var(--bg-gradient)",
+        "hero-tab":
+          "url('./images/tablet-opt/hero_tablet-min.jpg'), var(--bg-gradient)",
+        "hero-tab2x":
+          "url('./images/tablet-opt/hero_tablet-min@2x.jpg'), var(--bg-gradient)",
+        "hero-desk-1440":
+          "url('./images/desktop-opt/hero_desktop-1440-min.jpg'), var(--bg-gradient)",
+        "hero-desk-1440-2x":
+          "url('./images/desktop-opt/hero_desktop-1440-min@2x.jpg'), var(--bg-gradient)",
+        "hero-desk-1920":
+          "url('./images/desktop-opt/hero_desktop-1920-min.jpg'), var(--bg-gradient)",
+        "hero-desk-1920-2x":
+          "url('./images/desktop-opt/hero_desktop-1920-min@2x.jpg'), var(--bg-gradient)",
         "advantages-mob":
           "url('./images/mobile/advantages_mob-min.jpg'), var(--bg-gradient)",
         "advantages-mob2x":
