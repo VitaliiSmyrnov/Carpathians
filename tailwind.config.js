@@ -76,6 +76,7 @@ module.exports = {
         28: ["28px", { lineHeight: "34px" }],
         32: ["32px", { lineHeight: "39px" }],
         40: ["40px", { lineHeight: "49px" }],
+        52: ["52px", { lineHeight: "63px" }],
         68: ["68px", { lineHeight: "83px" }],
       },
       backgroundImage: {

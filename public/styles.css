@@ -1520,12 +1520,8 @@ video {
     margin-top: 100px;
   }
 
-  .md\:mt-\[72px\]{
-    margin-top: 72px;
-  }
-
-  .md\:mt-\[80px\]{
-    margin-top: 80px;
+  .md\:mt-\[16px\]{
+    margin-top: 16px;
   }
 
   .md\:mt-\[24px\]{
@@ -1536,8 +1532,12 @@ video {
     margin-top: 32px;
   }
 
-  .md\:mt-\[16px\]{
-    margin-top: 16px;
+  .md\:mt-\[72px\]{
+    margin-top: 72px;
+  }
+
+  .md\:mt-\[80px\]{
+    margin-top: 80px;
   }
 
   .md\:h-\[56px\]{
@@ -1546,6 +1546,14 @@ video {
 
   .md\:h-\[581px\]{
     height: 581px;
+  }
+
+  .md\:w-\[186px\]{
+    width: 186px;
+  }
+
+  .md\:w-\[354px\]{
+    width: 354px;
   }
 
   .md\:w-\[374px\]{
@@ -1560,20 +1568,12 @@ video {
     width: 470px;
   }
 
-  .md\:w-\[728px\]{
-    width: 728px;
-  }
-
   .md\:w-\[478px\]{
     width: 478px;
   }
 
-  .md\:w-\[186px\]{
-    width: 186px;
-  }
-
-  .md\:w-\[354px\]{
-    width: 354px;
+  .md\:w-\[728px\]{
+    width: 728px;
   }
 
   .md\:max-w-\[374px\]{
@@ -1597,30 +1597,35 @@ video {
     padding-right: 20px;
   }
 
-  .md\:py-\[24px\]{
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-
   .md\:px-\[42px\]{
     padding-left: 42px;
     padding-right: 42px;
   }
 
-  .md\:pl-\[82px\]{
-    padding-left: 82px;
+  .md\:py-\[24px\]{
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .md\:pb-\[40px\]{
     padding-bottom: 40px;
   }
 
+  .md\:pl-\[20px\]{
+    padding-left: 20px;
+  }
+
+  .md\:pl-\[82px\]{
+    padding-left: 82px;
+  }
+
   .md\:pt-\[60px\]{
     padding-top: 60px;
   }
 
-  .md\:pl-\[20px\]{
-    padding-left: 20px;
+  .md\:text-18{
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .md\:text-20{
@@ -1628,19 +1633,19 @@ video {
     line-height: 24px;
   }
 
-  .md\:text-68{
-    font-size: 68px;
-    line-height: 83px;
-  }
-
   .md\:text-32{
     font-size: 32px;
     line-height: 39px;
   }
 
-  .md\:text-18{
-    font-size: 18px;
-    line-height: 22px;
+  .md\:text-68{
+    font-size: 68px;
+    line-height: 83px;
+  }
+
+  .md\:text-52{
+    font-size: 52px;
+    line-height: 63px;
   }
 
   .md\:svg-40{
