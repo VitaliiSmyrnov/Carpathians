@@ -100,6 +100,14 @@ module.exports = {
           "url('./images/mobile/advantages_mob-min.jpg'), var(--bg-gradient)",
         "advantages-mob2x":
           "url('./images/mobile/advantages_mob-min@2x.jpg'), var(--bg-gradient)",
+        "advantages-tab-1":
+          "url('./images/tablet-opt/advantages_tablet-1-min.jpg'), var(--bg-gradient)",
+        "advantages-tab2x-1":
+          "url('./images/tablet-opt/advantages_tablet-1-min@2x.jpg'), var(--bg-gradient)",
+        "advantages-tab-2":
+          "url('./images/tablet-opt/advantages_tablet-2-min.jpg'), var(--bg-gradient)",
+        "advantages-tab2x-2":
+          "url('./images/tablet-opt/advantages_tablet-2-min@2x.jpg'), var(--bg-gradient)",
         "review-mob":
           "url('./images/mobile/Review_mob-min.jpg'), var(--bg-gradient)",
         "review-mob2x":
