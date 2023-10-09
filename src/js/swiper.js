@@ -8,6 +8,12 @@ const swiperUpcomingTours = new Swiper("#swiper-upcoming-tours", {
   //   nextEl: ".swiper-button-next",
   //   prevEl: ".swiper-button-prev",
   // },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+  },
   keyboard: {
     enabled: true,
     onlyInViewport: false,

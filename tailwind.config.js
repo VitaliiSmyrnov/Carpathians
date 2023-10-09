@@ -27,6 +27,10 @@ const Myclass = plugin(function ({ addUtilities }) {
       visibility: "hidden",
       opacity: 0,
     },
+    ".svg-32": {
+      width: "32px",
+      height: "32px",
+    },
     ".svg-40": {
       width: "40px",
       height: "40px",

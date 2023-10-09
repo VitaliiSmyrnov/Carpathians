@@ -944,10 +944,6 @@ video {
   width: 255px;
 }
 
-.w-\[271px\]{
-  width: 271px;
-}
-
 .w-\[278px\]{
   width: 278px;
 }
@@ -1552,6 +1548,10 @@ video {
     margin-top: 32px;
   }
 
+  .md\:mt-\[40px\]{
+    margin-top: 40px;
+  }
+
   .md\:mt-\[72px\]{
     margin-top: 72px;
   }
@@ -1562,6 +1562,14 @@ video {
 
   .md\:block{
     display: block;
+  }
+
+  .md\:h-\[32px\]{
+    height: 32px;
+  }
+
+  .md\:h-\[357px\]{
+    height: 357px;
   }
 
   .md\:h-\[441px\]{
@@ -1576,12 +1584,24 @@ video {
     height: 581px;
   }
 
+  .md\:h-\[622px\]{
+    height: 622px;
+  }
+
   .md\:h-\[644px\]{
     height: 644px;
   }
 
   .md\:h-\[64px\]{
     height: 64px;
+  }
+
+  .md\:h-\[686px\]{
+    height: 686px;
+  }
+
+  .md\:w-\[104px\]{
+    width: 104px;
   }
 
   .md\:w-\[186px\]{
@@ -1640,16 +1660,16 @@ video {
     align-self: flex-end;
   }
 
-  .md\:bg-hero-tab{
-    background-image: url('./images/tablet-opt/hero_tablet-min.jpg'), var(--bg-gradient);
-  }
-
   .md\:bg-advantages-tab-1{
     background-image: url('./images/tablet-opt/advantages_tablet-1-min.jpg'), var(--bg-gradient);
   }
 
   .md\:bg-advantages-tab-2{
     background-image: url('./images/tablet-opt/advantages_tablet-2-min.jpg'), var(--bg-gradient);
+  }
+
+  .md\:bg-hero-tab{
+    background-image: url('./images/tablet-opt/hero_tablet-min.jpg'), var(--bg-gradient);
   }
 
   .md\:px-\[20px\]{
@@ -1665,6 +1685,26 @@ video {
   .md\:py-\[24px\]{
     padding-top: 24px;
     padding-bottom: 24px;
+  }
+
+  .md\:py-\[48px\]{
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .md\:px-\[0px\]{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .md\:px-\[10px\]{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .md\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .md\:pb-\[40px\]{
@@ -1697,6 +1737,11 @@ video {
     line-height: 24px;
   }
 
+  .md\:text-24{
+    font-size: 24px;
+    line-height: 29px;
+  }
+
   .md\:text-32{
     font-size: 32px;
     line-height: 39px;
@@ -1710,6 +1755,11 @@ video {
   .md\:text-68{
     font-size: 68px;
     line-height: 83px;
+  }
+
+  .md\:svg-32{
+    width: 32px;
+    height: 32px;
   }
 
   .md\:svg-40{
@@ -1811,16 +1861,16 @@ video {
 
 @media (min-width: 768px){
   @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
-    .md\:dpr\:bg-hero-tab2x{
-      background-image: url('./images/tablet-opt/hero_tablet-min@2x.jpg'), var(--bg-gradient);
-    }
-
     .md\:dpr\:bg-advantages-tab2x-1{
       background-image: url('./images/tablet-opt/advantages_tablet-1-min@2x.jpg'), var(--bg-gradient);
     }
 
     .md\:dpr\:bg-advantages-tab2x-2{
       background-image: url('./images/tablet-opt/advantages_tablet-2-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .md\:dpr\:bg-hero-tab2x{
+      background-image: url('./images/tablet-opt/hero_tablet-min@2x.jpg'), var(--bg-gradient);
     }
   }
 }

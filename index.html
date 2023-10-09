@@ -480,38 +480,59 @@
 
         <!-- Upcoming tours  -->
 
-        <section class="mx-auto mt-[52px]" id="tours">
-          <h2 class="mb-[28px] text-center text-32 font-normal text-primary">
+        <section class="mx-auto mt-[52px] md:mt-[80px]" id="tours">
+          <h2
+            class="md:text-52 mb-[28px] text-center text-32 font-normal text-primary md:mb-[40px]"
+          >
             Upcoming tours
           </h2>
 
           <!-- Slider main container -->
           <div
-            class="swiper h-[579px] w-[375px] px-[32px]"
+            class="swiper h-[579px] w-[375px] px-[32px] md:h-[686px] md:w-[728px] md:px-0"
             id="swiper-upcoming-tours"
           >
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper h-[527px]">
+            <div class="swiper-wrapper h-[527px] md:h-[622px] md:w-[728px]">
               <!-- Slides -->
-              <div class="swiper-slide w-[311px]">
-                <img
-                  src="./public/images/mobile/tour-pic_mob-3-min.jpg"
-                  alt="Snow hill for skiing in the mountains among the forest"
-                  loading="lazy"
-                  class="h-[338px] w-full object-cover"
-                />
+              <div class="swiper-slide w-[311px] md:w-[354px]">
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./public/images/mobile/tour-pic_mob-3-min.jpg    1x,
+                      ./public/images/mobile/tour-pic_mob-3-min@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./public/images/tablet-opt/tour-pic_tablet-3-min.jpg    1x,
+                      ./public/images/tablet-opt/tour-pic_tablet-3-min@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./public/images/mobile/tour-pic_mob-3-min.jpg"
+                    alt="Snow hill for skiing in the mountains among the forest"
+                    loading="lazy"
+                    class="h-[338px] w-full object-cover md:h-[357px]"
+                  />
+                </picture>
+
                 <div
-                  class="border-x border-b border-solid border-accent px-[20px] py-[28px]"
+                  class="border-x border-b border-solid border-accent px-[20px] py-[28px] md:py-[48px]"
                 >
-                  <h3 class="text-20 font-semibold text-primary">
+                  <h3 class="text-20 font-semibold text-primary md:text-24">
                     Week in Carpathians
                   </h3>
-                  <p class="mt-[16px] text-16 font-semibold text-secondary">
+                  <p
+                    class="mt-[16px] text-16 font-semibold text-secondary md:mt-[20px] md:text-20"
+                  >
                     From UAH 9,999/person
                   </p>
                   <button
                     type="button"
-                    class="mt-[20px] inline-block h-[53px] w-[271px] bg-accent p-[10px] text-16 font-medium text-light"
+                    class="mt-[20px] inline-block h-[53px] w-full bg-accent p-[10px] text-16 font-medium text-light md:mt-[40px] md:h-[56px] md:text-20"
                     id="carpathians-details-button"
                   >
                     MORE DETAILS
@@ -519,25 +540,44 @@
                 </div>
               </div>
 
-              <div class="swiper-slide w-[311px]">
-                <img
-                  src="./public/images/mobile/tour-pic_mob-2-min.jpg"
-                  alt="Snow hill for skiing in the mountains among the forest"
-                  loading="lazy"
-                  class="h-[338px] w-full object-cover"
-                />
+              <div class="swiper-slide w-[311px] md:w-[354px]">
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./public/images/mobile/tour-pic_mob-2-min.jpg    1x,
+                      ./public/images/mobile/tour-pic_mob-2-min@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./public/images/tablet-opt/tour-pic_tablet-2-min.jpg    1x,
+                      ./public/images/tablet-opt/tour-pic_tablet-2-min@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./public/images/mobile/tour-pic_mob-2-min.jpg"
+                    alt="Snow hill for skiing in the mountains among the forest"
+                    loading="lazy"
+                    class="h-[338px] w-full object-cover md:h-[357px]"
+                  />
+                </picture>
+
                 <div
-                  class="border-x border-b border-solid border-accent px-[20px] py-[28px]"
+                  class="border-x border-b border-solid border-accent px-[20px] py-[28px] md:py-[48px]"
                 >
-                  <h3 class="text-20 font-semibold text-primary">
+                  <h3 class="text-20 font-semibold text-primary md:text-24">
                     Ski tour to Bukovel
                   </h3>
-                  <p class="mt-[16px] text-16 font-semibold text-secondary">
+                  <p
+                    class="mt-[16px] text-16 font-semibold text-secondary md:mt-[20px] md:text-20"
+                  >
                     From UAH 7,499/person
                   </p>
                   <button
                     type="button"
-                    class="mt-[20px] inline-block h-[53px] w-[271px] bg-accent p-[10px] text-16 font-medium text-light"
+                    class="mt-[20px] inline-block h-[53px] w-full bg-accent p-[10px] text-16 font-medium text-light md:mt-[40px] md:h-[56px] md:text-20"
                     id="bukovel-details-button"
                   >
                     MORE DETAILS
@@ -545,25 +585,44 @@
                 </div>
               </div>
 
-              <div class="swiper-slide w-[311px]">
-                <img
-                  src="./public/images/mobile/tour-pic_mob-1-min.jpg"
-                  alt="In the mountains, a meadow with tents with a forest behind the meadow"
-                  loading="lazy"
-                  class="h-[338px] w-full object-cover"
-                />
+              <div class="swiper-slide w-[311px] md:w-[354px]">
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./public/images/mobile/tour-pic_mob-1-min.jpg    1x,
+                      ./public/images/mobile/tour-pic_mob-1-min@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./public/images/tablet-opt/tour-pic_tablet-1-min.jpg    1x,
+                      ./public/images/tablet-opt/tour-pic_tablet-1-min@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./public/images/mobile/tour-pic_mob-1-min.jpg"
+                    alt="In the mountains, a meadow with tents with a forest behind the meadow"
+                    loading="lazy"
+                    class="h-[338px] w-full object-cover md:h-[357px]"
+                  />
+                </picture>
+
                 <div
-                  class="border-x border-b border-solid border-accent px-[20px] py-[28px]"
+                  class="border-x border-b border-solid border-accent px-[20px] py-[28px] md:py-[48px]"
                 >
-                  <h3 class="text-20 font-semibold text-primary">
+                  <h3 class="text-20 font-semibold text-primary md:text-24">
                     Ascent to Hoverla
                   </h3>
-                  <p class="mt-[16px] text-16 font-semibold text-secondary">
+                  <p
+                    class="mt-[16px] text-16 font-semibold text-secondary md:mt-[20px] md:text-20"
+                  >
                     From UAH 4,499/person
                   </p>
                   <button
                     type="button"
-                    class="mt-[20px] inline-block h-[53px] w-[271px] bg-accent p-[10px] text-16 font-medium text-light"
+                    class="mt-[20px] inline-block h-[53px] w-full bg-accent p-[10px] text-16 font-medium text-light md:mt-[40px] md:h-[56px] md:text-20"
                     id="hoverla-details-button"
                   >
                     MORE DETAILS
@@ -573,10 +632,10 @@
             </div>
 
             <div
-              class="mx-auto mt-[24px] flex h-[28px] w-[96px] items-center justify-between"
+              class="mx-auto mt-[24px] flex h-[28px] w-[96px] items-center justify-between md:mt-[32px] md:h-[32px] md:w-[104px]"
             >
               <svg
-                class="swiper-prev-1 h-7 w-7 cursor-pointer fill-current text-grey transition-all duration-200 hover:text-accent"
+                class="swiper-prev-1 md:svg-32 h-7 w-7 cursor-pointer fill-current text-grey transition-all duration-200 hover:text-accent"
                 viewBox="0 0 20 20"
               >
                 <path
@@ -585,7 +644,7 @@
               </svg>
 
               <svg
-                class="swiper-next-1 h-7 w-7 cursor-pointer fill-current text-grey transition-all duration-200 hover:text-accent"
+                class="swiper-next-1 md:svg-32 h-7 w-7 cursor-pointer fill-current text-grey transition-all duration-200 hover:text-accent"
                 viewBox="0 0 20 20"
               >
                 <path
