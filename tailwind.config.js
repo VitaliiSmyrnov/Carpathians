@@ -116,6 +116,10 @@ module.exports = {
           "url('./images/mobile/Review_mob-min.jpg'), var(--bg-gradient)",
         "review-mob2x":
           "url('./images/mobile/Review_mob-min@2x.jpg'), var(--bg-gradient)",
+        "review-tab":
+          "url('./images/tablet-opt/review_tablet-min.jpg'), var(--bg-gradient)",
+        "review-tab2x":
+          "url('./images/tablet-opt/review_tablet-min@2x.jpg'), var(--bg-gradient)",
         "question-mob":
           "url('./images/mobile/question_mob-min.jpg'), var(--bg-gradient)",
         "question-mob2x":
