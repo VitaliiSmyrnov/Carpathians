@@ -27,6 +27,10 @@ const Myclass = plugin(function ({ addUtilities }) {
       visibility: "hidden",
       opacity: 0,
     },
+    ".svg-40": {
+      width: "40px",
+      height: "40px",
+    },
     ".svg-60": {
       width: "60px",
       height: "60px",
@@ -72,6 +76,7 @@ module.exports = {
         28: ["28px", { lineHeight: "34px" }],
         32: ["32px", { lineHeight: "39px" }],
         40: ["40px", { lineHeight: "49px" }],
+        68: ["68px", { lineHeight: "83px" }],
       },
       backgroundImage: {
         "hero-mob":
