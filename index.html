@@ -908,6 +908,7 @@
           </div>
 
           <!-- Carpathians details -->
+
           <div
             class="mx-auto hidden h-[624px] w-[375px]"
             id="tour-carpathians-detail"
@@ -1113,121 +1114,196 @@
 
         <!-- Reviews  -->
 
-        <section class="mx-auto mt-[52px] w-[311px]" id="reviews">
-          <h2 class="mb-[28px] text-center text-32 font-normal text-primary">
+        <section
+          class="mx-auto mt-[52px] w-[311px] md:mt-[80px] md:w-[728px]"
+          id="reviews"
+        >
+          <h2
+            class="md:text-52 mb-[28px] text-center text-32 font-normal text-primary md:mb-[40px]"
+          >
             Reviews
           </h2>
 
-          <div class="h-[452px] w-[311px] cursor-pointer perspective">
+          <div class="flex flex-col gap-[32px] md:flex-row md:gap-[20px]">
             <div
-              class="relative h-full w-full border border-solid border-accent duration-1000 preserve-3d"
-              id="review-card-1"
+              class="h-[452px] w-[311px] perspective md:h-[504px] md:w-[354px]"
             >
               <div
-                class="absolute h-full w-full is-flipped backface-hidden"
-                id="review-back-flip-toggle-1"
-              >
-                <img
-                  src="./public/images/mobile/review_back-mob-1.jpg"
-                  alt="Reviewer's backphoto"
-                  loading="lazy"
-                  class="h-full w-full"
-                />
-              </div>
-
-              <div
-                class="absolute h-full w-full overflow-hidden rotate-y-0 backface-hidden"
+                class="relative h-full w-full border border-solid border-accent duration-1000 preserve-3d"
+                id="review-card-1"
               >
                 <div
-                  class="h-[134px] w-full bg-review-mob bg-cover bg-center bg-no-repeat dpr:bg-review-mob2x"
-                ></div>
-
-                <img
-                  src="./public/images/mobile/reviewer_photo-mob-1-min.jpg"
-                  alt="Reviewer photo"
-                  loading="lazy"
-                  class="absolute left-[105px] top-[84px] h-[100px] w-[100px] rounded-full border border-solid border-accent object-cover"
-                />
-
-                <div class="px-[12px] pb-[12px] pt-[70px]">
-                  <h3 class="text-center text-20 font-semibold text-accent">
-                    Maria
-                  </h3>
-                  <p
-                    class="mx-auto mt-[16px] min-h-[160px] w-[242px] text-16 font-normal text-secondary"
-                  >
-                    It was really cool! We saw everything - sun, snow, rain,
-                    fog! It's very exciting and interesting, you won't regret it
-                    - it's worth going and seeing everything with your own eyes.
-                    Everything is organized at the highest level.
-                  </p>
-                  <svg
-                    class="ml-auto mt-1 h-8 w-8 cursor-pointer"
-                    viewBox="0 0 20 20"
-                    id="review-front-flip-toggle-1"
-                  >
-                    <path
-                      fill="#5b86a1"
-                      d="M10 5.833C5.4 5.833 1.667 7.7 1.667 10c0 1.867 2.45 3.442 5.833 3.975v1.683c0 .375.45.558.708.292l2.325-2.325a.412.412 0 0 0 0-.592l-2.325-2.325a.412.412 0 0 0-.454-.086.42.42 0 0 0-.255.387v1.267c-2.625-.467-4.167-1.583-4.167-2.275 0-.883 2.533-2.5 6.667-2.5s6.667 1.617 6.667 2.5c0 .55-1 1.4-2.767 1.95a.815.815 0 0 0-.567.783c0 .558.542.967 1.067.8 2.358-.733 3.933-2.042 3.933-3.533 0-2.3-3.733-4.167-8.333-4.167z"
+                  class="absolute h-full w-full cursor-pointer is-flipped backface-hidden"
+                  id="review-back-flip-toggle-1"
+                >
+                  <picture>
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./public/images/mobile/review_back-mob-1.jpg    1x,
+                        ./public/images/mobile/review_back-mob-1@2x.jpg 2x
+                      "
                     />
-                  </svg>
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./public/images/tablet-opt/review_back-tablet-1-min.jpg    1x,
+                        ./public/images/tablet-opt/review_back-tablet-1-min@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./public/images/mobile/review_back-mob-1.jpg"
+                      alt="Reviewer's backphoto"
+                      loading="lazy"
+                      class="h-full w-full"
+                    />
+                  </picture>
+                </div>
+
+                <div
+                  class="absolute h-full w-full overflow-hidden rotate-y-0 backface-hidden"
+                >
+                  <div
+                    class="md:bg-review-tab md:dpr:bg-review-tab2x h-[134px] w-full bg-review-mob bg-cover bg-center bg-no-repeat dpr:bg-review-mob2x"
+                  ></div>
+
+                  <picture>
+                    <source
+                      media="(max-width: 1439px)"
+                      srcset="
+                        ./public/images/mobile/reviewer_photo-mob-1-min.jpg    1x,
+                        ./public/images/mobile/reviewer_photo-mob-1-min@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./public/images/mobile/reviewer_photo-mob-1-min.jpg"
+                      alt="Reviewer photo"
+                      loading="lazy"
+                      class="absolute left-[105px] top-[84px] h-[100px] w-[100px] rounded-full border border-solid border-accent object-cover md:left-[127px]"
+                    />
+                  </picture>
+
+                  <div
+                    class="px-[35px] pb-[48px] pt-[70px] md:px-[20px] md:pb-[51px] md:pt-[74px]"
+                  >
+                    <h3
+                      class="text-center text-20 font-semibold text-accent md:text-24"
+                    >
+                      Maria
+                    </h3>
+                    <p
+                      class="mx-auto mt-[16px] min-h-[160px] w-[242px] text-16 font-normal text-secondary md:mt-[24px] md:min-h-[192px] md:w-[314px] md:text-20"
+                    >
+                      It was really cool! We saw everything - sun, snow, rain,
+                      fog! It's very exciting and interesting, you won't regret
+                      it - it's worth going and seeing everything with your own
+                      eyes. Everything is organized at the highest level.
+                    </p>
+                    <button
+                      type="button"
+                      class="absolute bottom-3 right-3 cursor-pointer"
+                      id="review-front-flip-toggle-1"
+                    >
+                      <svg class="md:svg-40 h-8 w-8" viewBox="0 0 20 20">
+                        <path
+                          fill="#5b86a1"
+                          d="M10 5.833C5.4 5.833 1.667 7.7 1.667 10c0 1.867 2.45 3.442 5.833 3.975v1.683c0 .375.45.558.708.292l2.325-2.325a.412.412 0 0 0 0-.592l-2.325-2.325a.412.412 0 0 0-.454-.086.42.42 0 0 0-.255.387v1.267c-2.625-.467-4.167-1.583-4.167-2.275 0-.883 2.533-2.5 6.667-2.5s6.667 1.617 6.667 2.5c0 .55-1 1.4-2.767 1.95a.815.815 0 0 0-.567.783c0 .558.542.967 1.067.8 2.358-.733 3.933-2.042 3.933-3.533 0-2.3-3.733-4.167-8.333-4.167z"
+                        />
+                      </svg>
+                      <span class="sr-only">back icon</span>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="mt-[32px] h-[452px] w-[311px] cursor-pointer perspective">
             <div
-              class="relative h-full w-full border border-solid border-accent duration-1000 preserve-3d"
-              id="review-card-2"
+              class="h-[452px] w-[311px] perspective md:h-[504px] md:w-[354px]"
             >
               <div
-                class="absolute h-full w-full is-flipped backface-hidden"
-                id="review-back-flip-toggle-2"
-              >
-                <img
-                  src="./public/images/mobile/review_back-mob-2.jpg"
-                  alt="Reviewer's backphoto"
-                  loading="lazy"
-                  class="h-full w-full"
-                />
-              </div>
-
-              <div
-                class="absolute h-full w-full overflow-hidden rotate-y-0 backface-hidden"
+                class="relative h-full w-full border border-solid border-accent duration-1000 preserve-3d"
+                id="review-card-2"
               >
                 <div
-                  class="h-[134px] w-full bg-review-mob bg-cover bg-center bg-no-repeat dpr:bg-review-mob2x"
-                ></div>
-
-                <img
-                  src="./public/images/mobile/reviewer_photo-mob-2-min.jpg"
-                  alt="Reviewer photo"
-                  loading="lazy"
-                  class="absolute left-[105px] top-[84px] h-[100px] w-[100px] rounded-full border border-solid border-accent object-cover"
-                />
-
-                <div class="px-[12px] pb-[12px] pt-[70px]">
-                  <h3 class="text-center text-20 font-semibold text-accent">
-                    Ostap
-                  </h3>
-                  <p
-                    class="mx-auto mt-[16px] max-h-[160px] min-h-[160px] w-[242px] overflow-auto text-16 font-normal text-secondary"
-                  >
-                    Good organization, everything went smoothly. Friendly guide
-                    Taras told interesting facts about the area and customs
-                    throughout the tour.
-                  </p>
-                  <svg
-                    class="ml-auto mt-1 h-8 w-8 cursor-pointer"
-                    viewBox="0 0 20 20"
-                    id="review-front-flip-toggle-2"
-                  >
-                    <path
-                      fill="#5b86a1"
-                      d="M10 5.833C5.4 5.833 1.667 7.7 1.667 10c0 1.867 2.45 3.442 5.833 3.975v1.683c0 .375.45.558.708.292l2.325-2.325a.412.412 0 0 0 0-.592l-2.325-2.325a.412.412 0 0 0-.454-.086.42.42 0 0 0-.255.387v1.267c-2.625-.467-4.167-1.583-4.167-2.275 0-.883 2.533-2.5 6.667-2.5s6.667 1.617 6.667 2.5c0 .55-1 1.4-2.767 1.95a.815.815 0 0 0-.567.783c0 .558.542.967 1.067.8 2.358-.733 3.933-2.042 3.933-3.533 0-2.3-3.733-4.167-8.333-4.167z"
+                  class="absolute h-full w-full cursor-pointer is-flipped backface-hidden"
+                  id="review-back-flip-toggle-2"
+                >
+                  <picture>
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./public/images/mobile/review_back-mob-2.jpg    1x,
+                        ./public/images/mobile/review_back-mob-2@2x.jpg 2x
+                      "
                     />
-                  </svg>
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./public/images/tablet-opt/review_back-tablet-2-min.jpg    1x,
+                        ./public/images/tablet-opt/review_back-tablet-2-min@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./public/images/mobile/review_back-mob-2.jpg"
+                      alt="Reviewer's backphoto"
+                      loading="lazy"
+                      class="h-full w-full"
+                    />
+                  </picture>
+                </div>
+
+                <div
+                  class="absolute h-full w-full overflow-hidden rotate-y-0 backface-hidden"
+                >
+                  <div
+                    class="md:bg-review-tab md:dpr:bg-review-tab2x h-[134px] w-full bg-review-mob bg-cover bg-center bg-no-repeat dpr:bg-review-mob2x"
+                  ></div>
+
+                  <picture>
+                    <source
+                      media="(max-width: 1439px)"
+                      srcset="
+                        ./public/images/mobile/reviewer_photo-mob-2-min.jpg    1x,
+                        ./public/images/mobile/reviewer_photo-mob-2-min@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./public/images/mobile/reviewer_photo-mob-2-min.jpg"
+                      alt="Reviewer photo"
+                      loading="lazy"
+                      class="absolute left-[105px] top-[84px] h-[100px] w-[100px] rounded-full border border-solid border-accent object-cover md:left-[127px]"
+                    />
+                  </picture>
+
+                  <div
+                    class="px-[35px] pb-[48px] pt-[70px] md:px-[20px] md:pb-[51px] md:pt-[74px]"
+                  >
+                    <h3
+                      class="text-center text-20 font-semibold text-accent md:text-24"
+                    >
+                      Ostap
+                    </h3>
+                    <p
+                      class="mx-auto mt-[16px] min-h-[160px] w-[242px] text-16 font-normal text-secondary md:mt-[24px] md:min-h-[192px] md:w-[314px] md:text-20"
+                    >
+                      Good organization, everything went smoothly. Friendly
+                      guide Taras told interesting facts about the area and
+                      customs throughout the tour.
+                    </p>
+                    <button
+                      type="button"
+                      class="absolute bottom-3 right-3 cursor-pointer"
+                      id="review-front-flip-toggle-2"
+                    >
+                      <svg class="md:svg-40 h-8 w-8" viewBox="0 0 20 20">
+                        <path
+                          fill="#5b86a1"
+                          d="M10 5.833C5.4 5.833 1.667 7.7 1.667 10c0 1.867 2.45 3.442 5.833 3.975v1.683c0 .375.45.558.708.292l2.325-2.325a.412.412 0 0 0 0-.592l-2.325-2.325a.412.412 0 0 0-.454-.086.42.42 0 0 0-.255.387v1.267c-2.625-.467-4.167-1.583-4.167-2.275 0-.883 2.533-2.5 6.667-2.5s6.667 1.617 6.667 2.5c0 .55-1 1.4-2.767 1.95a.815.815 0 0 0-.567.783c0 .558.542.967 1.067.8 2.358-.733 3.933-2.042 3.933-3.533 0-2.3-3.733-4.167-8.333-4.167z"
+                        />
+                      </svg>
+                      <span class="sr-only">back icon</span>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
