@@ -647,6 +647,10 @@ video {
   top: 84px;
 }
 
+.top-\[87px\]{
+  top: 87px;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -734,6 +738,10 @@ video {
 
 .mt-\[72px\]{
   margin-top: 72px;
+}
+
+.block{
+  display: block;
 }
 
 .inline-block{
@@ -982,10 +990,6 @@ video {
 
 .max-w-\[281px\]{
   max-width: 281px;
-}
-
-.basis-full{
-  flex-basis: 100%;
 }
 
 .-translate-x-full{
@@ -1500,12 +1504,20 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:left-\[62px\]{
+    left: 62px;
+  }
+
   .md\:right-\[20px\]{
     right: 20px;
   }
 
   .md\:top-\[20px\]{
     top: 20px;
+  }
+
+  .md\:top-\[80px\]{
+    top: 80px;
   }
 
   .md\:mb-\[40px\]{
@@ -1516,12 +1528,20 @@ video {
     margin-bottom: 60px;
   }
 
+  .md\:ml-\[12px\]{
+    margin-left: 12px;
+  }
+
   .md\:mt-\[100px\]{
     margin-top: 100px;
   }
 
   .md\:mt-\[16px\]{
     margin-top: 16px;
+  }
+
+  .md\:mt-\[20px\]{
+    margin-top: 20px;
   }
 
   .md\:mt-\[24px\]{
@@ -1540,12 +1560,28 @@ video {
     margin-top: 80px;
   }
 
+  .md\:block{
+    display: block;
+  }
+
+  .md\:h-\[441px\]{
+    height: 441px;
+  }
+
   .md\:h-\[56px\]{
     height: 56px;
   }
 
   .md\:h-\[581px\]{
     height: 581px;
+  }
+
+  .md\:h-\[644px\]{
+    height: 644px;
+  }
+
+  .md\:h-\[64px\]{
+    height: 64px;
   }
 
   .md\:w-\[186px\]{
@@ -1572,6 +1608,10 @@ video {
     width: 478px;
   }
 
+  .md\:w-\[604px\]{
+    width: 604px;
+  }
+
   .md\:w-\[728px\]{
     width: 728px;
   }
@@ -1584,12 +1624,32 @@ video {
     flex-direction: row;
   }
 
+  .md\:gap-\[20px\]{
+    gap: 20px;
+  }
+
   .md\:gap-\[40px\]{
     gap: 40px;
   }
 
+  .md\:self-start{
+    align-self: flex-start;
+  }
+
+  .md\:self-end{
+    align-self: flex-end;
+  }
+
   .md\:bg-hero-tab{
     background-image: url('./images/tablet-opt/hero_tablet-min.jpg'), var(--bg-gradient);
+  }
+
+  .md\:bg-advantages-tab-1{
+    background-image: url('./images/tablet-opt/advantages_tablet-1-min.jpg'), var(--bg-gradient);
+  }
+
+  .md\:bg-advantages-tab-2{
+    background-image: url('./images/tablet-opt/advantages_tablet-2-min.jpg'), var(--bg-gradient);
   }
 
   .md\:px-\[20px\]{
@@ -1615,6 +1675,10 @@ video {
     padding-left: 20px;
   }
 
+  .md\:pl-\[44px\]{
+    padding-left: 44px;
+  }
+
   .md\:pl-\[82px\]{
     padding-left: 82px;
   }
@@ -1638,14 +1702,14 @@ video {
     line-height: 39px;
   }
 
-  .md\:text-68{
-    font-size: 68px;
-    line-height: 83px;
-  }
-
   .md\:text-52{
     font-size: 52px;
     line-height: 63px;
+  }
+
+  .md\:text-68{
+    font-size: 68px;
+    line-height: 83px;
   }
 
   .md\:svg-40{
@@ -1749,6 +1813,14 @@ video {
   @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
     .md\:dpr\:bg-hero-tab2x{
       background-image: url('./images/tablet-opt/hero_tablet-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .md\:dpr\:bg-advantages-tab2x-1{
+      background-image: url('./images/tablet-opt/advantages_tablet-1-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .md\:dpr\:bg-advantages-tab2x-2{
+      background-image: url('./images/tablet-opt/advantages_tablet-2-min@2x.jpg'), var(--bg-gradient);
     }
   }
 }
