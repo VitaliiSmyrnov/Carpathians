@@ -132,58 +132,114 @@ module.exports = {
           "url('./images/mobile/tour-hoverla-detail-1-min.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob2x-1":
           "url('./images/mobile/tour-hoverla-detail-1-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-tab-1":
+          "url('./images/tablet-opt/tour-hoverla-detail-tablet-1-min.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-tab2x-1":
+          "url('./images/tablet-opt/tour-hoverla-detail-tablet-1-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob-2":
           "url('./images/mobile/tour-hoverla-detail-2-min.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob2x-2":
           "url('./images/mobile/tour-hoverla-detail-2-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-tab-2":
+          "url('./images/tablet-opt/tour-hoverla-detail-tablet-2-min.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-tab2x-2":
+          "url('./images/tablet-opt/tour-hoverla-detail-tablet-2-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob-3":
           "url('./images/mobile/tour-hoverla-detail-3-min.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob2x-3":
           "url('./images/mobile/tour-hoverla-detail-3-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-tab-3":
+          "url('./images/tablet-opt/tour-hoverla-detail-tablet-3-min.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-tab2x-3":
+          "url('./images/tablet-opt/tour-hoverla-detail-tablet-3-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob-1":
           "url('./images/mobile/tour-bukovel-detail-1-min.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob2x-1":
           "url('./images/mobile/tour-bukovel-detail-1-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-tab-1":
+          "url('./images/tablet-opt/tour-bukovel-detail-tablet-1-min.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-tab2x-1":
+          "url('./images/tablet-opt/tour-bukovel-detail-tablet-1-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob-2":
           "url('./images/mobile/tour-bukovel-detail-2-min.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob2x-2":
           "url('./images/mobile/tour-bukovel-detail-2-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-tab-2":
+          "url('./images/tablet-opt/tour-bukovel-detail-tablet-2-min.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-tab2x-2":
+          "url('./images/tablet-opt/tour-bukovel-detail-tablet-2-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob-3":
           "url('./images/mobile/tour-bukovel-detail-3-min.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob2x-3":
           "url('./images/mobile/tour-bukovel-detail-3-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-tab-3":
+          "url('./images/tablet-opt/tour-bukovel-detail-tablet-3-min.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-tab2x-3":
+          "url('./images/tablet-opt/tour-bukovel-detail-tablet-3-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob-4":
           "url('./images/mobile/tour-bukovel-detail-4-min.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob2x-4":
           "url('./images/mobile/tour-bukovel-detail-4-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-tab-4":
+          "url('./images/tablet-opt/tour-bukovel-detail-tablet-4-min.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-tab2x-4":
+          "url('./images/tablet-opt/tour-bukovel-detail-tablet-4-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-1":
           "url('./images/mobile/tour-carpathians-detail-1-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-1":
           "url('./images/mobile/tour-carpathians-detail-1-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab-1":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-1-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab2x-1":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-1-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-2":
           "url('./images/mobile/tour-carpathians-detail-2-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-2":
           "url('./images/mobile/tour-carpathians-detail-2-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab-2":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-2-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab2x-2":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-2-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-3":
           "url('./images/mobile/tour-carpathians-detail-3-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-3":
           "url('./images/mobile/tour-carpathians-detail-3-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab-3":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-3-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab2x-3":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-3-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-4":
           "url('./images/mobile/tour-carpathians-detail-4-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-4":
           "url('./images/mobile/tour-carpathians-detail-4-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab-4":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-4-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab2x-4":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-4-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-5":
           "url('./images/mobile/tour-carpathians-detail-5-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-5":
           "url('./images/mobile/tour-carpathians-detail-5-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab-5":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-5-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab2x-5":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-5-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-6":
           "url('./images/mobile/tour-carpathians-detail-6-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-6":
           "url('./images/mobile/tour-carpathians-detail-6-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab-6":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-6-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab2x-6":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-6-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-7":
           "url('./images/mobile/tour-carpathians-detail-7-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-7":
           "url('./images/mobile/tour-carpathians-detail-7-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab-7":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-7-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-tab2x-7":
+          "url('./images/tablet-opt/tour-carpathians-detail-tablet-7-min@2x.jpg'), var(--bg-gradient)",
       },
     },
   },
