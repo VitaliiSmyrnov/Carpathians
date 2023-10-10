@@ -12,6 +12,8 @@ const swiperUpcomingTours = new Swiper("#swiper-upcoming-tours", {
     768: {
       slidesPerView: 2,
       spaceBetween: 20,
+      centeredSlides: false,
+      centeredSlidesBounds: false,
     },
   },
   keyboard: {
