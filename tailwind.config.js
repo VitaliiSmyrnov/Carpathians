@@ -124,6 +124,10 @@ module.exports = {
           "url('./images/mobile/question_mob-min.jpg'), var(--bg-gradient)",
         "question-mob2x":
           "url('./images/mobile/question_mob-min@2x.jpg'), var(--bg-gradient)",
+        "question-tab":
+          "url('./images/tablet-opt/question_tablet-min.jpg'), var(--bg-gradient)",
+        "question-tab2x":
+          "url('./images/tablet-opt/question_tablet-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob-1":
           "url('./images/mobile/tour-hoverla-detail-1-min.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob2x-1":
