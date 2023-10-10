@@ -46,6 +46,11 @@ const swiperUpcomingToursDetails = new Swiper(".swiper-tour-detail", {
     el: ".swiper-pagination",
     type: "bullets",
     clickable: true,
+    breakpoints: {
+      768: {
+        spaceBetween: 20,
+      },
+    },
     // bulletClass: "bg-amber-400",
     // bulletActiveClass: "bg-green-400",
     // renderBullet: function () {
@@ -59,7 +64,7 @@ const swiperUpcomingToursDetails = new Swiper(".swiper-tour-detail", {
   // renderBullet: function (className) {
   //   return '<span class="' + className + '"></span>';
   // },
-  spaceBetween: 23,
+  spaceBetween: 30,
   slidesPerView: "auto",
   centeredSlides: true,
   centeredSlidesBounds: true,
