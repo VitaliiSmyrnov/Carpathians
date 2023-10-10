@@ -607,6 +607,10 @@ video {
   position: relative;
 }
 
+.bottom-3{
+  bottom: 0.75rem;
+}
+
 .left-0{
   left: 0px;
 }
@@ -621,6 +625,10 @@ video {
 
 .right-0{
   right: 0px;
+}
+
+.right-3{
+  right: 0.75rem;
 }
 
 .right-\[12px\]{
@@ -649,14 +657,6 @@ video {
 
 .top-\[87px\]{
   top: 87px;
-}
-
-.bottom-3{
-  bottom: 0.75rem;
-}
-
-.right-3{
-  right: 0.75rem;
 }
 
 .z-10{
@@ -694,10 +694,6 @@ video {
 
 .ml-auto{
   margin-left: auto;
-}
-
-.mt-1{
-  margin-top: 0.25rem;
 }
 
 .mt-\[108px\]{
@@ -876,10 +872,6 @@ video {
   height: 100vh;
 }
 
-.max-h-\[160px\]{
-  max-height: 160px;
-}
-
 .min-h-\[160px\]{
   min-height: 160px;
 }
@@ -1053,10 +1045,6 @@ video {
 
 .gap-\[32px\]{
   gap: 32px;
-}
-
-.overflow-auto{
-  overflow: auto;
 }
 
 .overflow-hidden{
@@ -1242,11 +1230,6 @@ video {
   padding: 10px;
 }
 
-.px-\[12px\]{
-  padding-left: 12px;
-  padding-right: 12px;
-}
-
 .px-\[15px\]{
   padding-left: 15px;
   padding-right: 15px;
@@ -1265,6 +1248,11 @@ video {
 .px-\[32px\]{
   padding-left: 32px;
   padding-right: 32px;
+}
+
+.px-\[35px\]{
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .px-\[44px\]{
@@ -1302,17 +1290,12 @@ video {
   padding-bottom: 8px;
 }
 
-.px-\[35px\]{
-  padding-left: 35px;
-  padding-right: 35px;
-}
-
-.pb-\[12px\]{
-  padding-bottom: 12px;
-}
-
 .pb-\[36px\]{
   padding-bottom: 36px;
+}
+
+.pb-\[48px\]{
+  padding-bottom: 48px;
 }
 
 .pl-\[30px\]{
@@ -1337,10 +1320,6 @@ video {
 
 .pt-\[70px\]{
   padding-top: 70px;
-}
-
-.pb-\[48px\]{
-  padding-bottom: 48px;
 }
 
 .text-center{
@@ -1513,6 +1492,10 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:left-\[127px\]{
+    left: 127px;
+  }
+
   .md\:left-\[62px\]{
     left: 62px;
   }
@@ -1527,10 +1510,6 @@ video {
 
   .md\:top-\[80px\]{
     top: 80px;
-  }
-
-  .md\:left-\[127px\]{
-    left: 127px;
   }
 
   .md\:mb-\[40px\]{
@@ -1633,6 +1612,10 @@ video {
     width: 186px;
   }
 
+  .md\:w-\[314px\]{
+    width: 314px;
+  }
+
   .md\:w-\[354px\]{
     width: 354px;
   }
@@ -1659,10 +1642,6 @@ video {
 
   .md\:w-\[728px\]{
     width: 728px;
-  }
-
-  .md\:w-\[314px\]{
-    width: 314px;
   }
 
   .md\:max-w-\[374px\]{
@@ -1734,6 +1713,10 @@ video {
     padding-bottom: 40px;
   }
 
+  .md\:pb-\[51px\]{
+    padding-bottom: 51px;
+  }
+
   .md\:pl-\[20px\]{
     padding-left: 20px;
   }
@@ -1752,10 +1735,6 @@ video {
 
   .md\:pt-\[74px\]{
     padding-top: 74px;
-  }
-
-  .md\:pb-\[51px\]{
-    padding-bottom: 51px;
   }
 
   .md\:text-18{
