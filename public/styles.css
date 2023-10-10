@@ -1290,6 +1290,11 @@ video {
   padding-bottom: 8px;
 }
 
+.py-\[27px\]{
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
 .pb-\[36px\]{
   padding-bottom: 36px;
 }
@@ -1320,6 +1325,10 @@ video {
 
 .pt-\[70px\]{
   padding-top: 70px;
+}
+
+.pl-\[44px\]{
+  padding-left: 44px;
 }
 
 .text-center{
@@ -1556,12 +1565,28 @@ video {
     margin-top: 80px;
   }
 
+  .md\:ml-\[8px\]{
+    margin-left: 8px;
+  }
+
+  .md\:mt-0{
+    margin-top: 0px;
+  }
+
   .md\:block{
     display: block;
   }
 
+  .md\:h-\[275px\]{
+    height: 275px;
+  }
+
   .md\:h-\[32px\]{
     height: 32px;
+  }
+
+  .md\:h-\[339px\]{
+    height: 339px;
   }
 
   .md\:h-\[357px\]{
@@ -1600,12 +1625,16 @@ video {
     height: 686px;
   }
 
-  .md\:h-\[339px\]{
-    height: 339px;
+  .md\:h-\[688px\]{
+    height: 688px;
   }
 
-  .md\:h-\[275px\]{
-    height: 275px;
+  .md\:h-\[512px\]{
+    height: 512px;
+  }
+
+  .md\:h-\[469px\]{
+    height: 469px;
   }
 
   .md\:min-h-\[192px\]{
@@ -1652,6 +1681,14 @@ video {
     width: 728px;
   }
 
+  .md\:w-\[768px\]{
+    width: 768px;
+  }
+
+  .md\:w-\[247px\]{
+    width: 247px;
+  }
+
   .md\:max-w-\[374px\]{
     max-width: 374px;
   }
@@ -1692,6 +1729,10 @@ video {
     background-image: url('./images/tablet-opt/review_tablet-min.jpg'), var(--bg-gradient);
   }
 
+  .md\:bg-question-tab{
+    background-image: url('./images/tablet-opt/question_tablet-min.jpg'), var(--bg-gradient);
+  }
+
   .md\:px-0{
     padding-left: 0px;
     padding-right: 0px;
@@ -1715,6 +1756,21 @@ video {
   .md\:py-\[48px\]{
     padding-top: 48px;
     padding-bottom: 48px;
+  }
+
+  .md\:py-\[40px\]{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .md\:py-\[39px\]{
+    padding-top: 39px;
+    padding-bottom: 39px;
+  }
+
+  .md\:py-\[63px\]{
+    padding-top: 63px;
+    padding-bottom: 63px;
   }
 
   .md\:pb-\[40px\]{
@@ -1743,6 +1799,14 @@ video {
 
   .md\:pt-\[74px\]{
     padding-top: 74px;
+  }
+
+  .md\:pl-\[114px\]{
+    padding-left: 114px;
+  }
+
+  .md\:pl-\[137px\]{
+    padding-left: 137px;
   }
 
   .md\:text-18{
@@ -1893,6 +1957,10 @@ video {
 
     .md\:dpr\:bg-review-tab2x{
       background-image: url('./images/tablet-opt/review_tablet-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .md\:dpr\:bg-question-tab2x{
+      background-image: url('./images/tablet-opt/question_tablet-min@2x.jpg'), var(--bg-gradient);
     }
   }
 }
