@@ -69,6 +69,14 @@ const swiperGallery = new Swiper("#swiper-gallery", {
   // Optional parameters
   direction: "horizontal",
   loop: false,
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      centeredSlides: false,
+      centeredSlidesBounds: false,
+    },
+  },
   keyboard: {
     enabled: true,
     onlyInViewport: false,
