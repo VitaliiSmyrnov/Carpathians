@@ -1600,6 +1600,14 @@ video {
     height: 686px;
   }
 
+  .md\:h-\[339px\]{
+    height: 339px;
+  }
+
+  .md\:h-\[275px\]{
+    height: 275px;
+  }
+
   .md\:min-h-\[192px\]{
     min-height: 192px;
   }
