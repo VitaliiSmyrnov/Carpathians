@@ -2039,6 +2039,10 @@ video {
     margin-top: 24px;
   }
 
+  .lg\:mt-\[36px\]{
+    margin-top: 36px;
+  }
+
   .lg\:block{
     display: block;
   }
@@ -2077,6 +2081,18 @@ video {
 
   .lg\:h-\[510px\]{
     height: 510px;
+  }
+
+  .lg\:h-\[718px\]{
+    height: 718px;
+  }
+
+  .lg\:h-\[438px\]{
+    height: 438px;
+  }
+
+  .lg\:h-\[719px\]{
+    height: 719px;
   }
 
   .lg\:w-\[1170px\]{
@@ -2156,6 +2172,11 @@ video {
   .lg\:px-\[7px\]{
     padding-left: 7px;
     padding-right: 7px;
+  }
+
+  .lg\:py-\[46px\]{
+    padding-top: 46px;
+    padding-bottom: 46px;
   }
 
   .lg\:pb-\[60px\]{
