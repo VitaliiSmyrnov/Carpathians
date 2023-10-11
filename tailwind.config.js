@@ -81,7 +81,9 @@ module.exports = {
         32: ["32px", { lineHeight: "39px" }],
         40: ["40px", { lineHeight: "49px" }],
         52: ["52px", { lineHeight: "63px" }],
+        60: ["60px", { lineHeight: "73px" }],
         68: ["68px", { lineHeight: "83px" }],
+        88: ["88px", { lineHeight: "107px" }],
       },
       backgroundImage: {
         "hero-mob":
