@@ -663,6 +663,14 @@ video {
   top: 87px;
 }
 
+.left-\[3px\]{
+  left: 3px;
+}
+
+.top-\[3px\]{
+  top: 3px;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -2153,8 +2161,21 @@ video {
 }
 
 @media (min-width: 1920px){
+  .xl\:mt-\[168px\]{
+    margin-top: 168px;
+  }
+
+  .xl\:w-\[1920px\]{
+    width: 1920px;
+  }
+
   .xl\:bg-hero-desk-1920{
     background-image: url('./images/desktop-opt/hero_desktop-1920-min.jpg'), var(--bg-gradient);
+  }
+
+  .xl\:px-\[375px\]{
+    padding-left: 375px;
+    padding-right: 375px;
   }
 }
 
