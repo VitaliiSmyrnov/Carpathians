@@ -437,7 +437,7 @@ video {
 
 :root {
   --swiper-pagination-color: #f7fbfb;
-  --swiper-pagination-bullet-size: 16px;
+  --swiper-pagination-bullet-size: 12px;
   --swiper-pagination-bullet-horizontal-gap: 6px;
   --swiper-pagination-bottom: 20px;
   --swiper-pagination-bullet-inactive-color: #a3a5a3;
@@ -651,6 +651,10 @@ video {
   top: 2px;
 }
 
+.top-\[369px\]{
+  top: 369px;
+}
+
 .top-\[84px\]{
   top: 84px;
 }
@@ -696,12 +700,12 @@ video {
   margin-left: auto;
 }
 
-.mt-\[108px\]{
-  margin-top: 108px;
-}
-
 .mt-\[10px\]{
   margin-top: 10px;
+}
+
+.mt-\[128px\]{
+  margin-top: 128px;
 }
 
 .mt-\[12px\]{
@@ -1314,6 +1318,10 @@ video {
   padding-left: 48px;
 }
 
+.pt-\[20px\]{
+  padding-top: 20px;
+}
+
 .pt-\[52px\]{
   padding-top: 52px;
 }
@@ -1428,6 +1436,14 @@ video {
   color: rgb(32 35 33 / var(--tw-text-opacity));
 }
 
+.decoration-2{
+  text-decoration-thickness: 2px;
+}
+
+.underline-offset-8{
+  text-underline-offset: 8px;
+}
+
 .outline-none{
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1486,6 +1502,10 @@ video {
   color: rgb(91 134 161 / var(--tw-text-opacity));
 }
 
+.hover\:underline:hover{
+  text-decoration-line: underline;
+}
+
 .focus\:border-accent:focus{
   --tw-border-opacity: 1;
   border-color: rgb(91 134 161 / var(--tw-border-opacity));
@@ -1518,6 +1538,11 @@ video {
 
   .md\:top-\[80px\]{
     top: 80px;
+  }
+
+  .md\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .md\:mb-\[40px\]{
@@ -1564,12 +1589,12 @@ video {
     margin-top: 40px;
   }
 
-  .md\:mt-\[72px\]{
-    margin-top: 72px;
-  }
-
   .md\:mt-\[80px\]{
     margin-top: 80px;
+  }
+
+  .md\:mt-\[96px\]{
+    margin-top: 96px;
   }
 
   .md\:block{
@@ -1898,6 +1923,10 @@ video {
     padding-left: 82px;
   }
 
+  .md\:pt-\[24px\]{
+    padding-top: 24px;
+  }
+
   .md\:pt-\[60px\]{
     padding-top: 60px;
   }
@@ -1936,6 +1965,10 @@ video {
     line-height: 83px;
   }
 
+  .md\:font-medium{
+    font-weight: 500;
+  }
+
   .md\:svg-32{
     width: 32px;
     height: 32px;
@@ -1953,8 +1986,160 @@ video {
 }
 
 @media (min-width: 1440px){
+  .lg\:right-\[40px\]{
+    right: 40px;
+  }
+
+  .lg\:top-\[40px\]{
+    top: 40px;
+  }
+
+  .lg\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lg\:mt-\[190px\]{
+    margin-top: 190px;
+  }
+
+  .lg\:mt-\[28px\]{
+    margin-top: 28px;
+  }
+
+  .lg\:mt-\[20px\]{
+    margin-top: 20px;
+  }
+
+  .lg\:mt-\[30px\]{
+    margin-top: 30px;
+  }
+
+  .lg\:mt-\[44px\]{
+    margin-top: 44px;
+  }
+
+  .lg\:flex{
+    display: flex;
+  }
+
+  .lg\:hidden{
+    display: none;
+  }
+
+  .lg\:h-\[69px\]{
+    height: 69px;
+  }
+
+  .lg\:h-\[745px\]{
+    height: 745px;
+  }
+
+  .lg\:w-\[1170px\]{
+    width: 1170px;
+  }
+
+  .lg\:w-\[1440px\]{
+    width: 1440px;
+  }
+
+  .lg\:w-\[349px\]{
+    width: 349px;
+  }
+
+  .lg\:w-\[575px\]{
+    width: 575px;
+  }
+
+  .lg\:w-\[675px\]{
+    width: 675px;
+  }
+
+  .lg\:w-\[774px\]{
+    width: 774px;
+  }
+
+  .lg\:max-w-\[523px\]{
+    max-width: 523px;
+  }
+
+  .lg\:max-w-\[525px\]{
+    max-width: 525px;
+  }
+
+  .lg\:max-w-\[528px\]{
+    max-width: 528px;
+  }
+
+  .lg\:flex-col{
+    flex-direction: column;
+  }
+
+  .lg\:gap-\[80px\]{
+    gap: 80px;
+  }
+
   .lg\:bg-hero-desk-1440{
     background-image: url('./images/desktop-opt/hero_desktop-1440-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:px-\[100px\]{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .lg\:px-\[135px\]{
+    padding-left: 135px;
+    padding-right: 135px;
+  }
+
+  .lg\:px-\[7px\]{
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .lg\:pb-\[60px\]{
+    padding-bottom: 60px;
+  }
+
+  .lg\:pt-\[116px\]{
+    padding-top: 116px;
+  }
+
+  .lg\:pt-\[30px\]{
+    padding-top: 30px;
+  }
+
+  .lg\:pl-\[13px\]{
+    padding-left: 13px;
+  }
+
+  .lg\:pt-\[114px\]{
+    padding-top: 114px;
+  }
+
+  .lg\:pt-\[112px\]{
+    padding-top: 112px;
+  }
+
+  .lg\:text-24{
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .lg\:text-28{
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .lg\:text-88{
+    font-size: 88px;
+    line-height: 107px;
+  }
+
+  .lg\:text-60{
+    font-size: 60px;
+    line-height: 73px;
   }
 }
 
