@@ -2019,6 +2019,10 @@ video {
     margin-top: 44px;
   }
 
+  .lg\:mb-\[60px\]{
+    margin-bottom: 60px;
+  }
+
   .lg\:flex{
     display: flex;
   }
@@ -2140,6 +2144,11 @@ video {
   .lg\:text-60{
     font-size: 60px;
     line-height: 73px;
+  }
+
+  .lg\:text-68{
+    font-size: 68px;
+    line-height: 83px;
   }
 }
 
