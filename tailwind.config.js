@@ -114,6 +114,18 @@ module.exports = {
           "url('./images/tablet-opt/advantages_tablet-2-min.jpg'), var(--bg-gradient)",
         "advantages-tab2x-2":
           "url('./images/tablet-opt/advantages_tablet-2-min@2x.jpg'), var(--bg-gradient)",
+        "advantages-desk-1":
+          "url('./images/desktop-opt/advantages_desktop-1-min.jpg'), var(--bg-gradient)",
+        "advantages-desk2x-1":
+          "url('./images/desktop-opt/advantages_desktop-1-min@2x.jpg'), var(--bg-gradient)",
+        "advantages-desk-2":
+          "url('./images/desktop-opt/advantages_desktop-2-min.jpg'), var(--bg-gradient)",
+        "advantages-desk2x-2":
+          "url('./images/desktop-opt/advantages_desktop-2-min@2x.jpg'), var(--bg-gradient)",
+        "advantages-desk-3":
+          "url('./images/desktop-opt/advantages_desktop-3-min.jpg'), var(--bg-gradient)",
+        "advantages-desk2x-3":
+          "url('./images/desktop-opt/advantages_desktop-3-min@2x.jpg'), var(--bg-gradient)",
         "review-mob":
           "url('./images/mobile/Review_mob-min.jpg'), var(--bg-gradient)",
         "review-mob2x":
