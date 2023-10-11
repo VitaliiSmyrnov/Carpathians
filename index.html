@@ -18,7 +18,7 @@
         class="relative mx-auto min-h-screen w-full bg-hero-mob bg-cover bg-center bg-no-repeat md:bg-hero-tab lg:bg-hero-desk-1440 xl:bg-hero-desk-1920 dpr:bg-hero-mob2x md:dpr:bg-hero-tab2x lg:dpr:bg-hero-desk-1440-2x xl:dpr:bg-hero-desk-1920-2x"
       >
         <header
-          class="flex w-full items-center justify-between px-[32px] pt-[20px] md:mx-auto md:w-[768px] md:px-[20px] md:pt-[24px] lg:mx-auto lg:w-[1440px] lg:px-[135px] lg:pt-[30px]"
+          class="flex w-full items-center justify-between px-[32px] pt-[20px] md:mx-auto md:w-[768px] md:px-[20px] md:pt-[24px] lg:mx-auto lg:w-[1440px] lg:px-[135px] lg:pt-[30px] xl:w-[1920px] xl:px-[375px]"
         >
           <a href="index.html" data-logo>
             <svg
@@ -100,7 +100,7 @@
             </button>
           </nav>
 
-          <!--mobile nav popup -->
+          <!--mobile-tablet nav popup -->
 
           <div
             class="absolute left-0 top-0 h-screen w-[233px] -translate-x-full overflow-y-auto bg-dark_70 py-[20px] pl-[32px] transition-all duration-200 md:w-[374px] md:py-[24px] md:pl-[82px]"
@@ -207,7 +207,7 @@
         <!-- hero  -->
 
         <section
-          class="relative mx-auto mt-[128px] w-[315px] text-center md:mt-[96px] md:w-[728px] lg:mt-[190px] lg:w-[1170px]"
+          class="relative mx-auto mt-[128px] w-[315px] text-center md:mt-[96px] md:w-[728px] lg:mt-[190px] lg:w-[1170px] xl:mt-[168px]"
           data-hero
         >
           <h1
@@ -349,7 +349,7 @@
                     <svg
                       fill="none"
                       viewBox="0 0 20 20"
-                      class="invisible absolute left-[2px] top-[2px] h-[20px] w-[20px] peer-checked:visible"
+                      class="invisible absolute left-[2px] top-[3px] h-[20px] w-[20px] peer-checked:visible"
                     >
                       <path
                         d="M16.25 5 7.5 15l-3.75-3.75"
@@ -372,7 +372,7 @@
                     <svg
                       fill="none"
                       viewBox="0 0 20 20"
-                      class="invisible absolute left-[2px] top-[2px] h-[20px] w-[20px] peer-checked:visible"
+                      class="invisible absolute left-[2px] top-[3px] h-[20px] w-[20px] peer-checked:visible"
                     >
                       <path
                         d="M16.25 5 7.5 15l-3.75-3.75"
@@ -395,7 +395,7 @@
                     <svg
                       fill="none"
                       viewBox="0 0 20 20"
-                      class="invisible absolute left-[2px] top-[2px] h-[20px] w-[20px] peer-checked:visible"
+                      class="invisible absolute left-[2px] top-[3px] h-[20px] w-[20px] peer-checked:visible"
                     >
                       <path
                         d="M16.25 5 7.5 15l-3.75-3.75"
@@ -452,28 +452,33 @@
 
         <!-- Our adventages  -->
 
-        <section class="mx-auto mt-[52px] w-[315px] md:mt-[80px] md:w-[728px]">
+        <section
+          class="mx-auto mt-[52px] w-[315px] md:mt-[80px] md:w-[728px] lg:w-[1170px]"
+        >
           <h2
-            class="mb-[28px] text-center text-32 font-normal text-primary md:mb-[40px] md:text-52"
+            class="mb-[28px] text-center text-32 font-normal text-primary md:mb-[40px] md:text-52 lg:mb-[60px] lg:text-68"
           >
             Our advantages
           </h2>
 
           <div
-            class="relative flex h-[554px] w-full md:h-[644px] md:w-[728px] md:gap-[20px]"
+            class="relative flex h-[554px] w-full md:h-[644px] md:w-[728px] md:gap-[20px] lg:h-[668px] lg:w-[1170px]"
           >
             <div
-              class="hidden bg-cover bg-center bg-no-repeat md:block md:h-[441px] md:w-[354px] md:self-start md:bg-advantages-tab-1 md:dpr:bg-advantages-tab2x-1"
+              class="lg:bg-advantages-desk-1 lg:dpr:bg-advantages-desk2x-1 hidden bg-cover bg-center bg-no-repeat md:block md:h-[441px] md:w-[354px] md:self-start md:bg-advantages-tab-1 lg:h-[588px] lg:w-[377px] md:dpr:bg-advantages-tab2x-1"
             ></div>
             <div
-              class="block h-[554px] w-[315px] bg-advantages-mob bg-cover bg-center bg-no-repeat md:h-[441px] md:w-[354px] md:self-end md:bg-advantages-tab-2 dpr:bg-advantages-mob2x md:dpr:bg-advantages-tab2x-2"
+              class="lg:bg-advantages-desk-2 lg:dpr:bg-advantages-desk2x-2 hidden bg-cover bg-center bg-no-repeat lg:block lg:h-[507px] lg:w-[377px] lg:self-center"
+            ></div>
+            <div
+              class="lg:bg-advantages-desk-3 lg:dpr:bg-advantages-desk2x-3 block h-[554px] w-[315px] bg-advantages-mob bg-cover bg-center bg-no-repeat md:h-[441px] md:w-[354px] md:self-end md:bg-advantages-tab-2 lg:h-[588px] lg:w-[377px] dpr:bg-advantages-mob2x md:dpr:bg-advantages-tab2x-2"
             ></div>
 
             <ul
-              class="absolute top-[87px] w-full md:left-[62px] md:top-[80px] md:w-[604px]"
+              class="absolute top-[87px] flex h-[380px] w-full flex-col justify-between md:left-[62px] md:top-[79px] md:h-[484px] md:w-[604px] lg:left-[270px] lg:h-[510px] lg:w-[630px]"
             >
               <li
-                class="flex h-[40px] w-full items-center bg-accent pl-[30px] md:h-[64px] md:w-[604px] md:pl-[44px]"
+                class="flex h-[40px] w-full items-center bg-accent pl-[30px] md:h-[64px] md:w-[604px] md:pl-[44px] lg:w-[630px] lg:pl-[126px]"
               >
                 <svg class="h-6 w-6 md:svg-40" viewBox="0 0 20 20">
                   <path
@@ -483,12 +488,12 @@
                 </svg>
 
                 <span
-                  class="ml-[8px] text-14 font-normal text-light md:ml-[12px] md:text-20"
+                  class="ml-[8px] text-14 font-normal text-light md:ml-[12px] md:text-20 lg:text-24"
                   >author's tours</span
                 >
               </li>
               <li
-                class="mt-[28px] flex h-[40px] w-full items-center bg-accent pl-[30px] md:mt-[20px] md:h-[64px] md:w-[604px] md:pl-[44px]"
+                class="flex h-[40px] w-full items-center bg-accent pl-[30px] md:h-[64px] md:w-[604px] md:pl-[44px] lg:w-[630px] lg:pl-[126px]"
               >
                 <svg class="h-6 w-6 md:svg-40" viewBox="0 0 20 20">
                   <path
@@ -497,12 +502,12 @@
                   />
                 </svg>
                 <span
-                  class="ml-[8px] text-14 font-normal text-light md:ml-[12px] md:text-20"
+                  class="ml-[8px] text-14 font-normal text-light md:ml-[12px] md:text-20 lg:text-24"
                   >individual approach</span
                 >
               </li>
               <li
-                class="mt-[28px] flex h-[40px] w-full items-center bg-accent pl-[30px] md:mt-[20px] md:h-[64px] md:w-[604px] md:pl-[44px]"
+                class="flex h-[40px] w-full items-center bg-accent pl-[30px] md:h-[64px] md:w-[604px] md:pl-[44px] lg:w-[630px] lg:pl-[126px]"
               >
                 <svg class="h-6 w-6 md:svg-40" viewBox="0 0 20 20">
                   <path
@@ -511,12 +516,12 @@
                   />
                 </svg>
                 <span
-                  class="ml-[8px] text-14 font-normal text-light md:ml-[12px] md:text-20"
+                  class="ml-[8px] text-14 font-normal text-light md:ml-[12px] md:text-20 lg:text-24"
                   >affordable prices</span
                 >
               </li>
               <li
-                class="mt-[28px] flex h-[40px] w-full items-center bg-accent pl-[30px] md:mt-[20px] md:h-[64px] md:w-[604px] md:pl-[44px]"
+                class="flex h-[40px] w-full items-center bg-accent pl-[30px] md:h-[64px] md:w-[604px] md:pl-[44px] lg:w-[630px] lg:pl-[126px]"
               >
                 <svg class="h-6 w-6 md:svg-40" viewBox="0 0 20 20">
                   <path
@@ -525,12 +530,12 @@
                   />
                 </svg>
                 <span
-                  class="ml-[8px] text-14 font-normal text-light md:ml-[12px] md:text-20"
+                  class="ml-[8px] text-14 font-normal text-light md:ml-[12px] md:text-20 lg:text-24"
                   >comfortable transfer</span
                 >
               </li>
               <li
-                class="mt-[28px] flex h-[40px] w-full items-center bg-accent pl-[30px] md:mt-[20px] md:h-[64px] md:w-[604px] md:pl-[44px]"
+                class="flex h-[40px] w-full items-center bg-accent pl-[30px] md:h-[64px] md:w-[604px] md:pl-[44px] lg:w-[630px] lg:pl-[126px]"
               >
                 <svg class="h-6 w-6 md:svg-40" viewBox="0 0 20 20">
                   <path
@@ -539,12 +544,12 @@
                   />
                 </svg>
                 <span
-                  class="ml-[8px] text-14 font-normal text-light md:ml-[12px] md:text-20"
+                  class="ml-[8px] text-14 font-normal text-light md:ml-[12px] md:text-20 lg:text-24"
                   >professional guides</span
                 >
               </li>
               <li
-                class="mt-[28px] flex h-[40px] w-full items-center bg-accent pl-[30px] md:mt-[20px] md:h-[64px] md:w-[604px] md:pl-[44px]"
+                class="flex h-[40px] w-full items-center bg-accent pl-[30px] md:h-[64px] md:w-[604px] md:pl-[44px] lg:w-[630px] lg:pl-[126px]"
               >
                 <svg class="h-6 w-6 md:svg-40" viewBox="0 0 20 20">
                   <path
@@ -553,7 +558,7 @@
                   />
                 </svg>
                 <span
-                  class="ml-[8px] text-14 font-normal text-light md:ml-[12px] md:text-20"
+                  class="ml-[8px] text-14 font-normal text-light md:ml-[12px] md:text-20 lg:text-24"
                   >accommodation in hotels from 3+ *</span
                 >
               </li>
