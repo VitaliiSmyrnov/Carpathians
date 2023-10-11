@@ -37,7 +37,7 @@ const swiperUpcomingTours = new Swiper("#swiper-upcoming-tours", {
   centeredSlides: true,
   centeredSlidesBounds: true,
   // centerInsufficientSlides: true,
-  initialSlide: 2,
+  // initialSlide: 2,
 });
 
 const swiperUpcomingToursDetails = new Swiper(".swiper-tour-detail", {

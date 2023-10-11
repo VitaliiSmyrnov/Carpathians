@@ -808,6 +808,10 @@ video {
   height: 338px;
 }
 
+.h-\[380px\]{
+  height: 380px;
+}
+
 .h-\[399px\]{
   height: 399px;
 }
@@ -874,10 +878,6 @@ video {
 
 .h-screen{
   height: 100vh;
-}
-
-.h-\[380px\]{
-  height: 380px;
 }
 
 .min-h-\[160px\]{
@@ -1536,10 +1536,6 @@ video {
     top: 20px;
   }
 
-  .md\:top-\[80px\]{
-    top: 80px;
-  }
-
   .md\:top-\[79px\]{
     top: 79px;
   }
@@ -1629,6 +1625,10 @@ video {
     height: 469px;
   }
 
+  .md\:h-\[484px\]{
+    height: 484px;
+  }
+
   .md\:h-\[504px\]{
     height: 504px;
   }
@@ -1671,10 +1671,6 @@ video {
 
   .md\:h-\[734px\]{
     height: 734px;
-  }
-
-  .md\:h-\[484px\]{
-    height: 484px;
   }
 
   .md\:min-h-\[192px\]{
@@ -1994,16 +1990,16 @@ video {
 }
 
 @media (min-width: 1440px){
+  .lg\:left-\[270px\]{
+    left: 270px;
+  }
+
   .lg\:right-\[40px\]{
     right: 40px;
   }
 
   .lg\:top-\[40px\]{
     top: 40px;
-  }
-
-  .lg\:left-\[270px\]{
-    left: 270px;
   }
 
   .lg\:mx-auto{
@@ -2031,16 +2027,12 @@ video {
     margin-top: 30px;
   }
 
-  .lg\:mt-\[44px\]{
-    margin-top: 44px;
-  }
-
-  .lg\:mt-\[24px\]{
-    margin-top: 24px;
-  }
-
   .lg\:mt-\[36px\]{
     margin-top: 36px;
+  }
+
+  .lg\:mt-\[44px\]{
+    margin-top: 44px;
   }
 
   .lg\:block{
@@ -2055,6 +2047,18 @@ video {
     display: none;
   }
 
+  .lg\:h-\[438px\]{
+    height: 438px;
+  }
+
+  .lg\:h-\[507px\]{
+    height: 507px;
+  }
+
+  .lg\:h-\[510px\]{
+    height: 510px;
+  }
+
   .lg\:h-\[588px\]{
     height: 588px;
   }
@@ -2067,32 +2071,20 @@ video {
     height: 69px;
   }
 
+  .lg\:h-\[719px\]{
+    height: 719px;
+  }
+
   .lg\:h-\[745px\]{
     height: 745px;
   }
 
-  .lg\:h-\[507px\]{
-    height: 507px;
+  .lg\:h-\[976px\]{
+    height: 976px;
   }
 
-  .lg\:h-\[508px\]{
-    height: 508px;
-  }
-
-  .lg\:h-\[510px\]{
-    height: 510px;
-  }
-
-  .lg\:h-\[718px\]{
-    height: 718px;
-  }
-
-  .lg\:h-\[438px\]{
-    height: 438px;
-  }
-
-  .lg\:h-\[719px\]{
-    height: 719px;
+  .lg\:h-\[742px\]{
+    height: 742px;
   }
 
   .lg\:w-\[1170px\]{
@@ -2115,6 +2107,10 @@ video {
     width: 575px;
   }
 
+  .lg\:w-\[630px\]{
+    width: 630px;
+  }
+
   .lg\:w-\[675px\]{
     width: 675px;
   }
@@ -2123,8 +2119,20 @@ video {
     width: 774px;
   }
 
-  .lg\:w-\[630px\]{
-    width: 630px;
+  .lg\:w-\[477px\]{
+    width: 477px;
+  }
+
+  .lg\:w-\[500px\]{
+    width: 500px;
+  }
+
+  .lg\:w-\[540px\]{
+    width: 540px;
+  }
+
+  .lg\:w-\[493px\]{
+    width: 493px;
   }
 
   .lg\:max-w-\[528px\]{
@@ -2147,6 +2155,10 @@ video {
     background-image: url('./images/desktop-opt/advantages_desktop-1-min.jpg'), var(--bg-gradient);
   }
 
+  .lg\:bg-advantages-desk-2{
+    background-image: url('./images/desktop-opt/advantages_desktop-2-min.jpg'), var(--bg-gradient);
+  }
+
   .lg\:bg-advantages-desk-3{
     background-image: url('./images/desktop-opt/advantages_desktop-3-min.jpg'), var(--bg-gradient);
   }
@@ -2155,8 +2167,60 @@ video {
     background-image: url('./images/desktop-opt/hero_desktop-1440-min.jpg'), var(--bg-gradient);
   }
 
-  .lg\:bg-advantages-desk-2{
-    background-image: url('./images/desktop-opt/advantages_desktop-2-min.jpg'), var(--bg-gradient);
+  .lg\:bg-tour-detail-hoverla-desk-1{
+    background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-1-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-hoverla-desk-2{
+    background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-2-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-hoverla-desk-3{
+    background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-3-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-bukovel-desk-1{
+    background-image: url('./images/desktop-opt/tour-bukovel-detail-desktop-1-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-bukovel-desk-2{
+    background-image: url('./images/desktop-opt/tour-bukovel-detail-desktop-2-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-bukovel-desk-3{
+    background-image: url('./images/desktop-opt/tour-bukovel-detail-desktop-3-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-bukovel-desk-4{
+    background-image: url('./images/desktop-opt/tour-bukovel-detail-desktop-4-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-carpathians-desk-1{
+    background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-1-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-carpathians-desk-2{
+    background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-2-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-carpathians-desk-3{
+    background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-3-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-carpathians-desk-4{
+    background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-4-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-carpathians-desk-5{
+    background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-5-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-carpathians-desk-6{
+    background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-6-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-carpathians-desk-7{
+    background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-7-min.jpg'), var(--bg-gradient);
   }
 
   .lg\:px-\[100px\]{
@@ -2179,8 +2243,32 @@ video {
     padding-bottom: 46px;
   }
 
+  .lg\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lg\:py-\[7px\]{
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .lg\:px-\[297px\]{
+    padding-left: 297px;
+    padding-right: 297px;
+  }
+
+  .lg\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .lg\:pb-\[60px\]{
     padding-bottom: 60px;
+  }
+
+  .lg\:pl-\[126px\]{
+    padding-left: 126px;
   }
 
   .lg\:pl-\[13px\]{
@@ -2195,8 +2283,16 @@ video {
     padding-top: 30px;
   }
 
-  .lg\:pl-\[126px\]{
-    padding-left: 126px;
+  .lg\:pt-\[108px\]{
+    padding-top: 108px;
+  }
+
+  .lg\:pl-\[100px\]{
+    padding-left: 100px;
+  }
+
+  .lg\:pt-\[48px\]{
+    padding-top: 48px;
   }
 
   .lg\:text-24{
@@ -2222,6 +2318,11 @@ video {
   .lg\:text-88{
     font-size: 88px;
     line-height: 107px;
+  }
+
+  .lg\:text-40{
+    font-size: 40px;
+    line-height: 49px;
   }
 }
 
@@ -2404,6 +2505,10 @@ video {
       background-image: url('./images/desktop-opt/advantages_desktop-1-min@2x.jpg'), var(--bg-gradient);
     }
 
+    .lg\:dpr\:bg-advantages-desk2x-2{
+      background-image: url('./images/desktop-opt/advantages_desktop-2-min@2x.jpg'), var(--bg-gradient);
+    }
+
     .lg\:dpr\:bg-advantages-desk2x-3{
       background-image: url('./images/desktop-opt/advantages_desktop-3-min@2x.jpg'), var(--bg-gradient);
     }
@@ -2412,8 +2517,60 @@ video {
       background-image: url('./images/desktop-opt/hero_desktop-1440-min@2x.jpg'), var(--bg-gradient);
     }
 
-    .lg\:dpr\:bg-advantages-desk2x-2{
-      background-image: url('./images/desktop-opt/advantages_desktop-2-min@2x.jpg'), var(--bg-gradient);
+    .lg\:dpr\:bg-tour-detail-hoverla-desk2x-1{
+      background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-1-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-hoverla-desk2x-2{
+      background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-2-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-hoverla-desk2x-3{
+      background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-3-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-bukovel-desk2x-1{
+      background-image: url('./images/desktop-opt/tour-bukovel-detail-desktop-1-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-bukovel-desk2x-2{
+      background-image: url('./images/desktop-opt/tour-bukovel-detail-desktop-2-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-bukovel-desk2x-3{
+      background-image: url('./images/desktop-opt/tour-bukovel-detail-desktop-3-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-bukovel-desk2x-4{
+      background-image: url('./images/desktop-opt/tour-bukovel-detail-desktop-4-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-carpathians-desk2x-1{
+      background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-1-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-carpathians-desk2x-2{
+      background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-2-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-carpathians-desk2x-3{
+      background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-3-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-carpathians-desk2x-4{
+      background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-4-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-carpathians-desk2x-5{
+      background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-5-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-carpathians-desk2x-6{
+      background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-6-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-carpathians-desk2x-7{
+      background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-7-min@2x.jpg'), var(--bg-gradient);
     }
   }
 }

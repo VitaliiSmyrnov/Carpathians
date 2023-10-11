@@ -150,6 +150,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-hoverla-detail-tablet-1-min.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-tab2x-1":
           "url('./images/tablet-opt/tour-hoverla-detail-tablet-1-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-desk-1":
+          "url('./images/desktop-opt/tour-hoverla-detail-desktop-1-min.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-desk2x-1":
+          "url('./images/desktop-opt/tour-hoverla-detail-desktop-1-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob-2":
           "url('./images/mobile/tour-hoverla-detail-2-min.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob2x-2":
@@ -158,6 +162,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-hoverla-detail-tablet-2-min.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-tab2x-2":
           "url('./images/tablet-opt/tour-hoverla-detail-tablet-2-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-desk-2":
+          "url('./images/desktop-opt/tour-hoverla-detail-desktop-2-min.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-desk2x-2":
+          "url('./images/desktop-opt/tour-hoverla-detail-desktop-2-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob-3":
           "url('./images/mobile/tour-hoverla-detail-3-min.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob2x-3":
@@ -166,6 +174,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-hoverla-detail-tablet-3-min.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-tab2x-3":
           "url('./images/tablet-opt/tour-hoverla-detail-tablet-3-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-desk-3":
+          "url('./images/desktop-opt/tour-hoverla-detail-desktop-3-min.jpg'), var(--bg-gradient)",
+        "tour-detail-hoverla-desk2x-3":
+          "url('./images/desktop-opt/tour-hoverla-detail-desktop-3-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob-1":
           "url('./images/mobile/tour-bukovel-detail-1-min.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob2x-1":
@@ -174,6 +186,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-bukovel-detail-tablet-1-min.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-tab2x-1":
           "url('./images/tablet-opt/tour-bukovel-detail-tablet-1-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-desk-1":
+          "url('./images/desktop-opt/tour-bukovel-detail-desktop-1-min.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-desk2x-1":
+          "url('./images/desktop-opt/tour-bukovel-detail-desktop-1-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob-2":
           "url('./images/mobile/tour-bukovel-detail-2-min.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob2x-2":
@@ -182,6 +198,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-bukovel-detail-tablet-2-min.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-tab2x-2":
           "url('./images/tablet-opt/tour-bukovel-detail-tablet-2-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-desk-2":
+          "url('./images/desktop-opt/tour-bukovel-detail-desktop-2-min.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-desk2x-2":
+          "url('./images/desktop-opt/tour-bukovel-detail-desktop-2-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob-3":
           "url('./images/mobile/tour-bukovel-detail-3-min.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob2x-3":
@@ -190,6 +210,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-bukovel-detail-tablet-3-min.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-tab2x-3":
           "url('./images/tablet-opt/tour-bukovel-detail-tablet-3-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-desk-3":
+          "url('./images/desktop-opt/tour-bukovel-detail-desktop-3-min.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-desk2x-3":
+          "url('./images/desktop-opt/tour-bukovel-detail-desktop-3-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob-4":
           "url('./images/mobile/tour-bukovel-detail-4-min.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-mob2x-4":
@@ -198,6 +222,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-bukovel-detail-tablet-4-min.jpg'), var(--bg-gradient)",
         "tour-detail-bukovel-tab2x-4":
           "url('./images/tablet-opt/tour-bukovel-detail-tablet-4-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-desk-4":
+          "url('./images/desktop-opt/tour-bukovel-detail-desktop-4-min.jpg'), var(--bg-gradient)",
+        "tour-detail-bukovel-desk2x-4":
+          "url('./images/desktop-opt/tour-bukovel-detail-desktop-4-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-1":
           "url('./images/mobile/tour-carpathians-detail-1-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-1":
@@ -206,6 +234,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-1-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-tab2x-1":
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-1-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk-1":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-1-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk2x-1":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-1-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-2":
           "url('./images/mobile/tour-carpathians-detail-2-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-2":
@@ -214,6 +246,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-2-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-tab2x-2":
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-2-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk-2":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-2-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk2x-2":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-2-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-3":
           "url('./images/mobile/tour-carpathians-detail-3-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-3":
@@ -222,6 +258,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-3-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-tab2x-3":
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-3-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk-3":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-3-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk2x-3":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-3-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-4":
           "url('./images/mobile/tour-carpathians-detail-4-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-4":
@@ -230,6 +270,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-4-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-tab2x-4":
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-4-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk-4":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-4-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk2x-4":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-4-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-5":
           "url('./images/mobile/tour-carpathians-detail-5-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-5":
@@ -238,6 +282,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-5-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-tab2x-5":
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-5-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk-5":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-5-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk2x-5":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-5-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-6":
           "url('./images/mobile/tour-carpathians-detail-6-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-6":
@@ -246,6 +294,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-6-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-tab2x-6":
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-6-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk-6":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-6-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk2x-6":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-6-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob-7":
           "url('./images/mobile/tour-carpathians-detail-7-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-mob2x-7":
@@ -254,6 +306,10 @@ module.exports = {
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-7-min.jpg'), var(--bg-gradient)",
         "tour-detail-carpathians-tab2x-7":
           "url('./images/tablet-opt/tour-carpathians-detail-tablet-7-min@2x.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk-7":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-7-min.jpg'), var(--bg-gradient)",
+        "tour-detail-carpathians-desk2x-7":
+          "url('./images/desktop-opt/tour-carpathians-detail-desktop-7-min@2x.jpg'), var(--bg-gradient)",
       },
     },
   },
