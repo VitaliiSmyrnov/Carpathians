@@ -1540,6 +1540,14 @@ video {
     top: 79px;
   }
 
+  .md\:bottom-5{
+    bottom: 1.25rem;
+  }
+
+  .md\:right-5{
+    right: 1.25rem;
+  }
+
   .md\:mx-auto{
     margin-left: auto;
     margin-right: auto;
@@ -2002,6 +2010,14 @@ video {
     top: 40px;
   }
 
+  .lg\:top-\[72px\]{
+    top: 72px;
+  }
+
+  .lg\:left-\[126px\]{
+    left: 126px;
+  }
+
   .lg\:mx-auto{
     margin-left: auto;
     margin-right: auto;
@@ -2009,6 +2025,10 @@ video {
 
   .lg\:mb-\[60px\]{
     margin-bottom: 60px;
+  }
+
+  .lg\:mb-\[70px\]{
+    margin-bottom: 70px;
   }
 
   .lg\:mt-\[190px\]{
@@ -2059,6 +2079,10 @@ video {
     height: 510px;
   }
 
+  .lg\:h-\[570px\]{
+    height: 570px;
+  }
+
   .lg\:h-\[588px\]{
     height: 588px;
   }
@@ -2075,6 +2099,10 @@ video {
     height: 719px;
   }
 
+  .lg\:h-\[742px\]{
+    height: 742px;
+  }
+
   .lg\:h-\[745px\]{
     height: 745px;
   }
@@ -2083,8 +2111,12 @@ video {
     height: 976px;
   }
 
-  .lg\:h-\[742px\]{
-    height: 742px;
+  .lg\:h-\[150px\]{
+    height: 150px;
+  }
+
+  .lg\:h-\[125px\]{
+    height: 125px;
   }
 
   .lg\:w-\[1170px\]{
@@ -2103,6 +2135,22 @@ video {
     width: 377px;
   }
 
+  .lg\:w-\[477px\]{
+    width: 477px;
+  }
+
+  .lg\:w-\[493px\]{
+    width: 493px;
+  }
+
+  .lg\:w-\[500px\]{
+    width: 500px;
+  }
+
+  .lg\:w-\[540px\]{
+    width: 540px;
+  }
+
   .lg\:w-\[575px\]{
     width: 575px;
   }
@@ -2119,20 +2167,16 @@ video {
     width: 774px;
   }
 
-  .lg\:w-\[477px\]{
-    width: 477px;
+  .lg\:w-\[150px\]{
+    width: 150px;
   }
 
-  .lg\:w-\[500px\]{
-    width: 500px;
+  .lg\:w-\[125px\]{
+    width: 125px;
   }
 
-  .lg\:w-\[540px\]{
-    width: 540px;
-  }
-
-  .lg\:w-\[493px\]{
-    width: 493px;
+  .lg\:w-\[321px\]{
+    width: 321px;
   }
 
   .lg\:max-w-\[528px\]{
@@ -2165,18 +2209,6 @@ video {
 
   .lg\:bg-hero-desk-1440{
     background-image: url('./images/desktop-opt/hero_desktop-1440-min.jpg'), var(--bg-gradient);
-  }
-
-  .lg\:bg-tour-detail-hoverla-desk-1{
-    background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-1-min.jpg'), var(--bg-gradient);
-  }
-
-  .lg\:bg-tour-detail-hoverla-desk-2{
-    background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-2-min.jpg'), var(--bg-gradient);
-  }
-
-  .lg\:bg-tour-detail-hoverla-desk-3{
-    background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-3-min.jpg'), var(--bg-gradient);
   }
 
   .lg\:bg-tour-detail-bukovel-desk-1{
@@ -2223,6 +2255,27 @@ video {
     background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-7-min.jpg'), var(--bg-gradient);
   }
 
+  .lg\:bg-tour-detail-hoverla-desk-1{
+    background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-1-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-hoverla-desk-2{
+    background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-2-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-tour-detail-hoverla-desk-3{
+    background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-3-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-review-desk{
+    background-image: url('./images/desktop-opt/review_desktop-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .lg\:px-\[100px\]{
     padding-left: 100px;
     padding-right: 100px;
@@ -2233,29 +2286,14 @@ video {
     padding-right: 135px;
   }
 
-  .lg\:px-\[7px\]{
-    padding-left: 7px;
-    padding-right: 7px;
-  }
-
-  .lg\:py-\[46px\]{
-    padding-top: 46px;
-    padding-bottom: 46px;
-  }
-
-  .lg\:px-0{
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .lg\:py-\[7px\]{
-    padding-top: 7px;
-    padding-bottom: 7px;
-  }
-
   .lg\:px-\[297px\]{
     padding-left: 297px;
     padding-right: 297px;
+  }
+
+  .lg\:px-\[7px\]{
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .lg\:py-0{
@@ -2263,8 +2301,27 @@ video {
     padding-bottom: 0px;
   }
 
+  .lg\:py-\[46px\]{
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  .lg\:py-\[7px\]{
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .lg\:px-\[28px\]{
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
   .lg\:pb-\[60px\]{
     padding-bottom: 60px;
+  }
+
+  .lg\:pl-\[100px\]{
+    padding-left: 100px;
   }
 
   .lg\:pl-\[126px\]{
@@ -2275,6 +2332,10 @@ video {
     padding-left: 13px;
   }
 
+  .lg\:pt-\[108px\]{
+    padding-top: 108px;
+  }
+
   .lg\:pt-\[112px\]{
     padding-top: 112px;
   }
@@ -2283,16 +2344,12 @@ video {
     padding-top: 30px;
   }
 
-  .lg\:pt-\[108px\]{
-    padding-top: 108px;
-  }
-
-  .lg\:pl-\[100px\]{
-    padding-left: 100px;
-  }
-
   .lg\:pt-\[48px\]{
     padding-top: 48px;
+  }
+
+  .lg\:pt-\[83px\]{
+    padding-top: 83px;
   }
 
   .lg\:text-24{
@@ -2303,6 +2360,11 @@ video {
   .lg\:text-28{
     font-size: 28px;
     line-height: 34px;
+  }
+
+  .lg\:text-40{
+    font-size: 40px;
+    line-height: 49px;
   }
 
   .lg\:text-60{
@@ -2318,11 +2380,6 @@ video {
   .lg\:text-88{
     font-size: 88px;
     line-height: 107px;
-  }
-
-  .lg\:text-40{
-    font-size: 40px;
-    line-height: 49px;
   }
 }
 
@@ -2517,18 +2574,6 @@ video {
       background-image: url('./images/desktop-opt/hero_desktop-1440-min@2x.jpg'), var(--bg-gradient);
     }
 
-    .lg\:dpr\:bg-tour-detail-hoverla-desk2x-1{
-      background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-1-min@2x.jpg'), var(--bg-gradient);
-    }
-
-    .lg\:dpr\:bg-tour-detail-hoverla-desk2x-2{
-      background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-2-min@2x.jpg'), var(--bg-gradient);
-    }
-
-    .lg\:dpr\:bg-tour-detail-hoverla-desk2x-3{
-      background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-3-min@2x.jpg'), var(--bg-gradient);
-    }
-
     .lg\:dpr\:bg-tour-detail-bukovel-desk2x-1{
       background-image: url('./images/desktop-opt/tour-bukovel-detail-desktop-1-min@2x.jpg'), var(--bg-gradient);
     }
@@ -2571,6 +2616,22 @@ video {
 
     .lg\:dpr\:bg-tour-detail-carpathians-desk2x-7{
       background-image: url('./images/desktop-opt/tour-carpathians-detail-desktop-7-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-hoverla-desk2x-1{
+      background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-1-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-hoverla-desk2x-2{
+      background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-2-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-tour-detail-hoverla-desk2x-3{
+      background-image: url('./images/desktop-opt/tour-hoverla-detail-desktop-3-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .lg\:dpr\:bg-review-desk2x{
+      background-image: url('./images/desktop-opt/review_desktop-min@2x.jpg'), var(--bg-gradient);
     }
   }
 }
