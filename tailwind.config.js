@@ -80,6 +80,7 @@ module.exports = {
         28: ["28px", { lineHeight: "34px" }],
         32: ["32px", { lineHeight: "39px" }],
         40: ["40px", { lineHeight: "49px" }],
+        48: ["48px", { lineHeight: "58px" }],
         52: ["52px", { lineHeight: "63px" }],
         60: ["60px", { lineHeight: "73px" }],
         68: ["68px", { lineHeight: "83px" }],
@@ -146,6 +147,14 @@ module.exports = {
           "url('./images/tablet-opt/question_tablet-min.jpg'), var(--bg-gradient)",
         "question-tab2x":
           "url('./images/tablet-opt/question_tablet-min@2x.jpg'), var(--bg-gradient)",
+        "question-desk-1440":
+          "url('./images/desktop-opt/question_desktop-1440-min.jpg'), var(--bg-gradient)",
+        "question-desk-1440-2x":
+          "url('./images/desktop-opt/question_desktop-1440-min@2x.jpg'), var(--bg-gradient)",
+        "question-desk-1920":
+          "url('./images/desktop-opt/question_desktop-1920-min.jpg'), var(--bg-gradient)",
+        "question-desk-1920-2x":
+          "url('./images/desktop-opt/question_desktop-1920-min@2x.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob-1":
           "url('./images/mobile/tour-hoverla-detail-1-min.jpg'), var(--bg-gradient)",
         "tour-detail-hoverla-mob2x-1":

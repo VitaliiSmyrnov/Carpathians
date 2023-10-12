@@ -1502,28 +1502,9 @@ video {
   color: rgb(91 134 161 / var(--tw-text-opacity));
 }
 
-.hover\:text-secondary:hover{
-  --tw-text-opacity: 1;
-  color: rgb(32 35 33 / var(--tw-text-opacity));
-}
-
-.hover\:text-slate-700:hover{
-  --tw-text-opacity: 1;
-  color: rgb(51 65 85 / var(--tw-text-opacity));
-}
-
 .hover\:text-slate-600:hover{
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
-}
-
-.hover\:text-slate-500:hover{
-  --tw-text-opacity: 1;
-  color: rgb(100 116 139 / var(--tw-text-opacity));
-}
-
-.hover\:text-opacity-50:hover{
-  --tw-text-opacity: 0.5;
 }
 
 .hover\:underline:hover{
@@ -2071,8 +2052,16 @@ video {
     margin-top: 30px;
   }
 
+  .lg\:mt-\[32px\]{
+    margin-top: 32px;
+  }
+
   .lg\:mt-\[36px\]{
     margin-top: 36px;
+  }
+
+  .lg\:mt-\[40px\]{
+    margin-top: 40px;
   }
 
   .lg\:mt-\[44px\]{
@@ -2081,10 +2070,6 @@ video {
 
   .lg\:mt-\[59px\]{
     margin-top: 59px;
-  }
-
-  .lg\:mt-\[40px\]{
-    margin-top: 40px;
   }
 
   .lg\:block{
@@ -2099,12 +2084,24 @@ video {
     display: none;
   }
 
+  .lg\:h-\[1074px\]{
+    height: 1074px;
+  }
+
   .lg\:h-\[125px\]{
     height: 125px;
   }
 
+  .lg\:h-\[40px\]{
+    height: 40px;
+  }
+
   .lg\:h-\[438px\]{
     height: 438px;
+  }
+
+  .lg\:h-\[445px\]{
+    height: 445px;
   }
 
   .lg\:h-\[507px\]{
@@ -2115,8 +2112,16 @@ video {
     height: 510px;
   }
 
+  .lg\:h-\[525px\]{
+    height: 525px;
+  }
+
   .lg\:h-\[570px\]{
     height: 570px;
+  }
+
+  .lg\:h-\[583px\]{
+    height: 583px;
   }
 
   .lg\:h-\[588px\]{
@@ -2147,24 +2152,16 @@ video {
     height: 976px;
   }
 
-  .lg\:h-\[525px\]{
-    height: 525px;
-  }
-
-  .lg\:h-\[445px\]{
-    height: 445px;
-  }
-
-  .lg\:h-\[40px\]{
-    height: 40px;
-  }
-
   .lg\:w-\[1170px\]{
     width: 1170px;
   }
 
   .lg\:w-\[125px\]{
     width: 125px;
+  }
+
+  .lg\:w-\[140px\]{
+    width: 140px;
   }
 
   .lg\:w-\[1440px\]{
@@ -2195,6 +2192,10 @@ video {
     width: 500px;
   }
 
+  .lg\:w-\[502px\]{
+    width: 502px;
+  }
+
   .lg\:w-\[540px\]{
     width: 540px;
   }
@@ -2211,12 +2212,12 @@ video {
     width: 675px;
   }
 
-  .lg\:w-\[774px\]{
-    width: 774px;
+  .lg\:w-\[681px\]{
+    width: 681px;
   }
 
-  .lg\:w-\[140px\]{
-    width: 140px;
+  .lg\:w-\[774px\]{
+    width: 774px;
   }
 
   .lg\:max-w-\[528px\]{
@@ -2249,6 +2250,10 @@ video {
 
   .lg\:bg-hero-desk-1440{
     background-image: url('./images/desktop-opt/hero_desktop-1440-min.jpg'), var(--bg-gradient);
+  }
+
+  .lg\:bg-question-desk-1440{
+    background-image: url('./images/desktop-opt/question_desktop-1440-min.jpg'), var(--bg-gradient);
   }
 
   .lg\:bg-review-desk{
@@ -2336,6 +2341,16 @@ video {
     padding-right: 297px;
   }
 
+  .lg\:px-\[46px\]{
+    padding-left: 46px;
+    padding-right: 46px;
+  }
+
+  .lg\:px-\[53px\]{
+    padding-left: 53px;
+    padding-right: 53px;
+  }
+
   .lg\:px-\[7px\]{
     padding-left: 7px;
     padding-right: 7px;
@@ -2349,6 +2364,11 @@ video {
   .lg\:py-\[46px\]{
     padding-top: 46px;
     padding-bottom: 46px;
+  }
+
+  .lg\:py-\[58px\]{
+    padding-top: 58px;
+    padding-bottom: 58px;
   }
 
   .lg\:py-\[7px\]{
@@ -2392,6 +2412,11 @@ video {
     padding-top: 83px;
   }
 
+  .lg\:text-20{
+    font-size: 20px;
+    line-height: 24px;
+  }
+
   .lg\:text-24{
     font-size: 24px;
     line-height: 29px;
@@ -2405,6 +2430,11 @@ video {
   .lg\:text-40{
     font-size: 40px;
     line-height: 49px;
+  }
+
+  .lg\:text-48{
+    font-size: 48px;
+    line-height: 58px;
   }
 
   .lg\:text-60{
@@ -2439,6 +2469,10 @@ video {
 
   .xl\:bg-hero-desk-1920{
     background-image: url('./images/desktop-opt/hero_desktop-1920-min.jpg'), var(--bg-gradient);
+  }
+
+  .xl\:bg-question-desk-1920{
+    background-image: url('./images/desktop-opt/question_desktop-1920-min.jpg'), var(--bg-gradient);
   }
 
   .xl\:px-\[375px\]{
@@ -2619,6 +2653,10 @@ video {
       background-image: url('./images/desktop-opt/hero_desktop-1440-min@2x.jpg'), var(--bg-gradient);
     }
 
+    .lg\:dpr\:bg-question-desk-1440-2x{
+      background-image: url('./images/desktop-opt/question_desktop-1440-min@2x.jpg'), var(--bg-gradient);
+    }
+
     .lg\:dpr\:bg-review-desk2x{
       background-image: url('./images/desktop-opt/review_desktop-min@2x.jpg'), var(--bg-gradient);
     }
@@ -2685,6 +2723,10 @@ video {
   @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
     .xl\:dpr\:bg-hero-desk-1920-2x{
       background-image: url('./images/desktop-opt/hero_desktop-1920-min@2x.jpg'), var(--bg-gradient);
+    }
+
+    .xl\:dpr\:bg-question-desk-1920-2x{
+      background-image: url('./images/desktop-opt/question_desktop-1920-min@2x.jpg'), var(--bg-gradient);
     }
   }
 }
