@@ -2079,6 +2079,14 @@ video {
     margin-top: 44px;
   }
 
+  .lg\:mt-\[59px\]{
+    margin-top: 59px;
+  }
+
+  .lg\:mt-\[40px\]{
+    margin-top: 40px;
+  }
+
   .lg\:block{
     display: block;
   }
@@ -2139,6 +2147,18 @@ video {
     height: 976px;
   }
 
+  .lg\:h-\[525px\]{
+    height: 525px;
+  }
+
+  .lg\:h-\[445px\]{
+    height: 445px;
+  }
+
+  .lg\:h-\[40px\]{
+    height: 40px;
+  }
+
   .lg\:w-\[1170px\]{
     width: 1170px;
   }
@@ -2193,6 +2213,10 @@ video {
 
   .lg\:w-\[774px\]{
     width: 774px;
+  }
+
+  .lg\:w-\[140px\]{
+    width: 140px;
   }
 
   .lg\:max-w-\[528px\]{
@@ -2396,6 +2420,11 @@ video {
   .lg\:text-88{
     font-size: 88px;
     line-height: 107px;
+  }
+
+  .lg\:svg-40{
+    width: 40px;
+    height: 40px;
   }
 }
 
