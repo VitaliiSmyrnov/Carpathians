@@ -2252,6 +2252,14 @@ video {
     cursor: pointer;
   }
 
+  .lg\:cursor-none{
+    cursor: none;
+  }
+
+  .lg\:cursor-not-allowed{
+    cursor: not-allowed;
+  }
+
   .lg\:flex-col{
     flex-direction: column;
   }

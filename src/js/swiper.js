@@ -100,4 +100,23 @@ const swiperGallery = new Swiper("#swiper-gallery", {
   slidesPerView: "auto",
   centeredSlides: true,
   centeredSlidesBounds: true,
+  // clickable: false,
+  // allowSlideClick: false,
 });
+
+// swiperGallery.on("click", function () {
+//   var activeSlide = swiperGallery.slides[swiperGallery.activeIndex];
+//   var largeImage = activeSlide
+//     .querySelector("img")
+//     .getAttribute("data-large-image");
+
+//   // Замените изображение на более крупное изображение
+//   activeSlide.querySelector("img").src = largeImage;
+
+//   if (swiperGallery.params.slidesPerView === 2) {
+//     swiperGallery.params.slidesPerView = 1;
+//   } else {
+//     swiperGallery.params.slidesPerView = 2;
+//   }
+//   swiperGallery.update();
+// });
