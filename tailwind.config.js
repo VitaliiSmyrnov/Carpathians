@@ -39,6 +39,15 @@ const Myclass = plugin(function ({ addUtilities }) {
       width: "60px",
       height: "60px",
     },
+    ".bullet-12": {
+      "line-height": "1.0",
+    },
+    ".bullet-16": {
+      "--swiper-pagination-bullet-size": "16px",
+    },
+    ".bullet-b40": {
+      "--swiper-pagination-bottom": "40px",
+    },
   });
 });
 
