@@ -39,6 +39,15 @@ const Myclass = plugin(function ({ addUtilities }) {
       width: "60px",
       height: "60px",
     },
+    ".bullet-12": {
+      "line-height": "1.0",
+    },
+    ".bullet-16": {
+      "--swiper-pagination-bullet-size": "16px",
+    },
+    ".bullet-b40": {
+      "--swiper-pagination-bottom": "40px",
+    },
   });
 });
 
@@ -50,6 +59,10 @@ module.exports = {
         md: "768px",
         lg: "1440px",
         xl: "1920px",
+        "md-img": "400px",
+        "lg-img": "800px",
+        "xl-img": "1600px",
+        "xxl-img": "2000px",
         dpr: {
           raw: "screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx)",
         },

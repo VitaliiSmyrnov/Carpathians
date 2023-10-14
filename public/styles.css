@@ -549,6 +549,12 @@ video {
   width: 100%;
 }
 
+@media (min-width: 400px){
+  .container{
+    max-width: 400px;
+  }
+}
+
 @media (min-width: 640px){
   .container{
     max-width: 640px;
@@ -558,6 +564,12 @@ video {
 @media (min-width: 768px){
   .container{
     max-width: 768px;
+  }
+}
+
+@media (min-width: 800px){
+  .container{
+    max-width: 800px;
   }
 }
 
@@ -573,9 +585,21 @@ video {
   }
 }
 
+@media (min-width: 1600px){
+  .container{
+    max-width: 1600px;
+  }
+}
+
 @media (min-width: 1920px){
   .container{
     max-width: 1920px;
+  }
+}
+
+@media (min-width: 2000px){
+  .container{
+    max-width: 2000px;
   }
 }
 
@@ -647,12 +671,12 @@ video {
   top: 12px;
 }
 
-.top-\[369px\]{
-  top: 369px;
+.top-\[2px\]{
+  top: 2px;
 }
 
-.top-\[3px\]{
-  top: 3px;
+.top-\[369px\]{
+  top: 369px;
 }
 
 .top-\[84px\]{
@@ -661,10 +685,6 @@ video {
 
 .top-\[87px\]{
   top: 87px;
-}
-
-.top-\[2px\]{
-  top: 2px;
 }
 
 .z-10{
@@ -876,20 +896,16 @@ video {
   height: 632px;
 }
 
+.h-\[788px\]{
+  height: 788px;
+}
+
 .h-full{
   height: 100%;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
 .min-h-\[160px\]{
   min-height: 160px;
-}
-
-.min-h-screen{
-  min-height: 100vh;
 }
 
 .w-10{
@@ -1501,6 +1517,10 @@ video {
   opacity: 0;
 }
 
+.bullet-12{
+  line-height: 1.0;
+}
+
 .hover\:text-accent:hover{
   --tw-text-opacity: 1;
   color: rgb(91 134 161 / var(--tw-text-opacity));
@@ -1690,6 +1710,14 @@ video {
     height: 734px;
   }
 
+  .md\:h-\[818px\]{
+    height: 818px;
+  }
+
+  .md\:h-\[60px\]{
+    height: 60px;
+  }
+
   .md\:min-h-\[192px\]{
     min-height: 192px;
   }
@@ -1792,10 +1820,6 @@ video {
 
   .md\:bg-advantages-tab-2{
     background-image: url('./images/tablet-opt/advantages_tablet-2-min.jpg'), var(--bg-gradient);
-  }
-
-  .md\:bg-hero-tab{
-    background-image: url('./images/tablet-opt/hero_tablet-min.jpg'), var(--bg-gradient);
   }
 
   .md\:bg-question-tab{
@@ -1956,6 +1980,10 @@ video {
     padding-top: 74px;
   }
 
+  .md\:pt-\[13px\]{
+    padding-top: 13px;
+  }
+
   .md\:text-18{
     font-size: 18px;
     line-height: 22px;
@@ -2004,6 +2032,10 @@ video {
     width: 60px;
     height: 60px;
   }
+
+  .md\:bullet-16{
+    --swiper-pagination-bullet-size: 16px;
+  }
 }
 
 @media (min-width: 1440px){
@@ -2023,20 +2055,12 @@ video {
     top: 40px;
   }
 
-  .lg\:top-\[72px\]{
-    top: 72px;
-  }
-
-  .lg\:top-\[5px\]{
-    top: 5px;
-  }
-
-  .lg\:top-\[10px\]{
-    top: 10px;
-  }
-
   .lg\:top-\[4px\]{
     top: 4px;
+  }
+
+  .lg\:top-\[72px\]{
+    top: 72px;
   }
 
   .lg\:mx-auto{
@@ -2102,6 +2126,10 @@ video {
 
   .lg\:hidden{
     display: none;
+  }
+
+  .lg\:h-\[1024px\]{
+    height: 1024px;
   }
 
   .lg\:h-\[1074px\]{
@@ -2248,18 +2276,6 @@ video {
     max-width: 528px;
   }
 
-  .lg\:cursor-pointer{
-    cursor: pointer;
-  }
-
-  .lg\:cursor-none{
-    cursor: none;
-  }
-
-  .lg\:cursor-not-allowed{
-    cursor: not-allowed;
-  }
-
   .lg\:flex-col{
     flex-direction: column;
   }
@@ -2282,10 +2298,6 @@ video {
 
   .lg\:bg-advantages-desk-3{
     background-image: url('./images/desktop-opt/advantages_desktop-3-min.jpg'), var(--bg-gradient);
-  }
-
-  .lg\:bg-hero-desk-1440{
-    background-image: url('./images/desktop-opt/hero_desktop-1440-min.jpg'), var(--bg-gradient);
   }
 
   .lg\:bg-question-desk-1440{
@@ -2512,23 +2524,23 @@ video {
     width: 40px;
     height: 40px;
   }
+
+  .lg\:bullet-b40{
+    --swiper-pagination-bottom: 40px;
+  }
 }
 
 @media (min-width: 1920px){
-  .xl\:top-\[5px\]{
-    top: 5px;
-  }
-
   .xl\:mt-\[168px\]{
     margin-top: 168px;
   }
 
-  .xl\:w-\[1920px\]{
-    width: 1920px;
+  .xl\:h-\[975px\]{
+    height: 975px;
   }
 
-  .xl\:bg-hero-desk-1920{
-    background-image: url('./images/desktop-opt/hero_desktop-1920-min.jpg'), var(--bg-gradient);
+  .xl\:w-\[1920px\]{
+    width: 1920px;
   }
 
   .xl\:bg-question-desk-1920{
@@ -2542,6 +2554,30 @@ video {
 
   .xl\:pl-\[573px\]{
     padding-left: 573px;
+  }
+}
+
+@media (min-width: 400px){
+  .md-img\:bg-hero-tab{
+    background-image: url('./images/tablet-opt/hero_tablet-min.jpg'), var(--bg-gradient);
+  }
+}
+
+@media (min-width: 800px){
+  .lg-img\:bg-hero-desk-1440{
+    background-image: url('./images/desktop-opt/hero_desktop-1440-min.jpg'), var(--bg-gradient);
+  }
+}
+
+@media (min-width: 1600px){
+  .xl-img\:bg-hero-desk-1920{
+    background-image: url('./images/desktop-opt/hero_desktop-1920-min.jpg'), var(--bg-gradient);
+  }
+}
+
+@media (min-width: 2000px){
+  .xxl-img\:bg-hero-desk-1920-2x{
+    background-image: url('./images/desktop-opt/hero_desktop-1920-min@2x.jpg'), var(--bg-gradient);
   }
 }
 
@@ -2629,10 +2665,6 @@ video {
       background-image: url('./images/tablet-opt/advantages_tablet-2-min@2x.jpg'), var(--bg-gradient);
     }
 
-    .md\:dpr\:bg-hero-tab2x{
-      background-image: url('./images/tablet-opt/hero_tablet-min@2x.jpg'), var(--bg-gradient);
-    }
-
     .md\:dpr\:bg-question-tab2x{
       background-image: url('./images/tablet-opt/question_tablet-min@2x.jpg'), var(--bg-gradient);
     }
@@ -2713,10 +2745,6 @@ video {
       background-image: url('./images/desktop-opt/advantages_desktop-3-min@2x.jpg'), var(--bg-gradient);
     }
 
-    .lg\:dpr\:bg-hero-desk-1440-2x{
-      background-image: url('./images/desktop-opt/hero_desktop-1440-min@2x.jpg'), var(--bg-gradient);
-    }
-
     .lg\:dpr\:bg-question-desk-1440-2x{
       background-image: url('./images/desktop-opt/question_desktop-1440-min@2x.jpg'), var(--bg-gradient);
     }
@@ -2785,12 +2813,32 @@ video {
 
 @media (min-width: 1920px){
   @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
-    .xl\:dpr\:bg-hero-desk-1920-2x{
-      background-image: url('./images/desktop-opt/hero_desktop-1920-min@2x.jpg'), var(--bg-gradient);
-    }
-
     .xl\:dpr\:bg-question-desk-1920-2x{
       background-image: url('./images/desktop-opt/question_desktop-1920-min@2x.jpg'), var(--bg-gradient);
+    }
+  }
+}
+
+@media (min-width: 400px){
+  @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
+    .md-img\:dpr\:bg-hero-tab2x{
+      background-image: url('./images/tablet-opt/hero_tablet-min@2x.jpg'), var(--bg-gradient);
+    }
+  }
+}
+
+@media (min-width: 800px){
+  @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
+    .lg-img\:dpr\:bg-hero-desk-1440-2x{
+      background-image: url('./images/desktop-opt/hero_desktop-1440-min@2x.jpg'), var(--bg-gradient);
+    }
+  }
+}
+
+@media (min-width: 1600px){
+  @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
+    .xl-img\:dpr\:bg-hero-desk-1920-2x{
+      background-image: url('./images/desktop-opt/hero_desktop-1920-min@2x.jpg'), var(--bg-gradient);
     }
   }
 }
