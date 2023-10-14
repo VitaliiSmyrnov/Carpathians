@@ -59,6 +59,10 @@ module.exports = {
         md: "768px",
         lg: "1440px",
         xl: "1920px",
+        "md-img": "400px",
+        "lg-img": "800px",
+        "xl-img": "1600px",
+        "xxl-img": "2000px",
         dpr: {
           raw: "screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx)",
         },
