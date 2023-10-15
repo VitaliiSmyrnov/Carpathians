@@ -27,6 +27,16 @@ const Myclass = plugin(function ({ addUtilities }) {
       visibility: "hidden",
       opacity: 0,
     },
+    ".modal-active": {
+      visibility: "visible",
+      opacity: 1,
+      scale: 1,
+    },
+    ".modal-hidden": {
+      visibility: "hidden",
+      opacity: 0,
+      scale: 0,
+    },
     ".svg-32": {
       width: "32px",
       height: "32px",

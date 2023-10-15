@@ -85,7 +85,7 @@
           <!--mobile-tablet nav side popup -->
 
           <div
-            class="absolute left-0 top-0 backdrop-hidden h-[788px] w-[233px] -translate-x-full overflow-y-auto bg-dark_70 py-[20px] pl-[32px] transition-all duration-200 md:h-[818px] md:w-[374px] md:py-[24px] md:pl-[82px]"
+            class="absolute left-0 top-0 h-[788px] w-[233px] -translate-x-full overflow-y-auto bg-dark_70 py-[20px] pl-[32px] transition-all duration-200 backdrop-hidden md:h-[818px] md:w-[374px] md:py-[24px] md:pl-[82px]"
             data-menu
           >
             <a href="index.html">
@@ -257,13 +257,14 @@
           <!-- hero popup -->
 
           <div
-            id="hero-modal"
+            id="hero-backdrop"
             class="fixed left-0 right-0 top-0 z-50 flex h-full w-full items-center justify-center overflow-y-auto overflow-x-hidden bg-backdrop transition-all duration-300 backdrop-hidden"
             tabindex="-1"
             aria-hidden="true"
           >
             <div
-              class="relative h-[504px] w-[375px] bg-light px-[32px] pb-[36px] pt-[52px] md:h-[581px] md:w-[478px] md:px-[42px] md:pb-[40px] md:pt-[60px] lg:h-[745px] lg:w-[774px] lg:px-[100px] lg:pb-[60px] lg:pt-[112px]"
+              class="modal-hidden relative h-[504px] w-[375px] bg-light px-[32px] pb-[36px] pt-[52px] transition-all duration-300 md:h-[581px] md:w-[478px] md:px-[42px] md:pb-[40px] md:pt-[60px] lg:h-[745px] lg:w-[774px] lg:px-[100px] lg:pb-[60px] lg:pt-[112px]"
+              id="hero-modal"
             >
               <button
                 type="button"
