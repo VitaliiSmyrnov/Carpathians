@@ -12,6 +12,7 @@ refs.mobileMenuCloseButton.addEventListener("click", burgerMobile);
 
 function burgerMobile() {
   refs.mobileMenu.classList.toggle("-translate-x-full");
+  refs.mobileMenu.classList.toggle("backdrop-hidden");
   refs.heroSection.classList.toggle("hidden");
   refs.mobileMenuButton.classList.toggle("hidden");
   refs.mobileMenuCloseButton.classList.toggle("hidden");
