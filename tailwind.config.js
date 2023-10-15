@@ -116,6 +116,8 @@ module.exports = {
           "url('./images/desktop-opt/hero_desktop-1920-min.jpg'), var(--bg-gradient)",
         "hero-desk-1920-2x":
           "url('./images/desktop-opt/hero_desktop-1920-min@2x.jpg'), var(--bg-gradient)",
+        "hero-desk-1920-3x":
+          "url('./images/desktop-opt/hero_desktop-1920-min@3x.jpg'), var(--bg-gradient)",
         "advantages-mob":
           "url('./images/mobile/advantages_mob-min.jpg'), var(--bg-gradient)",
         "advantages-mob2x":
