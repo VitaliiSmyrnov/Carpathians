@@ -104,6 +104,40 @@ const swiperGallery = new Swiper("#swiper-gallery", {
   // allowSlideClick: false,
 });
 
+const swiperGalleryBig = new Swiper("#swiper-gallery-big", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: false,
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      centeredSlides: false,
+      centeredSlidesBounds: false,
+    },
+    1440: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      centeredSlides: false,
+      centeredSlidesBounds: false,
+    },
+  },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+  navigation: {
+    nextEl: ".swiper-next-2",
+    prevEl: ".swiper-prev-2",
+  },
+  spaceBetween: 20,
+  slidesPerView: "auto",
+  centeredSlides: true,
+  centeredSlidesBounds: true,
+  // clickable: false,
+  // allowSlideClick: false,
+});
+
 // swiperGallery.on("click", function () {
 //   var activeSlide = swiperGallery.slides[swiperGallery.activeIndex];
 //   var largeImage = activeSlide

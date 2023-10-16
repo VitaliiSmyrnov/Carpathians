@@ -1554,6 +1554,31 @@ video {
   opacity: 1;
 }
 
+.hover\:bg-sky-700:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 105 161 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sky-400:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(56 189 248 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sky-500:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 165 233 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-primary:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 29 27 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-light:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 251 251 / var(--tw-bg-opacity));
+}
+
 .hover\:text-accent:hover{
   --tw-text-opacity: 1;
   color: rgb(91 134 161 / var(--tw-text-opacity));
@@ -1562,6 +1587,19 @@ video {
 .hover\:text-slate-600:hover{
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
+}
+
+.hover\:text-primary:hover{
+  --tw-text-opacity: 1;
+  color: rgb(27 29 27 / var(--tw-text-opacity));
+}
+
+.hover\:opacity-75:hover{
+  opacity: 0.75;
+}
+
+.hover\:opacity-95:hover{
+  opacity: 0.95;
 }
 
 .focus\:border-accent:focus{
@@ -2217,12 +2255,20 @@ video {
     height: 719px;
   }
 
+  .lg\:h-\[732px\]{
+    height: 732px;
+  }
+
   .lg\:h-\[742px\]{
     height: 742px;
   }
 
   .lg\:h-\[745px\]{
     height: 745px;
+  }
+
+  .lg\:h-\[812px\]{
+    height: 812px;
   }
 
   .lg\:h-\[976px\]{
