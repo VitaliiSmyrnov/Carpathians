@@ -17,7 +17,7 @@ function hoverlaTourToggle() {
   hoverlaRefs.tourHoverlaDetail.classList.toggle("hidden");
 }
 
-// Buk ovel tour
+// Bukovel tour
 const bukovelRefs = {
   detailButton: document.getElementById("bukovel-details-button"),
   tourBukovelDetail: document.getElementById("tour-bukovel-detail"),
