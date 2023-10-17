@@ -6,8 +6,6 @@ const refs = {
   body: document.querySelector("body"),
 };
 
-// refs.heroOpenModalBtn.addEventListener("click", heroToggleModal);
-// refs.heroCloseModalBtn.addEventListener("click", heroToggleModal);
 refs.heroOpenModalBtn.addEventListener("click", heroOpenModal);
 refs.heroCloseModalBtn.addEventListener("click", heroCloseModal);
 
@@ -27,18 +25,11 @@ function heroCloseModal() {
   refs.body.classList.remove("overflow-hidden");
 }
 
-// function heroToggleModal() {
-//   refs.heroModal.classList.toggle("hidden");
-//   refs.heroModal.classList.toggle("flex");
-//   refs.body.classList.toggle("overflow-hidden");
-// }
-
 window.addEventListener("keydown", handleKeyDown);
 
 function handleKeyDown(e) {
   if (e.code === "Escape") {
-    // heroToggleModal();
-    heroCloseModal();
+      heroCloseModal();
   }
 }
 
@@ -46,7 +37,6 @@ refs.heroBackdrop.addEventListener("click", handleBackDropClick);
 
 function handleBackDropClick(e) {
   if (e.currentTarget === e.target) {
-    // heroToggleModal();
     heroCloseModal();
   }
 }
