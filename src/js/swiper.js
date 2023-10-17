@@ -2,12 +2,6 @@ const swiperUpcomingTours = new Swiper("#swiper-upcoming-tours", {
   // Optional parameters
   direction: "horizontal",
   loop: false,
-
-  // Navigation arrows
-  // navigation: {
-  //   nextEl: ".swiper-button-next",
-  //   prevEl: ".swiper-button-prev",
-  // },
   breakpoints: {
     768: {
       slidesPerView: 2,
@@ -31,13 +25,9 @@ const swiperUpcomingTours = new Swiper("#swiper-upcoming-tours", {
     prevEl: ".swiper-prev-1",
   },
   spaceBetween: 15,
-  // slidesPerView: 1.2,
   slidesPerView: "auto",
-  // slidesPerGroup: 1,
   centeredSlides: true,
   centeredSlidesBounds: true,
-  // centerInsufficientSlides: true,
-  // initialSlide: 2,
 });
 
 const swiperUpcomingToursDetails = new Swiper(".swiper-tour-detail", {
@@ -57,19 +47,8 @@ const swiperUpcomingToursDetails = new Swiper(".swiper-tour-detail", {
         spaceBetween: 20,
       },
     },
-    // bulletClass: "bg-amber-400",
-    // bulletActiveClass: "bg-green-400",
-    // renderBullet: function () {
-    //   return '<span class="w-[20px] h-[20px] text-light inline-block z-20"></span>';
-    // },
-    // renderBullet: function () {
-    //   return '<span class="bullet"></span>';
-    // },
   },
   bulletClass: "bullet",
-  // renderBullet: function (className) {
-  //   return '<span class="' + className + '"></span>';
-  // },
   spaceBetween: 30,
   slidesPerView: "auto",
   centeredSlides: true,
@@ -87,36 +66,8 @@ const swiperGallery = new Swiper("#swiper-gallery", {
       centeredSlides: false,
       centeredSlidesBounds: false,
     },
-  },
-  keyboard: {
-    enabled: true,
-    onlyInViewport: false,
-  },
-  navigation: {
-    nextEl: ".swiper-next-2",
-    prevEl: ".swiper-prev-2",
-  },
-  spaceBetween: 20,
-  slidesPerView: "auto",
-  centeredSlides: true,
-  centeredSlidesBounds: true,
-  // clickable: false,
-  // allowSlideClick: false,
-});
-
-const swiperGalleryBig = new Swiper("#swiper-gallery-big", {
-  // Optional parameters
-  direction: "horizontal",
-  loop: false,
-  breakpoints: {
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-      centeredSlides: false,
-      centeredSlidesBounds: false,
-    },
     1440: {
-      slidesPerView: 1,
+      slidesPerView: "auto",
       spaceBetween: 20,
       centeredSlides: false,
       centeredSlidesBounds: false,
@@ -134,23 +85,73 @@ const swiperGalleryBig = new Swiper("#swiper-gallery-big", {
   slidesPerView: "auto",
   centeredSlides: true,
   centeredSlidesBounds: true,
-  // clickable: false,
-  // allowSlideClick: false,
 });
 
-// swiperGallery.on("click", function () {
-//   var activeSlide = swiperGallery.slides[swiperGallery.activeIndex];
-//   var largeImage = activeSlide
-//     .querySelector("img")
-//     .getAttribute("data-large-image");
+const refs = {
+  gallery: document.getElementById("swiper-gallery"),
+};
 
-//   // Замените изображение на более крупное изображение
-//   activeSlide.querySelector("img").src = largeImage;
+refs.gallery.addEventListener("click", toggleGallery);
 
-//   if (swiperGallery.params.slidesPerView === 2) {
-//     swiperGallery.params.slidesPerView = 1;
-//   } else {
-//     swiperGallery.params.slidesPerView = 2;
-//   }
-//   swiperGallery.update();
-// });
+function toggleGallery(event) {
+  const windowWidth = window.innerWidth;
+  if (event.target.nodeName !== "IMG" || windowWidth < 1440) {
+    return;
+  }
+
+  const galleryWrapper = refs.gallery.firstElementChild;
+  const pseudoGallerySlides = galleryWrapper.children;
+  const gallerySlides = [...pseudoGallerySlides];
+
+  if (refs.gallery.classList.contains("lg:h-[525px]")) {
+    refs.gallery.classList.replace("lg:h-[525px]", "lg:h-[812px]");
+    galleryWrapper.classList.replace("lg:h-[445px]", "lg:h-[732px]");
+
+    gallerySlides.forEach((slide, index) => {
+      slide.classList.replace("lg:w-[575px]", "lg:w-[1170px]");
+
+      const sourceSlide = slide.querySelector(
+        'source[media="(min-width: 1440px)"]',
+      );
+
+      if (sourceSlide) {
+        sourceSlide.setAttribute(
+          "srcset",
+          `
+          ./public/images/desktop-opt/gallery_desktop-big-${
+            index + 1
+          }.jpg    1x,
+          ./public/images/desktop-opt/gallery_desktop-big-${index + 1}@2x.jpg 2x
+        `,
+        );
+      }
+    });
+  } else if (refs.gallery.classList.contains("lg:h-[812px]")) {
+    refs.gallery.classList.replace("lg:h-[812px]", "lg:h-[525px]");
+    galleryWrapper.classList.replace("lg:h-[732px]", "lg:h-[445px]");
+
+    gallerySlides.forEach((slide, index) => {
+      slide.classList.replace("lg:w-[1170px]", "lg:w-[575px]");
+
+      const sourceSlide = slide.querySelector(
+        'source[media="(min-width: 1440px)"]',
+      );
+
+      if (sourceSlide) {
+        sourceSlide.setAttribute(
+          "srcset",
+          `
+          ./public/images/desktop-opt/gallery_desktop-${
+            index + 1
+          }-min.jpg    1x,
+          ./public/images/desktop-opt/gallery_desktop-${index + 1}-min@2x.jpg 2x
+        `,
+        );
+      }
+    });
+  }
+
+  const clickedIndex = swiperGallery.clickedIndex;
+  swiperGallery.update();
+  swiperGallery.slideTo(clickedIndex);
+}
