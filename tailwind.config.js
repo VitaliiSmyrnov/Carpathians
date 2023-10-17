@@ -129,9 +129,9 @@ module.exports = {
         "hero-desk-1920-3x":
           "url('./images/desktop-opt/hero_desktop-1920-min@3x.jpg'), var(--bg-gradient)",
         "advantages-mob":
-          "url('./images/mobile/advantages_mob-min.jpg'), var(--bg-gradient)",
+          "url('./images/mobile/Advantages_mob-min.jpg'), var(--bg-gradient)",
         "advantages-mob2x":
-          "url('./images/mobile/advantages_mob-min@2x.jpg'), var(--bg-gradient)",
+          "url('./images/mobile/Advantages_mob-min@2x.jpg'), var(--bg-gradient)",
         "advantages-tab-1":
           "url('./images/tablet-opt/advantages_tablet-1-min.jpg'), var(--bg-gradient)",
         "advantages-tab2x-1":

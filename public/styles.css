@@ -904,10 +904,6 @@ video {
   height: 100%;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
 .min-h-\[160px\]{
   min-height: 160px;
 }
@@ -1010,10 +1006,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-screen{
-  width: 100vw;
 }
 
 .max-w-\[281px\]{
@@ -1163,7 +1155,7 @@ video {
 }
 
 .bg-advantages-mob{
-  background-image: url('./images/mobile/advantages_mob-min.jpg'), var(--bg-gradient);
+  background-image: url('./images/mobile/Advantages_mob-min.jpg'), var(--bg-gradient);
 }
 
 .bg-hero-mob{
@@ -2240,20 +2232,12 @@ video {
     height: 719px;
   }
 
-  .lg\:h-\[732px\]{
-    height: 732px;
-  }
-
   .lg\:h-\[742px\]{
     height: 742px;
   }
 
   .lg\:h-\[745px\]{
     height: 745px;
-  }
-
-  .lg\:h-\[812px\]{
-    height: 812px;
   }
 
   .lg\:h-\[976px\]{
@@ -2633,7 +2617,7 @@ video {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
   .dpr\:bg-advantages-mob2x{
-    background-image: url('./images/mobile/advantages_mob-min@2x.jpg'), var(--bg-gradient);
+    background-image: url('./images/mobile/Advantages_mob-min@2x.jpg'), var(--bg-gradient);
   }
 
   .dpr\:bg-hero-mob2x{
