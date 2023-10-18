@@ -1519,7 +1519,7 @@ video {
   line-height: 1.0;
 }
 
-.header-desktop-link{
+.header-desktop-nav-link{
   position: relative;
   font-size: 24px;
   line-height: 29px;
@@ -1531,7 +1531,7 @@ video {
   transition-duration: 300ms;
 }
 
-.header-desktop-link::before{
+.header-desktop-nav-link::before{
   position: absolute;
   bottom: -0.5rem;
   left: 0px;
@@ -1548,7 +1548,7 @@ video {
   content: var(--tw-content);
 }
 
-.header-desktop-link:hover::before{
+.header-desktop-nav-link:hover::before{
   width: 100%;
   content: var(--tw-content);
   opacity: 1;
