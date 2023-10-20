@@ -20,3 +20,15 @@
 .header-desktop-nav-link {
   @apply relative text-24 font-medium text-light transition-all duration-300 before:absolute before:-bottom-2 before:left-0 before:h-0.5 before:w-0 before:rounded-full before:bg-light  before:opacity-0 before:transition-all before:duration-300 before:content-[''] hover:before:w-full hover:before:opacity-100;
 }
+.top-animation {
+  @apply -translate-y-10 opacity-0;
+}
+.bottom-animation {
+  @apply translate-y-10 opacity-0;
+}
+.left-animation {
+  @apply -translate-x-50 opacity-0;
+}
+.right-animation {
+  @apply translate-x-50 opacity-0;
+}

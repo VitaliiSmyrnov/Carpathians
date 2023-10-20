@@ -58,6 +58,16 @@ const Myclass = plugin(function ({ addUtilities }) {
     ".bullet-b40": {
       "--swiper-pagination-bottom": "40px",
     },
+    ".top-animation.element-show, .bottom-animation.element-show": {
+      opacity: 1,
+      transition: "all 1.5s",
+      transform: "translateY(0%)",
+    },
+    ".left-animation.element-show, .right-animation.element-show": {
+      opacity: 1,
+      transition: "all 1.5s",
+      transform: "translateX(0%)",
+    },
   });
 });
 
