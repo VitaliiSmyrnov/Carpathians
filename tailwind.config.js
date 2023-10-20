@@ -60,12 +60,12 @@ const Myclass = plugin(function ({ addUtilities }) {
     },
     ".top-animation.element-show, .bottom-animation.element-show": {
       opacity: 1,
-      transition: "all 1.5s",
+      transition: "all 1.2s",
       transform: "translateY(0%)",
     },
     ".left-animation.element-show, .right-animation.element-show": {
       opacity: 1,
-      transition: "all 1.5s",
+      transition: "all 1.2s",
       transform: "translateX(0%)",
     },
   });
