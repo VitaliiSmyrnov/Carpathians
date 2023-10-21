@@ -63,7 +63,7 @@ const Myclass = plugin(function ({ addUtilities }) {
       transition: "all 1.2s",
       transform: "translateY(0%)",
     },
-    ".left-animation.element-show, .right-animation.element-show": {
+    ".left-animation.element-show": {
       opacity: 1,
       transition: "all 1.2s",
       transform: "translateX(0%)",
