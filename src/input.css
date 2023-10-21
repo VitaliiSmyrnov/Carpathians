@@ -72,8 +72,5 @@
   @apply translate-y-10 opacity-0;
 }
 .left-animation {
-  @apply -translate-x-52 opacity-0;
-}
-.right-animation {
-  @apply translate-x-52 opacity-0;
+  @apply -translate-x-10 opacity-0;
 }
