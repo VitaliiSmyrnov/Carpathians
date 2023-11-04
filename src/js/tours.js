@@ -1,6 +1,4 @@
-const ref = {
-  upcomingTours: document.getElementById("swiper-upcoming-tours"),
-};
+const upcomingTours = document.getElementById("swiper-upcoming-tours");
 
 // Hoverla tour
 const hoverlaRefs = {
@@ -13,7 +11,7 @@ hoverlaRefs.detailButton.addEventListener("click", hoverlaTourToggle);
 hoverlaRefs.closeButton.addEventListener("click", hoverlaTourToggle);
 
 function hoverlaTourToggle() {
-  ref.upcomingTours.classList.toggle("hidden");
+  upcomingTours.classList.toggle("hidden");
   hoverlaRefs.tourHoverlaDetail.classList.toggle("hidden");
 }
 
@@ -28,7 +26,7 @@ bukovelRefs.detailButton.addEventListener("click", bukovelTourToggle);
 bukovelRefs.closeButton.addEventListener("click", bukovelTourToggle);
 
 function bukovelTourToggle() {
-  ref.upcomingTours.classList.toggle("hidden");
+  upcomingTours.classList.toggle("hidden");
   bukovelRefs.tourBukovelDetail.classList.toggle("hidden");
 }
 
@@ -43,6 +41,6 @@ carpathiansRefs.detailButton.addEventListener("click", carpathiansTourToggle);
 carpathiansRefs.closeButton.addEventListener("click", carpathiansTourToggle);
 
 function carpathiansTourToggle() {
-  ref.upcomingTours.classList.toggle("hidden");
+  upcomingTours.classList.toggle("hidden");
   carpathiansRefs.tourCarpathiansDetail.classList.toggle("hidden");
 }
