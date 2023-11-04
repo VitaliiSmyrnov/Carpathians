@@ -30,11 +30,9 @@ const swiperGallery = new Swiper("#swiper-gallery", {
   centeredSlidesBounds: true,
 });
 
-const refs = {
-  gallery: document.getElementById("swiper-gallery"),
-};
+const gallery = document.getElementById("swiper-gallery");
 
-refs.gallery.addEventListener("click", toggleGallery);
+gallery.addEventListener("click", toggleGallery);
 
 function toggleGallery(event) {
   const windowWidth = window.innerWidth;
@@ -42,12 +40,12 @@ function toggleGallery(event) {
     return;
   }
 
-  const galleryWrapper = refs.gallery.firstElementChild;
+  const galleryWrapper = gallery.firstElementChild;
   const pseudoGallerySlides = galleryWrapper.children;
   const gallerySlides = [...pseudoGallerySlides];
 
-  if (!refs.gallery.hasAttribute("style")) {
-    refs.gallery.style.height = "812px";
+  if (!gallery.hasAttribute("style")) {
+    gallery.style.height = "812px";
     galleryWrapper.style.height = "732px";
 
     gallerySlides.forEach((slide, index) => {
@@ -70,7 +68,7 @@ function toggleGallery(event) {
       }
     });
   } else {
-    refs.gallery.removeAttribute("style");
+    gallery.removeAttribute("style");
     galleryWrapper.removeAttribute("style");
 
     gallerySlides.forEach((slide, index) => {
@@ -105,12 +103,12 @@ function resizeGallery() {
   const windowWidth = window.innerWidth;
   if (windowWidth >= 1440) return;
 
-  if (refs.gallery.hasAttribute("style")) {
-    const galleryWrapper = refs.gallery.firstElementChild;
+  if (gallery.hasAttribute("style")) {
+    const galleryWrapper = gallery.firstElementChild;
     const pseudoGallerySlides = galleryWrapper.children;
     const gallerySlides = [...pseudoGallerySlides];
 
-    refs.gallery.removeAttribute("style");
+    gallery.removeAttribute("style");
     galleryWrapper.removeAttribute("style");
 
     gallerySlides.forEach((slide, index) => {

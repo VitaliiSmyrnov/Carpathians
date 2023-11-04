@@ -1,4 +1,4 @@
-const refs = {
+const burgerRefs = {
   mobileMenu: document.querySelector("[data-menu]"),
   mobileMenuButton: document.querySelector("[data-menu-button]"),
   mobileMenuCloseButton: document.querySelector("[data-menu-close]"),
@@ -6,15 +6,25 @@ const refs = {
   logo: document.querySelector("[data-logo]"),
 };
 
-refs.mobileMenuButton.addEventListener("click", burgerMobile);
+burgerRefs.mobileMenuButton.addEventListener("click", burgerMobile);
 
-refs.mobileMenuCloseButton.addEventListener("click", burgerMobile);
+burgerRefs.mobileMenuCloseButton.addEventListener("click", burgerMobile);
+
+burgerRefs.mobileMenu.addEventListener("click", burgerLinks);
 
 function burgerMobile() {
-  refs.mobileMenu.classList.toggle("-translate-x-full");
-  refs.mobileMenu.classList.toggle("backdrop-hidden");
-  refs.heroSection.classList.toggle("hidden");
-  refs.mobileMenuButton.classList.toggle("hidden");
-  refs.mobileMenuCloseButton.classList.toggle("hidden");
-  refs.logo.classList.toggle("hidden");
+  burgerRefs.mobileMenu.classList.toggle("-translate-x-full");
+  burgerRefs.mobileMenu.classList.toggle("backdrop-hidden");
+  burgerRefs.heroSection.classList.toggle("hidden");
+  burgerRefs.mobileMenuButton.classList.toggle("hidden");
+  burgerRefs.mobileMenuCloseButton.classList.toggle("hidden");
+  burgerRefs.logo.classList.toggle("hidden");
+}
+
+function burgerLinks(event) {
+  if (event.target.nodeName !== "A") {
+    return;
+  }
+
+  burgerMobile();
 }
