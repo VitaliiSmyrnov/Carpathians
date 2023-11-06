@@ -1,7 +1,7 @@
 # Carpathians
 
-A mobile-first responsive landing page, created using modern web technologies like:
+A mobile-first adaptive landing page, created using modern web technologies like:
 
-Html - CSS - Javascript - TailwindCSS
+Html - CSS - Flex - Javascript - TailwindCSS
 
 ## Demo: https://vitaliismyrnov.github.io/Carpathians/
